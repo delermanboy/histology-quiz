@@ -1,0 +1,9187 @@
+[
+  {
+    "id": 1,
+    "chapter": "上皮",
+    "question": "关于上皮组织的描述哪项是错的",
+    "options": [
+      {
+        "key": "A",
+        "text": "由少量排列疏密的细胞和大量细胞间质构成"
+      },
+      {
+        "key": "B",
+        "text": "细胞有极性，分为游离面和基底面"
+      },
+      {
+        "key": "C",
+        "text": "一般无血管分布"
+      },
+      {
+        "key": "D",
+        "text": "有丰富的神经末梢分布"
+      },
+      {
+        "key": "E",
+        "text": "借基膜与结缔组织相连"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 2,
+    "chapter": "上皮",
+    "question": "被覆上皮的分类依据是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞层次与功能"
+      },
+      {
+        "key": "B",
+        "text": "细胞形态与数量"
+      },
+      {
+        "key": "C",
+        "text": "细胞层次与形态"
+      },
+      {
+        "key": "D",
+        "text": "细胞形态与功能"
+      },
+      {
+        "key": "E",
+        "text": "细胞分布与功能"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 3,
+    "chapter": "上皮",
+    "question": "单层扁平上皮不存在于",
+    "options": [
+      {
+        "key": "A",
+        "text": "心脏腔面"
+      },
+      {
+        "key": "B",
+        "text": "心包膜表面"
+      },
+      {
+        "key": "C",
+        "text": "胃壁内表面"
+      },
+      {
+        "key": "D",
+        "text": "胃壁外表面"
+      },
+      {
+        "key": "E",
+        "text": "肺泡壁"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 4,
+    "chapter": "上皮",
+    "question": "内皮是指",
+    "options": [
+      {
+        "key": "A",
+        "text": "分布于胸膜表面的单层扁平上皮"
+      },
+      {
+        "key": "B",
+        "text": "衬贴于心血管腔面的单层扁平上皮"
+      },
+      {
+        "key": "C",
+        "text": "分布于肺泡表面的上皮"
+      },
+      {
+        "key": "D",
+        "text": "分布于肾小囊壁层的单层扁平上皮"
+      },
+      {
+        "key": "E",
+        "text": "分布于心包膜表面的单层扁平上皮"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 5,
+    "chapter": "上皮",
+    "question": "纤毛可见于",
+    "options": [
+      {
+        "key": "A",
+        "text": "小肠上皮"
+      },
+      {
+        "key": "B",
+        "text": "气管上皮"
+      },
+      {
+        "key": "C",
+        "text": "变移上皮"
+      },
+      {
+        "key": "D",
+        "text": "口腔上皮"
+      },
+      {
+        "key": "E",
+        "text": "血管内皮"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 6,
+    "chapter": "上皮",
+    "question": "不含有杯状细胞的上皮是",
+    "options": [
+      {
+        "key": "A",
+        "text": "小肠黏膜上皮"
+      },
+      {
+        "key": "B",
+        "text": "胃黏膜上皮"
+      },
+      {
+        "key": "C",
+        "text": "大肠黏膜上皮"
+      },
+      {
+        "key": "D",
+        "text": "气管黏膜上皮"
+      },
+      {
+        "key": "E",
+        "text": "小支气管黏膜上皮"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 7,
+    "chapter": "上皮",
+    "question": "关于复层扁平上皮的描述哪项是错的",
+    "options": [
+      {
+        "key": "A",
+        "text": "有多层细胞组成"
+      },
+      {
+        "key": "B",
+        "text": "表层细胞为扁平形"
+      },
+      {
+        "key": "C",
+        "text": "中间细胞为多边形"
+      },
+      {
+        "key": "D",
+        "text": "基底细胞为矮柱状"
+      },
+      {
+        "key": "E",
+        "text": "上皮组织与结缔组织连接面平坦"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 8,
+    "chapter": "上皮",
+    "question": "关于假复层纤毛柱状上皮的描述哪项是错的",
+    "options": [
+      {
+        "key": "A",
+        "text": "有多种形态的细胞组成"
+      },
+      {
+        "key": "B",
+        "text": "所有细胞均附于基膜上"
+      },
+      {
+        "key": "C",
+        "text": "切片观察似为单层，实属复层上皮"
+      },
+      {
+        "key": "D",
+        "text": "柱状细胞游离面有纤毛"
+      },
+      {
+        "key": "E",
+        "text": "柱状细胞间可夹有杯状细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 9,
+    "chapter": "上皮",
+    "question": "单层柱状上皮分布于哪种器官的腔面",
+    "options": [
+      {
+        "key": "A",
+        "text": "动脉"
+      },
+      {
+        "key": "B",
+        "text": "胃肠"
+      },
+      {
+        "key": "C",
+        "text": "气管"
+      },
+      {
+        "key": "D",
+        "text": "膀胱"
+      },
+      {
+        "key": "E",
+        "text": "食管"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 10,
+    "chapter": "上皮",
+    "question": "人体内最耐摩擦的上皮组织是",
+    "options": [
+      {
+        "key": "A",
+        "text": "单层立方上皮"
+      },
+      {
+        "key": "B",
+        "text": "单层柱状上皮"
+      },
+      {
+        "key": "C",
+        "text": "假复层柱状上皮"
+      },
+      {
+        "key": "D",
+        "text": "复层扁平上皮"
+      },
+      {
+        "key": "E",
+        "text": "变移上皮"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 11,
+    "chapter": "上皮",
+    "question": "单层柱状上皮细胞间的连接结构由浅至深一般依次为",
+    "options": [
+      {
+        "key": "A",
+        "text": "桥粒，紧密连接，黏着小带"
+      },
+      {
+        "key": "B",
+        "text": "紧密连接，黏着小带，桥粒"
+      },
+      {
+        "key": "C",
+        "text": "黏着小带，桥粒，紧密连接"
+      },
+      {
+        "key": "D",
+        "text": "紧密连接，桥粒，黏着小带"
+      },
+      {
+        "key": "E",
+        "text": "桥粒，黏着小带，紧密连接"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 12,
+    "chapter": "上皮",
+    "question": "封闭细胞间隙，参与构成体内屏障的细胞连接是",
+    "options": [
+      {
+        "key": "A",
+        "text": "桥粒"
+      },
+      {
+        "key": "B",
+        "text": "中间连接"
+      },
+      {
+        "key": "C",
+        "text": "紧密连接"
+      },
+      {
+        "key": "D",
+        "text": "缝隙连接"
+      },
+      {
+        "key": "E",
+        "text": "半桥粒"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 13,
+    "chapter": "上皮",
+    "question": "关于桥粒描述哪一点是不正确的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在上皮细胞顶部呈带状"
+      },
+      {
+        "key": "B",
+        "text": "细胞间隙可见致密的中间线"
+      },
+      {
+        "key": "C",
+        "text": "细胞膜的胞质面有较厚的桥粒斑"
+      },
+      {
+        "key": "D",
+        "text": "桥粒斑上连有中间丝"
+      },
+      {
+        "key": "E",
+        "text": "桥粒是很牢固的细胞连接"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 14,
+    "chapter": "上皮",
+    "question": "关于微绒毛的描述哪项是错的",
+    "options": [
+      {
+        "key": "A",
+        "text": "上皮细胞游离面的胞质和胞膜向外伸出的细小指状突起"
+      },
+      {
+        "key": "B",
+        "text": "突起内含有纵行的微管"
+      },
+      {
+        "key": "C",
+        "text": "形成光镜下所见的纹状缘或刷状缘"
+      },
+      {
+        "key": "D",
+        "text": "与细胞的吸收功能有关"
+      },
+      {
+        "key": "E",
+        "text": "增加细胞表面积"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 15,
+    "chapter": "上皮",
+    "question": "关于纤毛的描述哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "位于上皮细胞的游离面"
+      },
+      {
+        "key": "B",
+        "text": "细胞胞膜和胞质外伸的细长突起"
+      },
+      {
+        "key": "C",
+        "text": "内含有纵行的微管"
+      },
+      {
+        "key": "D",
+        "text": "有节律定向摆动"
+      },
+      {
+        "key": "E",
+        "text": "参与细胞的吸收功能"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 16,
+    "chapter": "免疫系统",
+    "question": "对于淋巴小结的描述，哪一项错误？",
+    "options": [
+      {
+        "key": "A",
+        "text": "又称淋巴滤泡"
+      },
+      {
+        "key": "B",
+        "text": "主要由密集的B细胞组成"
+      },
+      {
+        "key": "C",
+        "text": "大小不等，其数量和大小基本保持不变"
+      },
+      {
+        "key": "D",
+        "text": "无生发中心的淋巴小结称初级淋巴小结"
+      },
+      {
+        "key": "E",
+        "text": "有生发中心的淋巴小结称次级淋巴小结"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 17,
+    "chapter": "免疫系统",
+    "question": "出生前已发育完善的淋巴器官是",
+    "options": [
+      {
+        "key": "A",
+        "text": "甲状腺"
+      },
+      {
+        "key": "B",
+        "text": "脾"
+      },
+      {
+        "key": "C",
+        "text": "扁桃体"
+      },
+      {
+        "key": "D",
+        "text": "淋巴结"
+      },
+      {
+        "key": "E",
+        "text": "胸腺"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 18,
+    "chapter": "免疫系统",
+    "question": "关于周围淋巴器官的叙述，下列哪项是错误的?",
+    "options": [
+      {
+        "key": "A",
+        "text": "包括淋巴结、脾和扁桃体等"
+      },
+      {
+        "key": "B",
+        "text": "是成熟淋巴细胞定居、对外来抗原产生免疫应答的主要场所"
+      },
+      {
+        "key": "C",
+        "text": "其发生较中枢淋巴器官早，在出生数月后逐渐发育完善"
+      },
+      {
+        "key": "D",
+        "text": "抗原刺激后体积增大"
+      },
+      {
+        "key": "E",
+        "text": "抗原清除后可复原"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 19,
+    "chapter": "免疫系统",
+    "question": "以下关于胸腺的描述，错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "是培育T细胞的中枢淋巴器官"
+      },
+      {
+        "key": "B",
+        "text": "胸腺上皮细胞能分泌胸腺素和胸腺生成素"
+      },
+      {
+        "key": "C",
+        "text": "胸腺内的淋巴细胞又称胸腺细胞"
+      },
+      {
+        "key": "D",
+        "text": "胸腺小体分布于髓质，为胸腺特征结构"
+      },
+      {
+        "key": "E",
+        "text": "髓质中上皮性网状细胞少，淋巴细胞密集"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 20,
+    "chapter": "免疫系统",
+    "question": "胸腺小体的特征是",
+    "options": [
+      {
+        "key": "A",
+        "text": "是胸腺的重要特征，散在分布于皮质内"
+      },
+      {
+        "key": "B",
+        "text": "由胸腺上皮细胞呈同心圆包绕而成"
+      },
+      {
+        "key": "C",
+        "text": "小体外周的上皮细胞较成熟"
+      },
+      {
+        "key": "D",
+        "text": "小体中心的上皮细胞较幼稚"
+      },
+      {
+        "key": "E",
+        "text": "小体呈强嗜碱性"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 21,
+    "chapter": "免疫系统",
+    "question": "下列哪一项不是血-胸腺屏障的组成",
+    "options": [
+      {
+        "key": "A",
+        "text": "连续毛细血管和内皮细胞间的紧密连接"
+      },
+      {
+        "key": "B",
+        "text": "内皮细胞周围不连续的基膜"
+      },
+      {
+        "key": "C",
+        "text": "血管周隙及其内含的巨噬细胞"
+      },
+      {
+        "key": "D",
+        "text": "胸腺上皮细胞基膜"
+      },
+      {
+        "key": "E",
+        "text": "连续的胸腺上皮细胞突起"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 22,
+    "chapter": "免疫系统",
+    "question": "淋巴结内发生体液免疫应答的主要场所是",
+    "options": [
+      {
+        "key": "A",
+        "text": "浅层皮质"
+      },
+      {
+        "key": "B",
+        "text": "副皮质区"
+      },
+      {
+        "key": "C",
+        "text": "髓索"
+      },
+      {
+        "key": "D",
+        "text": "髓窦"
+      },
+      {
+        "key": "E",
+        "text": "毛细血管后微静脉"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 23,
+    "chapter": "免疫系统",
+    "question": "淋巴结内发生细胞免疫应答时，结构明显增大的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "浅层皮质"
+      },
+      {
+        "key": "B",
+        "text": "髓索"
+      },
+      {
+        "key": "C",
+        "text": "髓窦"
+      },
+      {
+        "key": "D",
+        "text": "副皮质区"
+      },
+      {
+        "key": "E",
+        "text": "以上答案都不对"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 24,
+    "chapter": "免疫系统",
+    "question": "淋巴结内滤过淋巴液清除抗原的细胞主要是",
+    "options": [
+      {
+        "key": "A",
+        "text": "淋巴窦壁内皮细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "C",
+        "text": "交错突细胞"
+      },
+      {
+        "key": "D",
+        "text": "滤泡树突细胞"
+      },
+      {
+        "key": "E",
+        "text": "网状细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 25,
+    "chapter": "免疫系统",
+    "question": "血液内淋巴细胞进入淋巴结的通道是",
+    "options": [
+      {
+        "key": "A",
+        "text": "被膜下淋巴窦"
+      },
+      {
+        "key": "B",
+        "text": "小梁周窦"
+      },
+      {
+        "key": "C",
+        "text": "髓质淋巴窦"
+      },
+      {
+        "key": "D",
+        "text": "皮质淋巴窦"
+      },
+      {
+        "key": "E",
+        "text": "毛细血管后微静脉"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 26,
+    "chapter": "免疫系统",
+    "question": "淋巴结内毛细血管后微静脉主要分布于",
+    "options": [
+      {
+        "key": "A",
+        "text": "浅层皮质"
+      },
+      {
+        "key": "B",
+        "text": "深层皮质"
+      },
+      {
+        "key": "C",
+        "text": "皮质淋巴窦"
+      },
+      {
+        "key": "D",
+        "text": "髓索"
+      },
+      {
+        "key": "E",
+        "text": "髓窦"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 27,
+    "chapter": "免疫系统",
+    "question": "脾实质的组成是",
+    "options": [
+      {
+        "key": "A",
+        "text": "动脉周围淋巴鞘、淋巴小结和边缘区"
+      },
+      {
+        "key": "B",
+        "text": "白髓、红髓和脾窦"
+      },
+      {
+        "key": "C",
+        "text": "白髓、红髓和脾索"
+      },
+      {
+        "key": "D",
+        "text": "淋巴小结、红髓和边缘区"
+      },
+      {
+        "key": "E",
+        "text": "白髓和红髓"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 28,
+    "chapter": "免疫系统",
+    "question": "脾的胸腺依赖区是",
+    "options": [
+      {
+        "key": "A",
+        "text": "脾小体"
+      },
+      {
+        "key": "B",
+        "text": "动脉周围淋巴鞘"
+      },
+      {
+        "key": "C",
+        "text": "白髓"
+      },
+      {
+        "key": "D",
+        "text": "脾索"
+      },
+      {
+        "key": "E",
+        "text": "边缘区"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 29,
+    "chapter": "免疫系统",
+    "question": "关于脾小结的描述，哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "位于边缘区与动脉周围淋巴鞘之间"
+      },
+      {
+        "key": "B",
+        "text": "与淋巴结的淋巴小结类似"
+      },
+      {
+        "key": "C",
+        "text": "可有明区和暗区"
+      },
+      {
+        "key": "D",
+        "text": "主要由T细胞组成"
+      },
+      {
+        "key": "E",
+        "text": "是白髓的组成部分"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 30,
+    "chapter": "免疫系统",
+    "question": "脾血窦内皮的特点是",
+    "options": [
+      {
+        "key": "A",
+        "text": "单层扁平细胞，外有完整的基膜"
+      },
+      {
+        "key": "B",
+        "text": "单层扁平细胞，基膜不完整"
+      },
+      {
+        "key": "C",
+        "text": "单层立方状细胞，基膜不完整"
+      },
+      {
+        "key": "D",
+        "text": "长杆状内皮细胞，基膜完整"
+      },
+      {
+        "key": "E",
+        "text": "长杆状内皮细胞，基膜不完整"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 31,
+    "chapter": "免疫系统",
+    "question": "脾内发生细胞免疫应答的主要变化是",
+    "options": [
+      {
+        "key": "A",
+        "text": "脾索增大"
+      },
+      {
+        "key": "B",
+        "text": "边缘区增大"
+      },
+      {
+        "key": "C",
+        "text": "脾小体增大"
+      },
+      {
+        "key": "D",
+        "text": "脾血窦充血"
+      },
+      {
+        "key": "E",
+        "text": "动脉周围淋巴鞘增厚"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 32,
+    "chapter": "免疫系统",
+    "question": "下面哪项不是脾的功能",
+    "options": [
+      {
+        "key": "A",
+        "text": "滤血"
+      },
+      {
+        "key": "B",
+        "text": "造血"
+      },
+      {
+        "key": "C",
+        "text": "产生初始B淋巴细胞          D．免疫应答"
+      },
+      {
+        "key": "E",
+        "text": "储血"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 33,
+    "chapter": "免疫系统",
+    "question": "淋巴结和脾内，以T细胞为主的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "副皮质区和淋巴小结"
+      },
+      {
+        "key": "B",
+        "text": "副皮质区和脾索"
+      },
+      {
+        "key": "C",
+        "text": "副皮质区和动脉周围淋巴鞘"
+      },
+      {
+        "key": "D",
+        "text": "淋巴小结和动脉周围淋巴鞘"
+      },
+      {
+        "key": "E",
+        "text": "皮质淋巴窦和脾索"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 34,
+    "chapter": "内分泌系统",
+    "question": "下述哪项不是内分泌腺的特点",
+    "options": [
+      {
+        "key": "A",
+        "text": "腺细胞排列呈索状、团块状或围成滤泡"
+      },
+      {
+        "key": "B",
+        "text": "有丰富的毛细血管"
+      },
+      {
+        "key": "C",
+        "text": "分泌激素"
+      },
+      {
+        "key": "D",
+        "text": "腺细胞的分泌物经导管排出"
+      },
+      {
+        "key": "E",
+        "text": "激素作用于靶器官或靶细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 35,
+    "chapter": "内分泌系统",
+    "question": "甲状腺滤泡旁细胞分泌的激素",
+    "options": [
+      {
+        "key": "A",
+        "text": "升高血糖"
+      },
+      {
+        "key": "B",
+        "text": "升高血钙"
+      },
+      {
+        "key": "C",
+        "text": "降低血钙"
+      },
+      {
+        "key": "D",
+        "text": "降低血糖"
+      },
+      {
+        "key": "E",
+        "text": "促卵泡发育"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 36,
+    "chapter": "内分泌系统",
+    "question": "胞质内分泌颗粒含肾上腺素或去甲肾上腺素的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "嫌色细胞"
+      },
+      {
+        "key": "B",
+        "text": "嗜铬细胞"
+      },
+      {
+        "key": "C",
+        "text": "垂体细胞"
+      },
+      {
+        "key": "D",
+        "text": "滤泡旁细胞"
+      },
+      {
+        "key": "E",
+        "text": "嗜碱性细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 37,
+    "chapter": "内分泌系统",
+    "question": "关于甲状腺的描述，下述哪项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "滤泡由滤泡上皮细胞和滤泡旁细胞组成"
+      },
+      {
+        "key": "B",
+        "text": "两种细胞协同分泌甲状腺激素"
+      },
+      {
+        "key": "C",
+        "text": "滤泡腔内充满胶质"
+      },
+      {
+        "key": "D",
+        "text": "胶质为碘化的甲状腺球蛋白"
+      },
+      {
+        "key": "E",
+        "text": "滤泡上皮细胞的形态与功能状态有关"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 38,
+    "chapter": "内分泌系统",
+    "question": "肾上腺皮质球状带分泌",
+    "options": [
+      {
+        "key": "A",
+        "text": "雄激素"
+      },
+      {
+        "key": "B",
+        "text": "糖皮质激素"
+      },
+      {
+        "key": "C",
+        "text": "盐皮质激素"
+      },
+      {
+        "key": "D",
+        "text": "肾上腺素"
+      },
+      {
+        "key": "E",
+        "text": "肾素"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 39,
+    "chapter": "内分泌系统",
+    "question": "肾上腺皮质束状带分泌",
+    "options": [
+      {
+        "key": "A",
+        "text": "雄激素"
+      },
+      {
+        "key": "B",
+        "text": "糖皮质激素"
+      },
+      {
+        "key": "C",
+        "text": "盐皮质激素"
+      },
+      {
+        "key": "D",
+        "text": "肾上腺素"
+      },
+      {
+        "key": "E",
+        "text": "肾素"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 40,
+    "chapter": "内分泌系统",
+    "question": "肾上腺髓质细胞分泌",
+    "options": [
+      {
+        "key": "A",
+        "text": "雄激素"
+      },
+      {
+        "key": "B",
+        "text": "糖皮质激素"
+      },
+      {
+        "key": "C",
+        "text": "盐皮质激素"
+      },
+      {
+        "key": "D",
+        "text": "肾上腺素"
+      },
+      {
+        "key": "E",
+        "text": "肾素"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 41,
+    "chapter": "内分泌系统",
+    "question": "关于滤泡旁细胞，下述哪项是正确的",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅位于滤泡上皮细胞之间"
+      },
+      {
+        "key": "B",
+        "text": "具有分泌含氮激素细胞的结构特点"
+      },
+      {
+        "key": "C",
+        "text": "HE染色时胞质着色深"
+      },
+      {
+        "key": "D",
+        "text": "细胞的顶部达到滤泡腔面"
+      },
+      {
+        "key": "E",
+        "text": "分泌甲状旁腺激素"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 42,
+    "chapter": "内分泌系统",
+    "question": "有关甲状旁腺，描述正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "由主细胞和嗜酸性细胞组成"
+      },
+      {
+        "key": "B",
+        "text": "由主细胞和嫌色细胞组成"
+      },
+      {
+        "key": "C",
+        "text": "嗜酸性细胞分泌甲状旁腺素"
+      },
+      {
+        "key": "D",
+        "text": "嗜酸性细胞分泌降钙素"
+      },
+      {
+        "key": "E",
+        "text": "嫌色细胞分泌甲状旁腺素"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 43,
+    "chapter": "内分泌系统",
+    "question": "下丘脑的神经内分泌颗粒在神经垂体内形成的嗜酸性团块为",
+    "options": [
+      {
+        "key": "A",
+        "text": "赫令体"
+      },
+      {
+        "key": "B",
+        "text": "垂体门脉系统"
+      },
+      {
+        "key": "C",
+        "text": "垂体门微静脉"
+      },
+      {
+        "key": "D",
+        "text": "结节部"
+      },
+      {
+        "key": "E",
+        "text": "垂体前叶"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 44,
+    "chapter": "内分泌系统",
+    "question": "腺垂体不含下列哪种结构",
+    "options": [
+      {
+        "key": "A",
+        "text": "嗜酸性细胞"
+      },
+      {
+        "key": "B",
+        "text": "嗜碱性细胞"
+      },
+      {
+        "key": "C",
+        "text": "丰富的毛细血管"
+      },
+      {
+        "key": "D",
+        "text": "嫌色细胞"
+      },
+      {
+        "key": "E",
+        "text": "赫林体"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 45,
+    "chapter": "内分泌系统",
+    "question": "促肾上腺皮质激素主要作用于",
+    "options": [
+      {
+        "key": "A",
+        "text": "肾上腺皮质球状带细胞"
+      },
+      {
+        "key": "B",
+        "text": "肾上腺皮质网状带细胞"
+      },
+      {
+        "key": "C",
+        "text": "肾上腺皮质束状带细胞"
+      },
+      {
+        "key": "D",
+        "text": "肾上腺素细胞"
+      },
+      {
+        "key": "E",
+        "text": "去甲肾上腺素细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 46,
+    "chapter": "内分泌系统",
+    "question": "下列哪项不是神经垂体的组织结构特点",
+    "options": [
+      {
+        "key": "A",
+        "text": "主要由分泌神经元和有髓神经纤维组成"
+      },
+      {
+        "key": "B",
+        "text": "主要由神经胶质细胞和无髓神经纤维组成"
+      },
+      {
+        "key": "C",
+        "text": "垂体细胞是一种神经胶质细胞"
+      },
+      {
+        "key": "D",
+        "text": "含有较丰富的毛细血管"
+      },
+      {
+        "key": "E",
+        "text": "可见嗜酸性的赫林体"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 47,
+    "chapter": "内分泌系统",
+    "question": "产生催产素和抗利尿激素的细胞分别是",
+    "options": [
+      {
+        "key": "A",
+        "text": "腺垂体内嗜酸性细胞和嗜碱性细胞"
+      },
+      {
+        "key": "B",
+        "text": "腺垂体内嗜碱性细胞和嫌色细胞"
+      },
+      {
+        "key": "C",
+        "text": "神经部的垂体细胞和中间部的嫌色细胞"
+      },
+      {
+        "key": "D",
+        "text": "下丘脑视上核和室旁核"
+      },
+      {
+        "key": "E",
+        "text": "下丘脑结节核和室旁核"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 48,
+    "chapter": "内分泌系统",
+    "question": "下丘脑分泌的释放激素和释放抑制激素，通过以下哪种结构调节腺垂体的分泌活动",
+    "options": [
+      {
+        "key": "A",
+        "text": "赫林体"
+      },
+      {
+        "key": "B",
+        "text": "垂体门脉系统"
+      },
+      {
+        "key": "C",
+        "text": "垂体门微静脉"
+      },
+      {
+        "key": "D",
+        "text": "结节部"
+      },
+      {
+        "key": "E",
+        "text": "垂体前叶"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 49,
+    "chapter": "内分泌系统",
+    "question": "腺垂体嗜碱性细胞可分泌",
+    "options": [
+      {
+        "key": "A",
+        "text": "催乳素、促甲状腺激素、生长激素"
+      },
+      {
+        "key": "B",
+        "text": "促甲状腺激素、促肾上腺皮质激素、促性腺激素"
+      },
+      {
+        "key": "C",
+        "text": "促甲状腺激素、促性腺激素"
+      },
+      {
+        "key": "D",
+        "text": "催产素、催乳素、促肾上腺皮质激素"
+      },
+      {
+        "key": "E",
+        "text": "催产素、抗利尿激素、促肾上腺皮质激素"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 50,
+    "chapter": "呼吸系统",
+    "question": "气管的黏膜上皮由下列哪组细胞组成",
+    "options": [
+      {
+        "key": "A",
+        "text": "纤毛细胞、杯状细胞、基细胞、刷细胞和间充质细胞"
+      },
+      {
+        "key": "B",
+        "text": "纤毛细胞、杯状细胞、基细胞、小颗粒细胞和间充质细胞"
+      },
+      {
+        "key": "C",
+        "text": "纤毛细胞、杯状细胞、小颗粒细胞、刷细胞和间充质细胞"
+      },
+      {
+        "key": "D",
+        "text": "纤毛细胞、基细胞、小颗粒细胞、刷细胞和间充质细胞"
+      },
+      {
+        "key": "E",
+        "text": "纤毛细胞、杯状细胞、基细胞、刷细胞和小颗粒细胞"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 51,
+    "chapter": "呼吸系统",
+    "question": "气管的黏膜上皮细胞中哪一种具有清除异物的作用",
+    "options": [
+      {
+        "key": "A",
+        "text": "纤毛细胞"
+      },
+      {
+        "key": "B",
+        "text": "刷细胞"
+      },
+      {
+        "key": "C",
+        "text": "杯状细胞"
+      },
+      {
+        "key": "D",
+        "text": "基细胞"
+      },
+      {
+        "key": "E",
+        "text": "小颗粒细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 52,
+    "chapter": "呼吸系统",
+    "question": "有完整环行平滑肌的支气管是",
+    "options": [
+      {
+        "key": "A",
+        "text": "叶支气管"
+      },
+      {
+        "key": "B",
+        "text": "小支气管"
+      },
+      {
+        "key": "C",
+        "text": "细支气管"
+      },
+      {
+        "key": "D",
+        "text": "终末细支气管"
+      },
+      {
+        "key": "E",
+        "text": "细支气管和终末细支气管"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 53,
+    "chapter": "呼吸系统",
+    "question": "肺小叶的构成是",
+    "options": [
+      {
+        "key": "A",
+        "text": "每一小支气管连同它的各级分支和肺泡"
+      },
+      {
+        "key": "B",
+        "text": "每一细支气管连同它的各级分支和肺泡"
+      },
+      {
+        "key": "C",
+        "text": "每一终末细支气管连同它的各级分支和肺泡"
+      },
+      {
+        "key": "D",
+        "text": "每一呼吸性细支气管连同它的各级分支和肺泡"
+      },
+      {
+        "key": "E",
+        "text": "每一段支气管连同它的各级分支和肺泡"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 54,
+    "chapter": "呼吸系统",
+    "question": "不具有气体交换功能的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "终末细支气管"
+      },
+      {
+        "key": "B",
+        "text": "呼吸性细支气管"
+      },
+      {
+        "key": "C",
+        "text": "肺泡管"
+      },
+      {
+        "key": "D",
+        "text": "肺泡囊"
+      },
+      {
+        "key": "E",
+        "text": "肺泡"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 55,
+    "chapter": "呼吸系统",
+    "question": "下列哪项是Ⅰ型肺泡细胞的特点",
+    "options": [
+      {
+        "key": "A",
+        "text": "参与构成气-血屏障"
+      },
+      {
+        "key": "B",
+        "text": "有分裂增殖能力"
+      },
+      {
+        "key": "C",
+        "text": "分泌表面活性物质"
+      },
+      {
+        "key": "D",
+        "text": "胞质内可见大量的嗜锇性板层小体"
+      },
+      {
+        "key": "E",
+        "text": "细胞立方形，顶端突入肺泡腔"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 56,
+    "chapter": "呼吸系统",
+    "question": "下列哪项不是Ⅱ型肺泡细胞的特点",
+    "options": [
+      {
+        "key": "A",
+        "text": "参与构成气-血屏障"
+      },
+      {
+        "key": "B",
+        "text": "有分裂增殖能力"
+      },
+      {
+        "key": "C",
+        "text": "分泌表面活性物质"
+      },
+      {
+        "key": "D",
+        "text": "胞质内可见大量的嗜锇性板层小体"
+      },
+      {
+        "key": "E",
+        "text": "细胞立方形，顶端突入肺泡腔"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 57,
+    "chapter": "呼吸系统",
+    "question": "肺泡腔内具有活跃吞噬功能的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肺巨噬细胞"
+      },
+      {
+        "key": "B",
+        "text": "单核细胞"
+      },
+      {
+        "key": "C",
+        "text": "网状细胞"
+      },
+      {
+        "key": "D",
+        "text": "Ⅰ型肺泡细胞"
+      },
+      {
+        "key": "E",
+        "text": "Ⅱ型肺泡细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 58,
+    "chapter": "呼吸系统",
+    "question": "支气管哮喘时，呼吸道平滑肌痉挛性收缩主要发生在",
+    "options": [
+      {
+        "key": "A",
+        "text": "支气管和叶支气管"
+      },
+      {
+        "key": "B",
+        "text": "叶支气管和小支气管"
+      },
+      {
+        "key": "C",
+        "text": "小支气管和细支气管"
+      },
+      {
+        "key": "D",
+        "text": "细支气管和终末细支气管"
+      },
+      {
+        "key": "E",
+        "text": "终末细支气管和呼吸性细支气管"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 59,
+    "chapter": "呼吸系统",
+    "question": "终末细支气管管壁有",
+    "options": [
+      {
+        "key": "A",
+        "text": "假复层纤毛柱状上皮"
+      },
+      {
+        "key": "B",
+        "text": "杯状细胞"
+      },
+      {
+        "key": "C",
+        "text": "腺体"
+      },
+      {
+        "key": "D",
+        "text": "软骨片"
+      },
+      {
+        "key": "E",
+        "text": "完整的环行平滑肌"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 60,
+    "chapter": "呼吸系统",
+    "question": "肺的导气部止于",
+    "options": [
+      {
+        "key": "A",
+        "text": "细支气管"
+      },
+      {
+        "key": "B",
+        "text": "终末细支气管"
+      },
+      {
+        "key": "C",
+        "text": "呼吸性细支气管"
+      },
+      {
+        "key": "D",
+        "text": "肺泡管"
+      },
+      {
+        "key": "E",
+        "text": "肺泡囊"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 61,
+    "chapter": "呼吸系统",
+    "question": "下列哪段支气管属于呼吸部",
+    "options": [
+      {
+        "key": "A",
+        "text": "细支气管"
+      },
+      {
+        "key": "B",
+        "text": "终末细支气管"
+      },
+      {
+        "key": "C",
+        "text": "小支气管"
+      },
+      {
+        "key": "D",
+        "text": "叶支气管"
+      },
+      {
+        "key": "E",
+        "text": "肺泡管"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 62,
+    "chapter": "呼吸系统",
+    "question": "参与气体交换的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "纤毛细胞"
+      },
+      {
+        "key": "B",
+        "text": "杯状细胞"
+      },
+      {
+        "key": "C",
+        "text": "I型肺泡细胞"
+      },
+      {
+        "key": "D",
+        "text": "II型肺泡细胞"
+      },
+      {
+        "key": "E",
+        "text": "小颗粒细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 63,
+    "chapter": "呼吸系统",
+    "question": "分泌肺泡表面活性物质的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "纤毛细胞"
+      },
+      {
+        "key": "B",
+        "text": "杯状细胞"
+      },
+      {
+        "key": "C",
+        "text": "I型肺泡细胞"
+      },
+      {
+        "key": "D",
+        "text": "II型肺泡细胞"
+      },
+      {
+        "key": "E",
+        "text": "小颗粒细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 64,
+    "chapter": "呼吸系统",
+    "question": "沟通相邻肺泡气体的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "气-血屏障"
+      },
+      {
+        "key": "B",
+        "text": "肺泡隔"
+      },
+      {
+        "key": "C",
+        "text": "终末细支气管"
+      },
+      {
+        "key": "D",
+        "text": "肺泡孔"
+      },
+      {
+        "key": "E",
+        "text": "呼吸性细支气管"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 65,
+    "chapter": "固有结缔组织",
+    "question": "关于结缔组织的描述哪项是错的",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞种类较多"
+      },
+      {
+        "key": "B",
+        "text": "细胞间质多，含有纤维、基质和组织液"
+      },
+      {
+        "key": "C",
+        "text": "细胞有极性，散在分布于间质中"
+      },
+      {
+        "key": "D",
+        "text": "血管丰富"
+      },
+      {
+        "key": "E",
+        "text": "在体内分布广泛"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 66,
+    "chapter": "固有结缔组织",
+    "question": "具有韧性及可耐受强大拉力的纤维是",
+    "options": [
+      {
+        "key": "A",
+        "text": "网状纤维"
+      },
+      {
+        "key": "B",
+        "text": "胶原纤维"
+      },
+      {
+        "key": "C",
+        "text": "微原纤维"
+      },
+      {
+        "key": "D",
+        "text": "弹性纤维"
+      },
+      {
+        "key": "E",
+        "text": "胶原原纤维"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 67,
+    "chapter": "固有结缔组织",
+    "question": "嗜银纤维是指",
+    "options": [
+      {
+        "key": "A",
+        "text": "网状纤维"
+      },
+      {
+        "key": "B",
+        "text": "胶原纤维"
+      },
+      {
+        "key": "C",
+        "text": "微原纤维"
+      },
+      {
+        "key": "D",
+        "text": "弹性纤维"
+      },
+      {
+        "key": "E",
+        "text": "胶原原纤维"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 68,
+    "chapter": "固有结缔组织",
+    "question": "成纤维细胞转变为纤维细胞表示其",
+    "options": [
+      {
+        "key": "A",
+        "text": "功能旺盛"
+      },
+      {
+        "key": "B",
+        "text": "功能静止"
+      },
+      {
+        "key": "C",
+        "text": "进入衰老状态"
+      },
+      {
+        "key": "D",
+        "text": "准备分裂增生"
+      },
+      {
+        "key": "E",
+        "text": "即将死亡"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 69,
+    "chapter": "固有结缔组织",
+    "question": "疏松结缔组织中数量最多的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "B",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "C",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "网状细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 70,
+    "chapter": "固有结缔组织",
+    "question": "在特定条件下能释放组胺和白三烯，引起机体过敏反应的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "网状细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 71,
+    "chapter": "固有结缔组织",
+    "question": "关于浆细胞的描述哪项错",
+    "options": [
+      {
+        "key": "A",
+        "text": "圆形或卵圆形"
+      },
+      {
+        "key": "B",
+        "text": "核圆形，偏居细胞一端，形如车轮状"
+      },
+      {
+        "key": "C",
+        "text": "胞质嗜碱性"
+      },
+      {
+        "key": "D",
+        "text": "合成与分泌抗体，参与细胞免疫"
+      },
+      {
+        "key": "E",
+        "text": "来源于B淋巴细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 72,
+    "chapter": "固有结缔组织",
+    "question": "下列哪种细胞来源于血液的单核细胞",
+    "options": [
+      {
+        "key": "A",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "网状细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 73,
+    "chapter": "固有结缔组织",
+    "question": "具有合成蛋白质功能的细胞超微结构特征是",
+    "options": [
+      {
+        "key": "A",
+        "text": "富含滑面内质网和发达高尔基复合体"
+      },
+      {
+        "key": "B",
+        "text": "富含粗面内质网和发达高尔基复合体"
+      },
+      {
+        "key": "C",
+        "text": "富含溶酶体和发达高尔基复合体"
+      },
+      {
+        "key": "D",
+        "text": "富含滑面内质网和粗面内质网"
+      },
+      {
+        "key": "E",
+        "text": "富含线粒体和溶酶体"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 74,
+    "chapter": "固有结缔组织",
+    "question": "下列哪种细胞具有吞噬、处理、呈递抗原的作用",
+    "options": [
+      {
+        "key": "A",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "网状细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 75,
+    "chapter": "固有结缔组织",
+    "question": "能产生纤维和基质，参与创伤修复的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "网状细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 76,
+    "chapter": "固有结缔组织",
+    "question": "合成和分泌抗体的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "B",
+        "text": "浆细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "网状细胞"
+      },
+      {
+        "key": "E",
+        "text": "成纤维细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 77,
+    "chapter": "固有结缔组织",
+    "question": "细胞胞质中含有溶酶体最多的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "B",
+        "text": "浆细胞"
+      },
+      {
+        "key": "C",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "D",
+        "text": "网状细胞"
+      },
+      {
+        "key": "E",
+        "text": "成纤维细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 78,
+    "chapter": "固有结缔组织",
+    "question": "疏松结缔组织中构成基质蛋白聚糖主干的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "硫酸软骨素"
+      },
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": "硫酸角质素"
+      },
+      {
+        "key": "D",
+        "text": "透明质酸"
+      },
+      {
+        "key": "E",
+        "text": "肝素"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 79,
+    "chapter": "固有结缔组织",
+    "question": "癌细胞能产生哪种物质可破坏基质的防御屏障",
+    "options": [
+      {
+        "key": "A",
+        "text": "透明质酸酶"
+      },
+      {
+        "key": "B",
+        "text": "胶原蛋白酶"
+      },
+      {
+        "key": "C",
+        "text": "弹性蛋白酶"
+      },
+      {
+        "key": "D",
+        "text": "碱性磷酸酶"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 80,
+    "chapter": "女性生殖系统",
+    "question": "原始卵泡中的卵母细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "卵原细胞"
+      },
+      {
+        "key": "B",
+        "text": "初级卵母细胞"
+      },
+      {
+        "key": "C",
+        "text": "次级卵母细胞"
+      },
+      {
+        "key": "D",
+        "text": "成熟卵细胞"
+      },
+      {
+        "key": "E",
+        "text": "卵泡细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 81,
+    "chapter": "女性生殖系统",
+    "question": "排卵一般发生在月经周期的",
+    "options": [
+      {
+        "key": "A",
+        "text": "月经期"
+      },
+      {
+        "key": "B",
+        "text": "增生期"
+      },
+      {
+        "key": "C",
+        "text": "第14天左右"
+      },
+      {
+        "key": "D",
+        "text": "第16天左右"
+      },
+      {
+        "key": "E",
+        "text": "第18天左右"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 82,
+    "chapter": "女性生殖系统",
+    "question": "排卵后若不受精，卵母细胞的退化发生在排卵后",
+    "options": [
+      {
+        "key": "A",
+        "text": "24小时内"
+      },
+      {
+        "key": "B",
+        "text": "48小时内"
+      },
+      {
+        "key": "C",
+        "text": "36小时内"
+      },
+      {
+        "key": "D",
+        "text": "12小时内"
+      },
+      {
+        "key": "E",
+        "text": "72小时内"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 83,
+    "chapter": "女性生殖系统",
+    "question": "卵巢的门细胞分泌",
+    "options": [
+      {
+        "key": "A",
+        "text": "雌激素"
+      },
+      {
+        "key": "B",
+        "text": "雄激素"
+      },
+      {
+        "key": "C",
+        "text": "孕激素"
+      },
+      {
+        "key": "D",
+        "text": "松弛素"
+      },
+      {
+        "key": "E",
+        "text": "催乳素"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 84,
+    "chapter": "女性生殖系统",
+    "question": "子宫内膜表现为分泌期时，卵巢处在",
+    "options": [
+      {
+        "key": "A",
+        "text": "排卵前期"
+      },
+      {
+        "key": "B",
+        "text": "黄体期"
+      },
+      {
+        "key": "C",
+        "text": "卵泡生长时期"
+      },
+      {
+        "key": "D",
+        "text": "卵泡成熟时期"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 85,
+    "chapter": "女性生殖系统",
+    "question": "子宫内膜表现为增生前期时，卵巢处在",
+    "options": [
+      {
+        "key": "A",
+        "text": "卵泡期"
+      },
+      {
+        "key": "B",
+        "text": "黄体期"
+      },
+      {
+        "key": "C",
+        "text": "次级卵泡早期"
+      },
+      {
+        "key": "D",
+        "text": "次级卵泡末期"
+      },
+      {
+        "key": "E",
+        "text": "原始卵泡期"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 86,
+    "chapter": "女性生殖系统",
+    "question": "子宫内膜由分泌期进入月经期的根本原因是",
+    "options": [
+      {
+        "key": "A",
+        "text": "螺旋动脉破裂"
+      },
+      {
+        "key": "B",
+        "text": "月经黄体退化"
+      },
+      {
+        "key": "C",
+        "text": "排卵后未受精"
+      },
+      {
+        "key": "D",
+        "text": "雌激素和孕激素水平下降"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 87,
+    "chapter": "女性生殖系统",
+    "question": "最需注意避孕的时期为月经周期中的",
+    "options": [
+      {
+        "key": "A",
+        "text": "增生期"
+      },
+      {
+        "key": "B",
+        "text": "分泌期"
+      },
+      {
+        "key": "C",
+        "text": "第8～16天"
+      },
+      {
+        "key": "D",
+        "text": "月经期"
+      },
+      {
+        "key": "E",
+        "text": "第12～16天"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 88,
+    "chapter": "女性生殖系统",
+    "question": "透明带出现的时期是",
+    "options": [
+      {
+        "key": "A",
+        "text": "卵原细胞"
+      },
+      {
+        "key": "B",
+        "text": "原始卵泡"
+      },
+      {
+        "key": "C",
+        "text": "初级卵泡"
+      },
+      {
+        "key": "D",
+        "text": "次级卵泡"
+      },
+      {
+        "key": "E",
+        "text": "成熟卵泡"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 89,
+    "chapter": "女性生殖系统",
+    "question": "关于次级卵泡的描述，错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "卵母细胞为次级卵母细胞"
+      },
+      {
+        "key": "B",
+        "text": "出现卵泡腔"
+      },
+      {
+        "key": "C",
+        "text": "出现卵丘"
+      },
+      {
+        "key": "D",
+        "text": "出现放射冠"
+      },
+      {
+        "key": "E",
+        "text": "卵泡膜出现内膜层和外膜层之分"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 90,
+    "chapter": "女性生殖系统",
+    "question": "初级卵母细胞完成第一次减数分裂的时间是",
+    "options": [
+      {
+        "key": "A",
+        "text": "排卵前12~24小时"
+      },
+      {
+        "key": "B",
+        "text": "排卵前36~48小时"
+      },
+      {
+        "key": "C",
+        "text": "排卵后12~24小时"
+      },
+      {
+        "key": "D",
+        "text": "排卵后36~48小时"
+      },
+      {
+        "key": "E",
+        "text": "受精时"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 91,
+    "chapter": "女性生殖系统",
+    "question": "分化成颗粒黄体细胞的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "卵母细胞"
+      },
+      {
+        "key": "B",
+        "text": "放射冠细胞"
+      },
+      {
+        "key": "C",
+        "text": "颗粒细胞"
+      },
+      {
+        "key": "D",
+        "text": "卵泡膜内层细胞"
+      },
+      {
+        "key": "E",
+        "text": "卵泡膜外层细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 92,
+    "chapter": "女性生殖系统",
+    "question": "关于子宫螺旋动脉，错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "来自子宫动脉分支"
+      },
+      {
+        "key": "B",
+        "text": "月经期螺旋动脉发生收缩，随后扩张"
+      },
+      {
+        "key": "C",
+        "text": "随着卵巢激素变化而发生周期性变化"
+      },
+      {
+        "key": "D",
+        "text": "随着促性腺激素变化而发生周期性变化"
+      },
+      {
+        "key": "E",
+        "text": "增生期增长、弯曲"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 93,
+    "chapter": "女性生殖系统",
+    "question": "卵巢中协同分泌雌激素的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "膜细胞和颗粒细胞"
+      },
+      {
+        "key": "B",
+        "text": "膜细胞和门细胞"
+      },
+      {
+        "key": "C",
+        "text": "膜细胞和卵原细胞"
+      },
+      {
+        "key": "D",
+        "text": "颗粒细胞和卵原细胞"
+      },
+      {
+        "key": "E",
+        "text": "颗粒细胞和门细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 94,
+    "chapter": "女性生殖系统",
+    "question": "关于子宫壁的结构，描述错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "由内膜、肌层、外膜构成"
+      },
+      {
+        "key": "B",
+        "text": "由内膜、内膜下层、肌层、外膜构成"
+      },
+      {
+        "key": "C",
+        "text": "内膜包括单层柱状上皮和固有层"
+      },
+      {
+        "key": "D",
+        "text": "肌层由大量平滑肌构成"
+      },
+      {
+        "key": "E",
+        "text": "固有层中有子宫腺"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 95,
+    "chapter": "循环系统",
+    "question": "与大动脉功能密切相关的结构成分是",
+    "options": [
+      {
+        "key": "A",
+        "text": "内弹性膜"
+      },
+      {
+        "key": "B",
+        "text": "平滑肌"
+      },
+      {
+        "key": "C",
+        "text": "外弹性膜"
+      },
+      {
+        "key": "D",
+        "text": "中膜的弹性膜"
+      },
+      {
+        "key": "E",
+        "text": "胶原纤维"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 96,
+    "chapter": "循环系统",
+    "question": "动脉中膜中能产生结缔组织纤维和基质的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "B",
+        "text": "平滑肌细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "间充质细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 97,
+    "chapter": "循环系统",
+    "question": "内弹性膜发达的血管是",
+    "options": [
+      {
+        "key": "A",
+        "text": "大动脉"
+      },
+      {
+        "key": "B",
+        "text": "大静脉"
+      },
+      {
+        "key": "C",
+        "text": "中动脉"
+      },
+      {
+        "key": "D",
+        "text": "中静脉"
+      },
+      {
+        "key": "E",
+        "text": "小静脉"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 98,
+    "chapter": "循环系统",
+    "question": "中动脉中膜的主要成分是",
+    "options": [
+      {
+        "key": "A",
+        "text": "胶原纤维"
+      },
+      {
+        "key": "B",
+        "text": "弹性纤维"
+      },
+      {
+        "key": "C",
+        "text": "网状纤维"
+      },
+      {
+        "key": "D",
+        "text": "平滑肌纤维"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 99,
+    "chapter": "循环系统",
+    "question": "与动脉相比，静脉的特点以下哪一项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "内、外弹性膜明显"
+      },
+      {
+        "key": "B",
+        "text": "血容量比动脉大"
+      },
+      {
+        "key": "C",
+        "text": "管径较粗，管壁较薄"
+      },
+      {
+        "key": "D",
+        "text": "血液回流主要靠管道内的压力差"
+      },
+      {
+        "key": "E",
+        "text": "弹性较小"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 100,
+    "chapter": "循环系统",
+    "question": "以下有关中动脉的描述哪点不正确",
+    "options": [
+      {
+        "key": "A",
+        "text": "内弹性膜明显"
+      },
+      {
+        "key": "B",
+        "text": "又称肌性动脉"
+      },
+      {
+        "key": "C",
+        "text": "中动脉管壁有典型的3层结构"
+      },
+      {
+        "key": "D",
+        "text": "中膜内有大量弹性膜"
+      },
+      {
+        "key": "E",
+        "text": "外膜由疏松结缔组织构成"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 101,
+    "chapter": "循环系统",
+    "question": "周细胞存在于",
+    "options": [
+      {
+        "key": "A",
+        "text": "小动脉内皮与基膜间"
+      },
+      {
+        "key": "B",
+        "text": "毛细血管内皮与基膜间"
+      },
+      {
+        "key": "C",
+        "text": "毛细血管基膜外"
+      },
+      {
+        "key": "D",
+        "text": "毛细淋巴管内皮与基膜间"
+      },
+      {
+        "key": "E",
+        "text": "微动脉内皮与基膜间"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 102,
+    "chapter": "循环系统",
+    "question": "连续毛细血管内皮细胞间最主要的连接是",
+    "options": [
+      {
+        "key": "A",
+        "text": "桥粒"
+      },
+      {
+        "key": "B",
+        "text": "紧密连接"
+      },
+      {
+        "key": "C",
+        "text": "缝隙连接"
+      },
+      {
+        "key": "D",
+        "text": "中间连接"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 103,
+    "chapter": "循环系统",
+    "question": "有孔毛细血管的“孔”位于",
+    "options": [
+      {
+        "key": "A",
+        "text": "内皮细胞核"
+      },
+      {
+        "key": "B",
+        "text": "内皮细胞的连接中"
+      },
+      {
+        "key": "C",
+        "text": "基膜上"
+      },
+      {
+        "key": "D",
+        "text": "内皮细胞胞质不含核的部分"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 104,
+    "chapter": "循环系统",
+    "question": "血窦的结构特点不包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "管腔较大而不规则"
+      },
+      {
+        "key": "B",
+        "text": "内皮细胞之间间隙大"
+      },
+      {
+        "key": "C",
+        "text": "内皮细胞有孔"
+      },
+      {
+        "key": "D",
+        "text": "基膜不连续或无"
+      },
+      {
+        "key": "E",
+        "text": "有一层环形平滑肌"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 105,
+    "chapter": "循环系统",
+    "question": "管壁结构最薄的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "大动脉"
+      },
+      {
+        "key": "B",
+        "text": "中动脉"
+      },
+      {
+        "key": "C",
+        "text": "小动脉"
+      },
+      {
+        "key": "D",
+        "text": "毛细血管"
+      },
+      {
+        "key": "E",
+        "text": "静脉"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 106,
+    "chapter": "循环系统",
+    "question": "对心脏结构特点描述错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "心脏的内皮和血管内皮相连续"
+      },
+      {
+        "key": "B",
+        "text": "心肌纤维之间有丰富的毛细血管"
+      },
+      {
+        "key": "C",
+        "text": "心内膜下层含有血管、神经和心脏传导系统的分支"
+      },
+      {
+        "key": "D",
+        "text": "内皮下层含有较多的脂肪细胞"
+      },
+      {
+        "key": "E",
+        "text": "心外膜的外表面是间皮"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 107,
+    "chapter": "循环系统",
+    "question": "对心肌膜描述错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "主要由心肌纤维组成"
+      },
+      {
+        "key": "B",
+        "text": "心肌纤维间有少量的结缔组织"
+      },
+      {
+        "key": "C",
+        "text": "心房、心室肌互不连通"
+      },
+      {
+        "key": "D",
+        "text": "心房、心室的心肌膜厚度相近"
+      },
+      {
+        "key": "E",
+        "text": "心肌纤维的血液循环丰富"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 108,
+    "chapter": "循环系统",
+    "question": "关于蒲肯野纤维以下哪一项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "具有传导功能的心肌纤维"
+      },
+      {
+        "key": "B",
+        "text": "含肌原纤维较少"
+      },
+      {
+        "key": "C",
+        "text": "闰盘不发达"
+      },
+      {
+        "key": "D",
+        "text": "比一般心肌纤维大"
+      },
+      {
+        "key": "E",
+        "text": "分布在心内膜下层"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 109,
+    "chapter": "心血管系统的发生",
+    "question": "心血管系统起源于",
+    "options": [
+      {
+        "key": "A",
+        "text": "内胚层"
+      },
+      {
+        "key": "B",
+        "text": "中胚层"
+      },
+      {
+        "key": "C",
+        "text": "外胚层"
+      },
+      {
+        "key": "D",
+        "text": "内胚层与中胚层"
+      },
+      {
+        "key": "E",
+        "text": "外胚层与中胚层"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 110,
+    "chapter": "心血管系统的发生",
+    "question": "造血干细胞起源于",
+    "options": [
+      {
+        "key": "A",
+        "text": "外胚层"
+      },
+      {
+        "key": "B",
+        "text": "内胚层"
+      },
+      {
+        "key": "C",
+        "text": "胚外中胚层"
+      },
+      {
+        "key": "D",
+        "text": "胚内中胚层"
+      },
+      {
+        "key": "E",
+        "text": "滋养层"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 111,
+    "chapter": "心血管系统的发生",
+    "question": "人胚胎最早形成血管和血细胞的场所是",
+    "options": [
+      {
+        "key": "A",
+        "text": "尿囊"
+      },
+      {
+        "key": "B",
+        "text": "绒毛膜"
+      },
+      {
+        "key": "C",
+        "text": "卵黄囊"
+      },
+      {
+        "key": "D",
+        "text": "体蒂"
+      },
+      {
+        "key": "E",
+        "text": "肝"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 112,
+    "chapter": "心血管系统的发生",
+    "question": "早期心管的4个膨大，从头端至尾端依次为",
+    "options": [
+      {
+        "key": "A",
+        "text": "心球、心房、心室、静脉窦"
+      },
+      {
+        "key": "B",
+        "text": "心房、心室、心球、静脉窦"
+      },
+      {
+        "key": "C",
+        "text": "心球、心室、心房、静脉窦"
+      },
+      {
+        "key": "D",
+        "text": "静脉窦、心房、心室、心球"
+      },
+      {
+        "key": "E",
+        "text": "心房、心室、静脉窦、心球"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 113,
+    "chapter": "心血管系统的发生",
+    "question": "原始心房分隔时出现的第1房间孔是",
+    "options": [
+      {
+        "key": "A",
+        "text": "第1房间隔与心内膜垫之间"
+      },
+      {
+        "key": "B",
+        "text": "第2房间隔与心内膜垫之间"
+      },
+      {
+        "key": "C",
+        "text": "第1房间隔上部变薄穿孔形成"
+      },
+      {
+        "key": "D",
+        "text": "第2房间隔上部变薄穿孔形成"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 114,
+    "chapter": "心血管系统的发生",
+    "question": "心脏内部分隔时，卵圆孔位于",
+    "options": [
+      {
+        "key": "A",
+        "text": "第2房间隔与心内膜垫之间"
+      },
+      {
+        "key": "B",
+        "text": "第1房间隔与心内膜垫之间"
+      },
+      {
+        "key": "C",
+        "text": "第1房间隔上部的中央"
+      },
+      {
+        "key": "D",
+        "text": "第2房间隔上部的中央"
+      },
+      {
+        "key": "E",
+        "text": "室间隔肌部上缘与心内膜垫之间"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 115,
+    "chapter": "心血管系统的发生",
+    "question": "卵圆孔瓣是",
+    "options": [
+      {
+        "key": "A",
+        "text": "第1房间隔"
+      },
+      {
+        "key": "B",
+        "text": "第2房间隔"
+      },
+      {
+        "key": "C",
+        "text": "第1房间隔和第2房间隔"
+      },
+      {
+        "key": "D",
+        "text": "心内膜垫向上凸起的组织"
+      },
+      {
+        "key": "E",
+        "text": "第2房间隔向下凸起的组织"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 116,
+    "chapter": "心血管系统的发生",
+    "question": "原始心脏发生于",
+    "options": [
+      {
+        "key": "A",
+        "text": "脊索腹侧的中胚层"
+      },
+      {
+        "key": "B",
+        "text": "口咽膜头端的内胚层"
+      },
+      {
+        "key": "C",
+        "text": "前肠腹侧的中胚层"
+      },
+      {
+        "key": "D",
+        "text": "口咽膜头端的中胚层"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 117,
+    "chapter": "心血管系统的发生",
+    "question": "胎儿左右心房间的血流方向是",
+    "options": [
+      {
+        "key": "A",
+        "text": "右心房血经第1房间孔至左心房"
+      },
+      {
+        "key": "B",
+        "text": "左心房血经第1房间孔至右心房"
+      },
+      {
+        "key": "C",
+        "text": "右心房血经卵圆孔至左心房"
+      },
+      {
+        "key": "D",
+        "text": "左心房血经卵圆孔至右心房"
+      },
+      {
+        "key": "E",
+        "text": "左右心房血经卵圆孔双向流动"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 118,
+    "chapter": "心血管系统的发生",
+    "question": "心脏内部分隔时，室间孔位于",
+    "options": [
+      {
+        "key": "A",
+        "text": "膜性室间隔与肌性室间隔之间"
+      },
+      {
+        "key": "B",
+        "text": "膜性室间隔与心内膜垫之间"
+      },
+      {
+        "key": "C",
+        "text": "肌性室间隔与心内膜垫之间"
+      },
+      {
+        "key": "D",
+        "text": "肌性室间隔中部"
+      },
+      {
+        "key": "E",
+        "text": "膜性室间隔中部"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 119,
+    "chapter": "心血管系统的发生",
+    "question": "室间隔肌部来自",
+    "options": [
+      {
+        "key": "A",
+        "text": "心内膜垫"
+      },
+      {
+        "key": "B",
+        "text": "心室底壁"
+      },
+      {
+        "key": "C",
+        "text": "心室顶壁"
+      },
+      {
+        "key": "D",
+        "text": "心动脉球"
+      },
+      {
+        "key": "E",
+        "text": "室间隔膜部"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 120,
+    "chapter": "心血管系统的发生",
+    "question": "造成法洛四联症的主要原因是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肺动脉狭窄"
+      },
+      {
+        "key": "B",
+        "text": "室间隔膜部缺损"
+      },
+      {
+        "key": "C",
+        "text": "主动脉骑跨"
+      },
+      {
+        "key": "D",
+        "text": "心内膜垫缺损"
+      },
+      {
+        "key": "E",
+        "text": "主动脉肺动脉隔偏位"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 121,
+    "chapter": "心血管系统的发生",
+    "question": "胎儿血液循环中含氧量最高的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "脐静脉"
+      },
+      {
+        "key": "B",
+        "text": "下腔静脉"
+      },
+      {
+        "key": "C",
+        "text": "主动脉"
+      },
+      {
+        "key": "D",
+        "text": "脐动脉"
+      },
+      {
+        "key": "E",
+        "text": "肺静脉"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 122,
+    "chapter": "感觉器官",
+    "question": "眼球的屈光装置不包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "角膜"
+      },
+      {
+        "key": "B",
+        "text": "房水"
+      },
+      {
+        "key": "C",
+        "text": "晶状体"
+      },
+      {
+        "key": "D",
+        "text": "玻璃体"
+      },
+      {
+        "key": "E",
+        "text": "视网膜"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 123,
+    "chapter": "感觉器官",
+    "question": "角膜结构的主要特点是",
+    "options": [
+      {
+        "key": "A",
+        "text": "透明、上皮内有丰富的感觉细胞"
+      },
+      {
+        "key": "B",
+        "text": "薄而透明、上皮内有丰富的环层小体"
+      },
+      {
+        "key": "C",
+        "text": "透明、无血管、上皮内有丰富的游离神经末梢"
+      },
+      {
+        "key": "D",
+        "text": "基质内含水分多，有丰富的触觉小体"
+      },
+      {
+        "key": "E",
+        "text": "表皮光滑，含丰富的感觉神经末梢"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 124,
+    "chapter": "感觉器官",
+    "question": "眼球壁不含色素的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "视网膜"
+      },
+      {
+        "key": "B",
+        "text": "睫状体"
+      },
+      {
+        "key": "C",
+        "text": "虹膜"
+      },
+      {
+        "key": "D",
+        "text": "角膜"
+      },
+      {
+        "key": "E",
+        "text": "巩膜"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 125,
+    "chapter": "感觉器官",
+    "question": "眼睛调节焦距主要是靠",
+    "options": [
+      {
+        "key": "A",
+        "text": "睫状肌收缩、舒张"
+      },
+      {
+        "key": "B",
+        "text": "晶状体位置和曲度恒定不变"
+      },
+      {
+        "key": "C",
+        "text": "虹膜中的肌上皮细胞收缩、舒张"
+      },
+      {
+        "key": "D",
+        "text": "睫状小带收缩、舒张"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 126,
+    "chapter": "感觉器官",
+    "question": "分泌房水的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "虹膜色素上皮"
+      },
+      {
+        "key": "B",
+        "text": "睫状体非色素上皮"
+      },
+      {
+        "key": "C",
+        "text": "晶状体上皮"
+      },
+      {
+        "key": "D",
+        "text": "角膜内皮"
+      },
+      {
+        "key": "E",
+        "text": "角膜上皮"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 127,
+    "chapter": "感觉器官",
+    "question": "关于视杆细胞和视锥细胞的描述，正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "视锥细胞外突呈杆状，视杆细胞外突呈锥状"
+      },
+      {
+        "key": "B",
+        "text": "视杆细胞外节顶部的膜盘脱落，视锥细胞顶部的膜盘不脱落"
+      },
+      {
+        "key": "C",
+        "text": "夜盲与视锥细胞有关，红绿色盲与视杆细胞有关"
+      },
+      {
+        "key": "D",
+        "text": "视杆细胞感受强光和颜色"
+      },
+      {
+        "key": "E",
+        "text": "视锥细胞感受弱光"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 128,
+    "chapter": "感觉器官",
+    "question": "白内障是因为",
+    "options": [
+      {
+        "key": "A",
+        "text": "角膜不透明"
+      },
+      {
+        "key": "B",
+        "text": "晶状体混浊"
+      },
+      {
+        "key": "C",
+        "text": "玻璃体变性"
+      },
+      {
+        "key": "D",
+        "text": "房水太少"
+      },
+      {
+        "key": "E",
+        "text": "睫状体病变"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 129,
+    "chapter": "感觉器官",
+    "question": "眼对机械性刺激最敏感的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "睑结膜"
+      },
+      {
+        "key": "B",
+        "text": "球结膜"
+      },
+      {
+        "key": "C",
+        "text": "角膜"
+      },
+      {
+        "key": "D",
+        "text": "巩膜"
+      },
+      {
+        "key": "E",
+        "text": "视网膜"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 130,
+    "chapter": "感觉器官",
+    "question": "视网膜脱离多发生在",
+    "options": [
+      {
+        "key": "A",
+        "text": "脉络膜和玻璃膜之间"
+      },
+      {
+        "key": "B",
+        "text": "玻璃膜和色素上皮之间"
+      },
+      {
+        "key": "C",
+        "text": "色素上皮和视细胞层之间"
+      },
+      {
+        "key": "D",
+        "text": "视细胞层和内核层之间"
+      },
+      {
+        "key": "E",
+        "text": "内核层和解析包层之间"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 131,
+    "chapter": "感觉器官",
+    "question": "青光眼是由于",
+    "options": [
+      {
+        "key": "A",
+        "text": "眼压增高"
+      },
+      {
+        "key": "B",
+        "text": "眼压太低"
+      },
+      {
+        "key": "C",
+        "text": "晶状体弹性减弱"
+      },
+      {
+        "key": "D",
+        "text": "玻璃体混沌"
+      },
+      {
+        "key": "E",
+        "text": "以上均不对"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 132,
+    "chapter": "感觉器官",
+    "question": "视觉最敏锐的部位在",
+    "options": [
+      {
+        "key": "A",
+        "text": "黄斑"
+      },
+      {
+        "key": "B",
+        "text": "中央凹"
+      },
+      {
+        "key": "C",
+        "text": "视神经乳头"
+      },
+      {
+        "key": "D",
+        "text": "玻璃体"
+      },
+      {
+        "key": "E",
+        "text": "视杆视锥层"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 133,
+    "chapter": "泌尿系统",
+    "question": "肾小管包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "近端小管直部、细段、远端小管直部"
+      },
+      {
+        "key": "B",
+        "text": "近端小管曲部、细段、远端小管曲部"
+      },
+      {
+        "key": "C",
+        "text": "近端小管曲部、髓袢、远端小管曲部"
+      },
+      {
+        "key": "D",
+        "text": "近端小管、髓袢、远端小管"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 134,
+    "chapter": "泌尿系统",
+    "question": "下列关于肾单位的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "由肾小体和肾小管组成"
+      },
+      {
+        "key": "B",
+        "text": "为肾的结构和功能单位"
+      },
+      {
+        "key": "C",
+        "text": "可分为浅表肾单位和髓旁肾单位"
+      },
+      {
+        "key": "D",
+        "text": "肾单位仅位于皮质"
+      },
+      {
+        "key": "E",
+        "text": "肾单位位于皮质和髓质"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 135,
+    "chapter": "泌尿系统",
+    "question": "下列关于肾单位所含的结构，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "肾小体"
+      },
+      {
+        "key": "B",
+        "text": "肾小管"
+      },
+      {
+        "key": "C",
+        "text": "集合小管"
+      },
+      {
+        "key": "D",
+        "text": "细段"
+      },
+      {
+        "key": "E",
+        "text": "近端小管"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 136,
+    "chapter": "泌尿系统",
+    "question": "下列关于肾小体血管球的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "毛细血管内皮细胞有孔"
+      },
+      {
+        "key": "B",
+        "text": "由入球微动脉分支形成的毛细血管袢"
+      },
+      {
+        "key": "C",
+        "text": "毛细血管袢之间有血管系膜"
+      },
+      {
+        "key": "D",
+        "text": "汇合成一条出球微动脉离开肾小体"
+      },
+      {
+        "key": "E",
+        "text": "毛细血管内皮外无基膜"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 137,
+    "chapter": "泌尿系统",
+    "question": "下列关于足细胞的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "从胞体发出许多初级突起"
+      },
+      {
+        "key": "B",
+        "text": "从胞体发出许多次级突起"
+      },
+      {
+        "key": "C",
+        "text": "为肾小囊脏层细胞"
+      },
+      {
+        "key": "D",
+        "text": "每个初级突起均发出许多次级突起"
+      },
+      {
+        "key": "E",
+        "text": "突起间的裂孔上有膜覆盖"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 138,
+    "chapter": "泌尿系统",
+    "question": "下列关于入球微动脉的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "由肾小体血管极处进入肾小囊"
+      },
+      {
+        "key": "B",
+        "text": "比出球微动脉细"
+      },
+      {
+        "key": "C",
+        "text": "比出球微动脉粗"
+      },
+      {
+        "key": "D",
+        "text": "为小叶间动脉的分支"
+      },
+      {
+        "key": "E",
+        "text": "位于皮质迷路和肾柱内"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 139,
+    "chapter": "泌尿系统",
+    "question": "滤过屏障的组成结构为",
+    "options": [
+      {
+        "key": "A",
+        "text": "内皮、基膜、裂孔膜"
+      },
+      {
+        "key": "B",
+        "text": "内皮、血管系膜、裂孔膜"
+      },
+      {
+        "key": "C",
+        "text": "有孔内皮、基膜、足细胞裂孔膜"
+      },
+      {
+        "key": "D",
+        "text": "有孔内皮、基膜、足细胞"
+      },
+      {
+        "key": "E",
+        "text": "有孔内皮、基膜、血管系膜"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 140,
+    "chapter": "泌尿系统",
+    "question": "球旁复合体包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "球旁细胞、球外系膜细胞、球内系膜细胞"
+      },
+      {
+        "key": "B",
+        "text": "球旁细胞、球外系膜细胞、足细胞"
+      },
+      {
+        "key": "C",
+        "text": "球旁细胞、球内系膜细胞、足细胞"
+      },
+      {
+        "key": "D",
+        "text": "球旁细胞、球外系膜细胞、致密斑"
+      },
+      {
+        "key": "E",
+        "text": "球旁细胞、球内系膜细胞、致密斑"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 141,
+    "chapter": "泌尿系统",
+    "question": "下列关于血管系膜的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "主要由球内系膜细胞和系膜基质构成"
+      },
+      {
+        "key": "B",
+        "text": "球内系膜细胞具有吞噬功能"
+      },
+      {
+        "key": "C",
+        "text": "球内系膜细胞具有合成、修复基膜的功能"
+      },
+      {
+        "key": "D",
+        "text": "位于血管球毛细血管之间"
+      },
+      {
+        "key": "E",
+        "text": "来自于尿极处的结缔组织"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 142,
+    "chapter": "泌尿系统",
+    "question": "下列关于肾小囊的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "由脏层和壁层组成"
+      },
+      {
+        "key": "B",
+        "text": "脏层为单层扁平细胞"
+      },
+      {
+        "key": "C",
+        "text": "壁层为单层扁平细胞"
+      },
+      {
+        "key": "D",
+        "text": "肾小囊囊腔中的滤液为原尿"
+      },
+      {
+        "key": "E",
+        "text": "在血管极处肾小囊壁层返折与脏层相连"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 143,
+    "chapter": "泌尿系统",
+    "question": "下列关于近端小管曲部的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "管壁由单层立方形或锥体形细胞组成"
+      },
+      {
+        "key": "B",
+        "text": "细胞游离面有刷状缘"
+      },
+      {
+        "key": "C",
+        "text": "细胞基底面有纵纹"
+      },
+      {
+        "key": "D",
+        "text": "细胞侧面分界不清"
+      },
+      {
+        "key": "E",
+        "text": "胞质弱嗜碱性"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 144,
+    "chapter": "泌尿系统",
+    "question": "球旁细胞来自于",
+    "options": [
+      {
+        "key": "A",
+        "text": "出球微动脉近血管极处管壁的平滑肌特化而成"
+      },
+      {
+        "key": "B",
+        "text": "入球微动脉近血管极处管壁的成纤维细胞特化而成"
+      },
+      {
+        "key": "C",
+        "text": "入球微动脉近血管极处管壁的平滑肌特化而成"
+      },
+      {
+        "key": "D",
+        "text": "出球微动脉近血管极处管壁的成纤维细胞特化而成"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 145,
+    "chapter": "泌尿系统",
+    "question": "关于肾小体的结构特征错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "由血管球和肾小囊组成"
+      },
+      {
+        "key": "B",
+        "text": "可分为血管极和尿极"
+      },
+      {
+        "key": "C",
+        "text": "尿极与远曲小管相连"
+      },
+      {
+        "key": "D",
+        "text": "血管极处有入球和出球微动脉出入"
+      },
+      {
+        "key": "E",
+        "text": "血管球是有孔毛细血管"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 146,
+    "chapter": "泌尿系统",
+    "question": "下列血管中与肾小管重吸收有直接关系的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "出球微动脉"
+      },
+      {
+        "key": "B",
+        "text": "球后毛细血管"
+      },
+      {
+        "key": "C",
+        "text": "直小动脉"
+      },
+      {
+        "key": "D",
+        "text": "直小静脉"
+      },
+      {
+        "key": "E",
+        "text": "以上均不是"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 147,
+    "chapter": "泌尿系统",
+    "question": "下列关于远端小管的特点正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞间界限不清"
+      },
+      {
+        "key": "B",
+        "text": "上皮细胞为立方形"
+      },
+      {
+        "key": "C",
+        "text": "上皮细胞基部纵纹不清楚"
+      },
+      {
+        "key": "D",
+        "text": "有刷状缘"
+      },
+      {
+        "key": "E",
+        "text": "上皮细胞嗜酸性强"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 148,
+    "chapter": "泌尿系统",
+    "question": "下列哪种细胞能感受钠离子的浓度变化",
+    "options": [
+      {
+        "key": "A",
+        "text": "球旁细胞"
+      },
+      {
+        "key": "B",
+        "text": "球外系膜细胞"
+      },
+      {
+        "key": "C",
+        "text": "足细胞"
+      },
+      {
+        "key": "D",
+        "text": "肾间质细胞"
+      },
+      {
+        "key": "E",
+        "text": "致密斑"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 149,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "中肾发生的描述中哪一项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "发生于前肾尾侧的中肾嵴"
+      },
+      {
+        "key": "B",
+        "text": "中肾小管内侧端膨大,并内陷成肾小囊"
+      },
+      {
+        "key": "C",
+        "text": "背主动脉分支而来的毛细血管与肾小囊共同构成肾小体"
+      },
+      {
+        "key": "D",
+        "text": "中肾管由前肾管演化而来"
+      },
+      {
+        "key": "E",
+        "text": "中肾小管的外侧端开口于体腔"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 150,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "来源于尿生殖嵴内侧的结构是 A,尿生殖窦           B.中肾嵴          C.生殖腺嵴",
+    "options": [
+      {
+        "key": "D",
+        "text": "生肾索"
+      },
+      {
+        "key": "E",
+        "text": "体节"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 151,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "泌尿系统和生殖系统的主要器官起源于 A,间介中胚层         B.体壁中胚层       C.脏壁中胚层",
+    "options": [
+      {
+        "key": "D",
+        "text": "脊索"
+      },
+      {
+        "key": "E",
+        "text": "体节"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 152,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "泌尿小管起源于两部分，其连接处在",
+    "options": [
+      {
+        "key": "A",
+        "text": "近端小管与肾小体连接处"
+      },
+      {
+        "key": "B",
+        "text": "细段与近端小管连接处"
+      },
+      {
+        "key": "C",
+        "text": "远端小管细段连接处"
+      },
+      {
+        "key": "D",
+        "text": "集合小管与肾小盏连接处"
+      },
+      {
+        "key": "E",
+        "text": "远端小管与集合小管连接处"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 153,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "后肾发生的描述中哪一项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "后肾演变出终生的肾"
+      },
+      {
+        "key": "C",
+        "text": "最初位置较高，以后下降至永久位置"
+      },
+      {
+        "key": "D",
+        "text": "肾门由腹侧转向内侧"
+      },
+      {
+        "key": "E",
+        "text": "肾单位来自生后肾原基"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 154,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "输尿管芽来自于",
+    "options": [
+      {
+        "key": "A",
+        "text": "中肾管末端近泄殖腔处"
+      },
+      {
+        "key": "B",
+        "text": "中肾旁管末端"
+      },
+      {
+        "key": "C",
+        "text": "尿生殖嵴内侧"
+      },
+      {
+        "key": "D",
+        "text": "生肾索尾端"
+      },
+      {
+        "key": "E",
+        "text": "中肾管头端近泄殖腔处"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 155,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "生后肾原基可演变为",
+    "options": [
+      {
+        "key": "A",
+        "text": "肾盂"
+      },
+      {
+        "key": "B",
+        "text": "肾盏"
+      },
+      {
+        "key": "C",
+        "text": "弓形集合小管"
+      },
+      {
+        "key": "D",
+        "text": "输尿管"
+      },
+      {
+        "key": "E",
+        "text": "肾小管"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 156,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "输尿管芽可演变为",
+    "options": [
+      {
+        "key": "A",
+        "text": "集合小管"
+      },
+      {
+        "key": "B",
+        "text": "细段"
+      },
+      {
+        "key": "C",
+        "text": "肾小体"
+      },
+      {
+        "key": "D",
+        "text": "肾小囊"
+      },
+      {
+        "key": "E",
+        "text": "远端小管"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 157,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "中肾旁管形成下列结构，其中哪一项除外",
+    "options": [
+      {
+        "key": "A",
+        "text": "输卵管"
+      },
+      {
+        "key": "B",
+        "text": "输卵管漏斗部"
+      },
+      {
+        "key": "C",
+        "text": "子宫"
+      },
+      {
+        "key": "D",
+        "text": "阴道穹窿部"
+      },
+      {
+        "key": "E",
+        "text": "阴道前庭"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 158,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "能分泌抗中肾旁管激素的胚胎细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "睾丸的间充质细胞"
+      },
+      {
+        "key": "B",
+        "text": "睾丸的支持细胞"
+      },
+      {
+        "key": "C",
+        "text": "卵巢的卵泡细胞"
+      },
+      {
+        "key": "D",
+        "text": "睾丸的生精细胞"
+      },
+      {
+        "key": "E",
+        "text": "中肾管的上皮细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 159,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "关于多囊肾哪一项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "远曲小管未与集合小管接通"
+      },
+      {
+        "key": "B",
+        "text": "尿液在肾小管内积聚，"
+      },
+      {
+        "key": "C",
+        "text": "肾内出现大小不等的囊泡"
+      },
+      {
+        "key": "D",
+        "text": "肾小管内积聚的尿液可慢慢吸收"
+      },
+      {
+        "key": "E",
+        "text": "集合小管发育异常，管腔阻塞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 160,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "SRY基因存在于",
+    "options": [
+      {
+        "key": "A",
+        "text": "男性Y染色体上的性别决定区"
+      },
+      {
+        "key": "B",
+        "text": "男性生殖腺嵴细胞的细胞膜上"
+      },
+      {
+        "key": "C",
+        "text": "女性X染色体上的性别决定区"
+      },
+      {
+        "key": "D",
+        "text": "女性生殖腺嵴细胞的细胞膜上"
+      },
+      {
+        "key": "E",
+        "text": "卵巢及子宫上皮细胞中."
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 161,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "关于睾丸发生的描述哪一项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "第８周时表面上皮下方的间充质形成白膜"
+      },
+      {
+        "key": "B",
+        "text": "睾丸索之间的间充质细胞分化为睾丸间质细胞"
+      },
+      {
+        "key": "C",
+        "text": "原始生殖细胞增殖分化为精原细胞"
+      },
+      {
+        "key": "D",
+        "text": "初级性索上皮细胞分化为支持细胞"
+      },
+      {
+        "key": "E",
+        "text": "初级性索退化形成次级性索"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 162,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "第5周时生殖腺嵴表面的上皮细胞增生，伸入下方间充质形成",
+    "options": [
+      {
+        "key": "A",
+        "text": "生肾节"
+      },
+      {
+        "key": "B",
+        "text": "生肾索"
+      },
+      {
+        "key": "C",
+        "text": "皮质索"
+      },
+      {
+        "key": "D",
+        "text": "初级性索"
+      },
+      {
+        "key": "E",
+        "text": "次级性索"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 163,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "胎儿出生时，原始卵泡中的卵母细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "停滞于第一次减数分裂前期的初级卵母细胞"
+      },
+      {
+        "key": "B",
+        "text": "停滞于第一次减数分裂中期的初级卵母细胞"
+      },
+      {
+        "key": "C",
+        "text": "停滞于第一次减数分裂后期的初级卵母细胞"
+      },
+      {
+        "key": "D",
+        "text": "停滞于第一次减数分裂末期的初级卵母细胞"
+      },
+      {
+        "key": "E",
+        "text": "停滞于第二次减数分裂前期的初级卵母细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 164,
+    "chapter": "泌尿系统和生殖系统的发生",
+    "question": "性分化时期，生殖管道的分化主要受什么激素影响",
+    "options": [
+      {
+        "key": "A",
+        "text": "雌激素和雄激素"
+      },
+      {
+        "key": "B",
+        "text": "雌激素和孕激素"
+      },
+      {
+        "key": "C",
+        "text": "雄激素和中肾激素"
+      },
+      {
+        "key": "D",
+        "text": "雄激素和抗中肾旁管激素"
+      },
+      {
+        "key": "E",
+        "text": "雌激素和抗中肾旁管激素"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 165,
+    "chapter": "消化管",
+    "question": "消化道管壁可分为哪几层？",
+    "options": [
+      {
+        "key": "A",
+        "text": "内膜、中膜、外膜             B.内膜、中膜、浆膜"
+      },
+      {
+        "key": "C",
+        "text": "内膜、中膜、纤维膜           D.内皮、肌层、纤维膜"
+      },
+      {
+        "key": "E",
+        "text": "黏膜、黏膜下层、肌层、外膜"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 166,
+    "chapter": "消化管",
+    "question": "消化管各段中结构差异最大、功能最重要的部分是",
+    "options": [
+      {
+        "key": "A",
+        "text": "黏膜下层"
+      },
+      {
+        "key": "B",
+        "text": "黏膜"
+      },
+      {
+        "key": "C",
+        "text": "肌层"
+      },
+      {
+        "key": "D",
+        "text": "外膜"
+      },
+      {
+        "key": "E",
+        "text": "固有层"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 167,
+    "chapter": "消化管",
+    "question": "对消化管皱襞形成的正确描述是",
+    "options": [
+      {
+        "key": "A",
+        "text": "上皮突向管腔"
+      },
+      {
+        "key": "B",
+        "text": "上皮和固有层突向管腔"
+      },
+      {
+        "key": "C",
+        "text": "上皮、固有层和黏膜肌层突向管腔"
+      },
+      {
+        "key": "D",
+        "text": "黏膜和黏膜下层突向管腔"
+      },
+      {
+        "key": "E",
+        "text": "黏膜、黏膜下层和肌层突向管腔"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 168,
+    "chapter": "消化管",
+    "question": "以下关于食管结构的描述中,哪一项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "腔面有7-10条纵行皱襞"
+      },
+      {
+        "key": "B",
+        "text": "黏膜上皮为角化的复层扁平上皮"
+      },
+      {
+        "key": "C",
+        "text": "黏膜肌层为一层纵行平滑肌束"
+      },
+      {
+        "key": "D",
+        "text": "黏膜下层內含黏液腺"
+      },
+      {
+        "key": "E",
+        "text": "管壁内既有平滑肌又有骨骼肌"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 169,
+    "chapter": "消化管",
+    "question": "胃黏膜上皮的主要细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "壁细胞"
+      },
+      {
+        "key": "B",
+        "text": "主细胞"
+      },
+      {
+        "key": "C",
+        "text": "内分泌细胞"
+      },
+      {
+        "key": "D",
+        "text": "表面黏液细胞"
+      },
+      {
+        "key": "E",
+        "text": "表面浆液细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 170,
+    "chapter": "消化管",
+    "question": "胃腺分布于",
+    "options": [
+      {
+        "key": "A",
+        "text": "胃表面上皮"
+      },
+      {
+        "key": "B",
+        "text": "胃黏膜下层"
+      },
+      {
+        "key": "C",
+        "text": "胃小凹之间"
+      },
+      {
+        "key": "D",
+        "text": "胃黏膜固有层"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 171,
+    "chapter": "消化管",
+    "question": "盐酸的主要作用是",
+    "options": [
+      {
+        "key": "A",
+        "text": "激活胃酶"
+      },
+      {
+        "key": "B",
+        "text": "稀释毒物"
+      },
+      {
+        "key": "C",
+        "text": "参与蛋白质的消化"
+      },
+      {
+        "key": "D",
+        "text": "激活胃蛋白酶原和杀菌"
+      },
+      {
+        "key": "E",
+        "text": "以上答案都对"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 172,
+    "chapter": "消化管",
+    "question": "内因子是由以下哪一种细胞分泌?",
+    "options": [
+      {
+        "key": "A",
+        "text": "胃底腺的主细胞"
+      },
+      {
+        "key": "B",
+        "text": "胃底腺的颈黏液细胞"
+      },
+      {
+        "key": "C",
+        "text": "胃底腺的壁细胞"
+      },
+      {
+        "key": "D",
+        "text": "胃底腺的內分泌细胞"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 173,
+    "chapter": "消化管",
+    "question": "胃的哪种细胞具有细胞内分泌小管",
+    "options": [
+      {
+        "key": "A",
+        "text": "主细胞"
+      },
+      {
+        "key": "B",
+        "text": "壁细胞"
+      },
+      {
+        "key": "C",
+        "text": "颈黏液细胞"
+      },
+      {
+        "key": "D",
+        "text": "表面上皮细胞"
+      },
+      {
+        "key": "E",
+        "text": "内分泌细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 174,
+    "chapter": "消化管",
+    "question": "胃底腺主细胞的结构特点是",
+    "options": [
+      {
+        "key": "A",
+        "text": "大量滑面内质网及酶原颗粒"
+      },
+      {
+        "key": "B",
+        "text": "大量粗面内质网及酶原颗粒"
+      },
+      {
+        "key": "C",
+        "text": "大量线粒体及酶原颗粒"
+      },
+      {
+        "key": "D",
+        "text": "大量粗面内质网,无酶原颗粒"
+      },
+      {
+        "key": "E",
+        "text": "高尔基复合体发达,无酶原颗粒"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 175,
+    "chapter": "消化管",
+    "question": "下列哪种器官存在绒毛",
+    "options": [
+      {
+        "key": "A",
+        "text": "阑尾"
+      },
+      {
+        "key": "B",
+        "text": "食管"
+      },
+      {
+        "key": "C",
+        "text": "胃"
+      },
+      {
+        "key": "D",
+        "text": "空肠"
+      },
+      {
+        "key": "E",
+        "text": "结肠"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 176,
+    "chapter": "消化管",
+    "question": "小肠上皮表面的纹状缘在电镜下是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞衣"
+      },
+      {
+        "key": "B",
+        "text": "纤毛"
+      },
+      {
+        "key": "C",
+        "text": "微绒毛"
+      },
+      {
+        "key": "D",
+        "text": "浓缩的细胞质"
+      },
+      {
+        "key": "E",
+        "text": "细胞膜表面蛋白质"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 177,
+    "chapter": "消化管",
+    "question": "下列关于中央乳糜管的描述哪一项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "绒毛中轴结缔组织的一条纵行的毛细淋巴管"
+      },
+      {
+        "key": "B",
+        "text": "中央乳糜管的起始端为盲端"
+      },
+      {
+        "key": "C",
+        "text": "小肠各段含有中央乳糜管"
+      },
+      {
+        "key": "D",
+        "text": "中央乳糜管的管壁为一层内皮，细胞间隙较大，通透性好"
+      },
+      {
+        "key": "E",
+        "text": "各种营养物质经消化吸收后，由中央乳糜管输入血液"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 178,
+    "chapter": "消化管",
+    "question": "关于肠腺帕内特细胞的描述，哪一项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "锥体形、常三、五成群           B.常位于肠腺的基底部"
+      },
+      {
+        "key": "C",
+        "text": "胞质内有粗大的嗜酸性分泌颗粒"
+      },
+      {
+        "key": "D",
+        "text": "分泌颗粒含有溶菌酶"
+      },
+      {
+        "key": "E",
+        "text": "属于消化管的内分泌细胞"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 179,
+    "chapter": "消化管",
+    "question": "以下哪一个器官的黏膜上皮内不含杯状细胞？",
+    "options": [
+      {
+        "key": "A",
+        "text": "胃"
+      },
+      {
+        "key": "B",
+        "text": "空肠"
+      },
+      {
+        "key": "C",
+        "text": "回肠"
+      },
+      {
+        "key": "D",
+        "text": "结肠"
+      },
+      {
+        "key": "E",
+        "text": "十二指肠"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 180,
+    "chapter": "消化管",
+    "question": "消化管各段的黏膜上皮中,杯状细胞最多的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "空肠"
+      },
+      {
+        "key": "B",
+        "text": "十二指肠"
+      },
+      {
+        "key": "C",
+        "text": "胃幽门部"
+      },
+      {
+        "key": "D",
+        "text": "回肠"
+      },
+      {
+        "key": "E",
+        "text": "大肠"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 181,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "形成咽鼓管和中耳鼓室的咽囊是",
+    "options": [
+      {
+        "key": "A",
+        "text": "第一对"
+      },
+      {
+        "key": "B",
+        "text": "第二对"
+      },
+      {
+        "key": "C",
+        "text": "第三对"
+      },
+      {
+        "key": "D",
+        "text": "第四对"
+      },
+      {
+        "key": "E",
+        "text": "第五对"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 182,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "参与形成腭扁桃体的咽囊是",
+    "options": [
+      {
+        "key": "A",
+        "text": "第一对"
+      },
+      {
+        "key": "B",
+        "text": "第二对"
+      },
+      {
+        "key": "C",
+        "text": "第三对"
+      },
+      {
+        "key": "D",
+        "text": "第四对"
+      },
+      {
+        "key": "E",
+        "text": "第五对"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 183,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "以下哪一结构的上皮不是前肠分化而来的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "胃"
+      },
+      {
+        "key": "B",
+        "text": "肝"
+      },
+      {
+        "key": "C",
+        "text": "肺"
+      },
+      {
+        "key": "D",
+        "text": "横结肠的右2/3"
+      },
+      {
+        "key": "E",
+        "text": "胰"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 184,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "将泄殖腔分割为原始直肠和尿生殖窦的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "尿直肠隔"
+      },
+      {
+        "key": "B",
+        "text": "尿囊"
+      },
+      {
+        "key": "C",
+        "text": "泄殖腔膜"
+      },
+      {
+        "key": "D",
+        "text": "肛膜"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 185,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "以下哪一部分不是背胰形成的",
+    "options": [
+      {
+        "key": "A",
+        "text": "胰头上部"
+      },
+      {
+        "key": "B",
+        "text": "胰头下部"
+      },
+      {
+        "key": "C",
+        "text": "胰体"
+      },
+      {
+        "key": "D",
+        "text": "胰尾"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 186,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "关于肝憩室的发生，正确的是 A源于前肠尾端腹侧壁中胚层细胞",
+    "options": [
+      {
+        "key": "B",
+        "text": "源于中肠尾端腹侧壁内胚层细胞"
+      },
+      {
+        "key": "C",
+        "text": "头支是肝的原基"
+      },
+      {
+        "key": "D",
+        "text": "头支是胆囊的原基"
+      },
+      {
+        "key": "E",
+        "text": "尾支是肝管和胆管的原基"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 187,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "肝憩室的尾支形成",
+    "options": [
+      {
+        "key": "A",
+        "text": "肝"
+      },
+      {
+        "key": "B",
+        "text": "胆囊和胆囊管"
+      },
+      {
+        "key": "C",
+        "text": "背胰"
+      },
+      {
+        "key": "D",
+        "text": "腹胰"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 188,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "关于肠发生，以下哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "由胃以下的原始消化管分化形成"
+      },
+      {
+        "key": "B",
+        "text": "肠袢最初为“U”型，称中肠袢"
+      },
+      {
+        "key": "C",
+        "text": "中肠袢的顶端连于卵黄蒂"
+      },
+      {
+        "key": "D",
+        "text": "中肠袢头支近卵黄蒂处形成的突起为盲肠突"
+      },
+      {
+        "key": "E",
+        "text": "肠上皮来自于内胚层。"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 189,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "关于喉气管憩室的发生，错误的是 A源于原始咽尾端正中腹侧壁的内胚层细胞",
+    "options": [
+      {
+        "key": "B",
+        "text": "喉气管沟分隔喉气管憩室和食管"
+      },
+      {
+        "key": "C",
+        "text": "上端是喉的原基"
+      },
+      {
+        "key": "D",
+        "text": "中段是气管的原基"
+      },
+      {
+        "key": "E",
+        "text": "末段形成的肺芽是支气管和肺的原基"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 190,
+    "chapter": "消化系统和呼吸系统的发生",
+    "question": "关于透明膜病的发生，正确的是 A肺泡I型细胞发生病变，不能产生足够表面活性物质",
+    "options": [
+      {
+        "key": "B",
+        "text": "肺泡II型细胞分化不良，不能产生足够表面活性物质"
+      },
+      {
+        "key": "C",
+        "text": "肺泡表面覆盖大量黏液"
+      },
+      {
+        "key": "D",
+        "text": "肺泡隔内毛细血管发育不良"
+      },
+      {
+        "key": "E",
+        "text": "肺泡巨噬细胞发生变性"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 191,
+    "chapter": "消化腺",
+    "question": "浆液性腺泡腺细胞基部有较多",
+    "options": [
+      {
+        "key": "A",
+        "text": "分泌颗粒"
+      },
+      {
+        "key": "B",
+        "text": "滑面内质网和核糖体"
+      },
+      {
+        "key": "C",
+        "text": "粗面内质网和核糖体"
+      },
+      {
+        "key": "D",
+        "text": "线粒体"
+      },
+      {
+        "key": "E",
+        "text": "合成的产物"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 192,
+    "chapter": "消化腺",
+    "question": "以下器官中以黏液性腺泡为主的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "下颌下腺"
+      },
+      {
+        "key": "B",
+        "text": "腮腺"
+      },
+      {
+        "key": "C",
+        "text": "舌下腺"
+      },
+      {
+        "key": "D",
+        "text": "胰腺"
+      },
+      {
+        "key": "E",
+        "text": "肝脏"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 193,
+    "chapter": "消化腺",
+    "question": "泡心细胞是由以下哪种细胞延伸到胰腺腺泡腔内所致",
+    "options": [
+      {
+        "key": "A",
+        "text": "腺泡细胞"
+      },
+      {
+        "key": "B",
+        "text": "胰岛细胞"
+      },
+      {
+        "key": "C",
+        "text": "闰管上皮细胞"
+      },
+      {
+        "key": "D",
+        "text": "小叶内导管上皮细胞"
+      },
+      {
+        "key": "E",
+        "text": "小叶间导管上皮细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 194,
+    "chapter": "消化腺",
+    "question": "组成胰腺外分泌部的腺泡是",
+    "options": [
+      {
+        "key": "A",
+        "text": "纯浆液性"
+      },
+      {
+        "key": "B",
+        "text": "纯黏液性"
+      },
+      {
+        "key": "C",
+        "text": "混合性"
+      },
+      {
+        "key": "D",
+        "text": "混合性，半月为主"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 195,
+    "chapter": "消化腺",
+    "question": "以下关于胰岛的描述中，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "有丰富的毛细血管"
+      },
+      {
+        "key": "B",
+        "text": "胰头部分布较多"
+      },
+      {
+        "key": "C",
+        "text": "胰岛为大小不等的细胞团         D.细胞排列成团、索状"
+      },
+      {
+        "key": "E",
+        "text": "主要由A、B、D细胞组成"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 196,
+    "chapter": "消化腺",
+    "question": "胰岛A细胞分泌",
+    "options": [
+      {
+        "key": "A",
+        "text": "胰高血糖素"
+      },
+      {
+        "key": "B",
+        "text": "胰岛素"
+      },
+      {
+        "key": "C",
+        "text": "生长抑素"
+      },
+      {
+        "key": "D",
+        "text": "胰多肽"
+      },
+      {
+        "key": "E",
+        "text": "胰蛋白酶"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 197,
+    "chapter": "消化腺",
+    "question": "糖尿病可因下列哪种细胞退化所致",
+    "options": [
+      {
+        "key": "A",
+        "text": "胰岛 A细胞                     B.胰岛 B细胞"
+      },
+      {
+        "key": "C",
+        "text": "胰岛 D细胞                     D.胰岛 PP细胞"
+      },
+      {
+        "key": "E",
+        "text": "泡心细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 198,
+    "chapter": "消化腺",
+    "question": "肝的基本结构和功能单位是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肝细胞板"
+      },
+      {
+        "key": "B",
+        "text": "肝血窦"
+      },
+      {
+        "key": "C",
+        "text": "胆小管"
+      },
+      {
+        "key": "D",
+        "text": "肝小叶"
+      },
+      {
+        "key": "E",
+        "text": "门管区"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 199,
+    "chapter": "消化腺",
+    "question": "关于人肝小叶的结构，哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "中央静脉的管壁无平滑肌"
+      },
+      {
+        "key": "B",
+        "text": "肝小叶分界很明显"
+      },
+      {
+        "key": "C",
+        "text": "是肝的结构和功能单位"
+      },
+      {
+        "key": "D",
+        "text": "胆小管在肝板内互连成网"
+      },
+      {
+        "key": "E",
+        "text": "相邻肝板之间为肝血窦"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 200,
+    "chapter": "消化腺",
+    "question": "关于肝细胞的超微结构，哪一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "胞质内含有大量粗面内质网"
+      },
+      {
+        "key": "B",
+        "text": "胞质内含有大量滑面内质网"
+      },
+      {
+        "key": "C",
+        "text": "胞质内含有大量溶酶体"
+      },
+      {
+        "key": "D",
+        "text": "胞质内含有大量高尔基复合体"
+      },
+      {
+        "key": "E",
+        "text": "胞质内含有大量脂滴"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 201,
+    "chapter": "消化腺",
+    "question": "在肝细胞内合成多种血浆蛋白的细胞器是",
+    "options": [
+      {
+        "key": "A",
+        "text": "粗面内质网"
+      },
+      {
+        "key": "B",
+        "text": "滑面内质网"
+      },
+      {
+        "key": "C",
+        "text": "溶酶体"
+      },
+      {
+        "key": "D",
+        "text": "高尔基复合体"
+      },
+      {
+        "key": "E",
+        "text": "微体"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 202,
+    "chapter": "消化腺",
+    "question": "分泌胆汁的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "胆小管"
+      },
+      {
+        "key": "B",
+        "text": "胆管"
+      },
+      {
+        "key": "C",
+        "text": "胆囊"
+      },
+      {
+        "key": "D",
+        "text": "肝细胞"
+      },
+      {
+        "key": "E",
+        "text": "肝血窦"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 203,
+    "chapter": "消化腺",
+    "question": "在肝内具有吞噬功能的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肝细胞"
+      },
+      {
+        "key": "B",
+        "text": "肝血窦内皮细胞"
+      },
+      {
+        "key": "C",
+        "text": "淋巴细胞"
+      },
+      {
+        "key": "D",
+        "text": "肝巨噬细胞"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 204,
+    "chapter": "消化腺",
+    "question": "胆小管管壁是由以下哪种细胞膜组成的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "肝血窦内皮细胞"
+      },
+      {
+        "key": "B",
+        "text": "小叶间胆管管壁细胞"
+      },
+      {
+        "key": "C",
+        "text": "肝细胞"
+      },
+      {
+        "key": "D",
+        "text": "肝巨噬细胞"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 205,
+    "chapter": "消化腺",
+    "question": "有关肝血窦的特点，错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "有完整的基膜"
+      },
+      {
+        "key": "B",
+        "text": "内皮细胞之间有较大的间隙"
+      },
+      {
+        "key": "C",
+        "text": "内皮细胞为有孔型"
+      },
+      {
+        "key": "D",
+        "text": "形态不规则"
+      },
+      {
+        "key": "E",
+        "text": "血窦内血液汇入中央静脉"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 206,
+    "chapter": "消化腺",
+    "question": "窦周隙位于",
+    "options": [
+      {
+        "key": "A",
+        "text": "肝细胞与肝细胞之间"
+      },
+      {
+        "key": "B",
+        "text": "肝血窦与肝血窦之间"
+      },
+      {
+        "key": "C",
+        "text": "肝血窦内皮与肝细胞之间"
+      },
+      {
+        "key": "D",
+        "text": "肝血窦内皮与胆小管之间"
+      },
+      {
+        "key": "E",
+        "text": "肝细胞与胆小管之间"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 207,
+    "chapter": "消化腺",
+    "question": "肝小叶内能产生纤维的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "血窦内皮细胞"
+      },
+      {
+        "key": "B",
+        "text": "肝细胞"
+      },
+      {
+        "key": "C",
+        "text": "库普弗细胞"
+      },
+      {
+        "key": "D",
+        "text": "贮脂细胞"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 208,
+    "chapter": "消化腺",
+    "question": "肝门管区有哪三种伴行的管道？",
+    "options": [
+      {
+        "key": "A",
+        "text": "小叶间动脉、小叶间静脉、小叶间肝管"
+      },
+      {
+        "key": "B",
+        "text": "小叶间动脉、小叶间静脉、小叶间胆管"
+      },
+      {
+        "key": "C",
+        "text": "小叶间动脉、小叶间静脉、小叶外胆管"
+      },
+      {
+        "key": "D",
+        "text": "小叶间动脉、小叶下静脉、小叶间肝管"
+      },
+      {
+        "key": "E",
+        "text": "小叶内动脉、小叶间静脉、小叶间肝管"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 209,
+    "chapter": "男性生殖系统",
+    "question": "精子发生是指",
+    "options": [
+      {
+        "key": "A",
+        "text": "精子细胞变态形成精子的过程"
+      },
+      {
+        "key": "B",
+        "text": "精原细胞形成精子的过程"
+      },
+      {
+        "key": "C",
+        "text": "初级精母细胞至精子形成的过程"
+      },
+      {
+        "key": "D",
+        "text": "生精细胞的两次成熟分裂过程"
+      },
+      {
+        "key": "E",
+        "text": "精子形成以后到受精的过程"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 210,
+    "chapter": "男性生殖系统",
+    "question": "成人生精小管管壁的生精上皮由以下哪些细胞组成",
+    "options": [
+      {
+        "key": "A",
+        "text": "支持细胞和生精细胞"
+      },
+      {
+        "key": "B",
+        "text": "支持细胞和间质细胞."
+      },
+      {
+        "key": "C",
+        "text": "生精细胞和间质细胞"
+      },
+      {
+        "key": "D",
+        "text": "支持细胞和精原细胞"
+      },
+      {
+        "key": "E",
+        "text": "精原细胞和间质细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 211,
+    "chapter": "男性生殖系统",
+    "question": "睾丸间质细胞属于下列哪类细胞",
+    "options": [
+      {
+        "key": "A",
+        "text": "分泌黏液的细胞"
+      },
+      {
+        "key": "B",
+        "text": "分泌类固醇激素的细胞"
+      },
+      {
+        "key": "C",
+        "text": "分泌含氮类激素的细胞"
+      },
+      {
+        "key": "D",
+        "text": "肌上皮细胞"
+      },
+      {
+        "key": "E",
+        "text": "吞噬细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 212,
+    "chapter": "男性生殖系统",
+    "question": "关于支持细胞的描述，下列哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "呈柱状，轮廓清晰"
+      },
+      {
+        "key": "B",
+        "text": "核不规则,浅染,核仁明显"
+      },
+      {
+        "key": "C",
+        "text": "细胞基部位于基膜上,顶部伸至腔面"
+      },
+      {
+        "key": "D",
+        "text": "胞质内细胞器发达"
+      },
+      {
+        "key": "E",
+        "text": "相邻细胞基部侧面有紧密连接"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 213,
+    "chapter": "男性生殖系统",
+    "question": "关于支持细胞的功能，以下哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "对生精细胞有支持和营养作用"
+      },
+      {
+        "key": "B",
+        "text": "参与精子的释放"
+      },
+      {
+        "key": "C",
+        "text": "吞噬精子形成时脱落的残余胞质"
+      },
+      {
+        "key": "D",
+        "text": "合成雄激素"
+      },
+      {
+        "key": "E",
+        "text": "参与血-睾屏障的构成"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 214,
+    "chapter": "男性生殖系统",
+    "question": "关于睾丸间质细胞的描述，下列哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "呈圆形或多边形,成群分布"
+      },
+      {
+        "key": "B",
+        "text": "胞质丰富,嗜酸性"
+      },
+      {
+        "key": "C",
+        "text": "胞质内含分泌颗粒"
+      },
+      {
+        "key": "D",
+        "text": "胞质含滑面内质网,管状嵴线粒体"
+      },
+      {
+        "key": "E",
+        "text": "合成雄激素"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 215,
+    "chapter": "男性生殖系统",
+    "question": "睾丸合成和分泌雄激素的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "支持细胞"
+      },
+      {
+        "key": "B",
+        "text": "生精细胞"
+      },
+      {
+        "key": "C",
+        "text": "精原细胞"
+      },
+      {
+        "key": "D",
+        "text": "间质细胞"
+      },
+      {
+        "key": "E",
+        "text": "精母细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 216,
+    "chapter": "男性生殖系统",
+    "question": "关于精子的结构哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "头部主要含有一浓缩的细胞核和顶体"
+      },
+      {
+        "key": "B",
+        "text": "顶体内含有水解酶"
+      },
+      {
+        "key": "C",
+        "text": "主段有轴丝和线粒体鞘"
+      },
+      {
+        "key": "D",
+        "text": "中段有轴丝和线粒体鞘"
+      },
+      {
+        "key": "E",
+        "text": "末段只有轴丝"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 217,
+    "chapter": "男性生殖系统",
+    "question": "血-睾屏障的组成中不含有",
+    "options": [
+      {
+        "key": "A",
+        "text": "生精上皮基膜外侧的结缔组织"
+      },
+      {
+        "key": "B",
+        "text": "生精上皮基膜"
+      },
+      {
+        "key": "C",
+        "text": "支持细胞基底面细胞膜"
+      },
+      {
+        "key": "D",
+        "text": "血管内皮及其基膜"
+      },
+      {
+        "key": "E",
+        "text": "支持细胞间的紧密连接"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 218,
+    "chapter": "男性生殖系统",
+    "question": "形成精子顶体的细胞器是",
+    "options": [
+      {
+        "key": "A",
+        "text": "高尔基复合体"
+      },
+      {
+        "key": "B",
+        "text": "中心体"
+      },
+      {
+        "key": "C",
+        "text": "核糖体"
+      },
+      {
+        "key": "D",
+        "text": "线粒体"
+      },
+      {
+        "key": "E",
+        "text": "粗面内质网"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 219,
+    "chapter": "男性生殖系统",
+    "question": "睾丸的功能是",
+    "options": [
+      {
+        "key": "A",
+        "text": "产生精子"
+      },
+      {
+        "key": "B",
+        "text": "产生精子和分泌雄激素"
+      },
+      {
+        "key": "C",
+        "text": "产生精子和分泌雄激素.雌激素"
+      },
+      {
+        "key": "D",
+        "text": "产生精子和分泌雄激素结合蛋白"
+      },
+      {
+        "key": "E",
+        "text": "产生精子细胞和支持细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 220,
+    "chapter": "男性生殖系统",
+    "question": "生精小管内最先形成的单倍体细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "初级精母细胞"
+      },
+      {
+        "key": "B",
+        "text": "次级精母细胞"
+      },
+      {
+        "key": "C",
+        "text": "精子细胞"
+      },
+      {
+        "key": "D",
+        "text": "精原细胞"
+      },
+      {
+        "key": "E",
+        "text": "精子"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 221,
+    "chapter": "男性生殖系统",
+    "question": "睾丸的结构不包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "白膜"
+      },
+      {
+        "key": "B",
+        "text": "输出小管"
+      },
+      {
+        "key": "C",
+        "text": "生精小管"
+      },
+      {
+        "key": "D",
+        "text": "直精小管"
+      },
+      {
+        "key": "E",
+        "text": "睾丸网"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 222,
+    "chapter": "男性生殖系统",
+    "question": "进行第二次减数分裂的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "精原细胞"
+      },
+      {
+        "key": "B",
+        "text": "初级精母细胞"
+      },
+      {
+        "key": "C",
+        "text": "次级精母细胞"
+      },
+      {
+        "key": "D",
+        "text": "精子细胞"
+      },
+      {
+        "key": "E",
+        "text": "精子"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 223,
+    "chapter": "男性生殖系统",
+    "question": "关于附睾管的描述，下列哪项是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "为一条长4-6m并极度蟠曲的管道"
+      },
+      {
+        "key": "B",
+        "text": "管腔规则"
+      },
+      {
+        "key": "C",
+        "text": "腔内充满精子"
+      },
+      {
+        "key": "D",
+        "text": "上皮为假复层纤毛柱状"
+      },
+      {
+        "key": "E",
+        "text": "构成附睾的体部"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 224,
+    "chapter": "男性生殖系统",
+    "question": "精子获得功能成熟的部位是",
+    "options": [
+      {
+        "key": "A",
+        "text": "生精小管"
+      },
+      {
+        "key": "B",
+        "text": "直精小管"
+      },
+      {
+        "key": "C",
+        "text": "睾丸网"
+      },
+      {
+        "key": "D",
+        "text": "输出小管"
+      },
+      {
+        "key": "E",
+        "text": "附睾管"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 225,
+    "chapter": "皮肤",
+    "question": "表皮主要由下列哪两类细胞组成",
+    "options": [
+      {
+        "key": "A",
+        "text": "角质细胞和非角质形成细胞"
+      },
+      {
+        "key": "B",
+        "text": "上皮细胞和树突状细胞"
+      },
+      {
+        "key": "C",
+        "text": "角质形成细胞的黑素细胞"
+      },
+      {
+        "key": "D",
+        "text": "角质形成细胞和非角质形成细胞"
+      },
+      {
+        "key": "E",
+        "text": "以上都不对"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 226,
+    "chapter": "皮肤",
+    "question": "皮肤表皮中，具有分裂增殖能力的细胞常见于",
+    "options": [
+      {
+        "key": "A",
+        "text": "基底层"
+      },
+      {
+        "key": "B",
+        "text": "棘层"
+      },
+      {
+        "key": "C",
+        "text": "颗粒层"
+      },
+      {
+        "key": "D",
+        "text": "透明层"
+      },
+      {
+        "key": "E",
+        "text": "角质层"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 227,
+    "chapter": "皮肤",
+    "question": "角质细胞的特征是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞呈立方形，细胞核与细胞器消失，胞质嗜酸性"
+      },
+      {
+        "key": "B",
+        "text": "细胞界限不清，细胞核大而圆，胞质嗜碱性"
+      },
+      {
+        "key": "C",
+        "text": "细胞界限不清，细胞核与细胞器消失，胞质嗜酸性"
+      },
+      {
+        "key": "D",
+        "text": "细胞呈扁平状，细胞核弱嗜碱性，细胞器发达，胞质嗜酸性"
+      },
+      {
+        "key": "E",
+        "text": "细胞呈梭形，细胞核圆形，核蛋白体丰富，胞质嗜碱性"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 228,
+    "chapter": "皮肤",
+    "question": "下列哪种物质不是角质形成细胞产生的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "张力原纤维"
+      },
+      {
+        "key": "B",
+        "text": "黑素体"
+      },
+      {
+        "key": "C",
+        "text": "膜被颗粒"
+      },
+      {
+        "key": "D",
+        "text": "透明角质颗粒"
+      },
+      {
+        "key": "E",
+        "text": "张力细丝"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 229,
+    "chapter": "皮肤",
+    "question": "下列哪种细胞的细胞质内无细胞核和细胞器",
+    "options": [
+      {
+        "key": "A",
+        "text": "角质细胞"
+      },
+      {
+        "key": "B",
+        "text": "基底细胞"
+      },
+      {
+        "key": "C",
+        "text": "郎格汉斯细胞"
+      },
+      {
+        "key": "D",
+        "text": "梅克尔细胞"
+      },
+      {
+        "key": "E",
+        "text": "棘细胞"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 230,
+    "chapter": "皮肤",
+    "question": "表皮细胞不断死亡和脱落，由于下列哪层细胞增殖向表层推移",
+    "options": [
+      {
+        "key": "A",
+        "text": "透明层"
+      },
+      {
+        "key": "B",
+        "text": "角质层"
+      },
+      {
+        "key": "C",
+        "text": "基底层"
+      },
+      {
+        "key": "D",
+        "text": "乳头层"
+      },
+      {
+        "key": "E",
+        "text": "棘层"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 231,
+    "chapter": "皮肤",
+    "question": "角质层的作用是",
+    "options": [
+      {
+        "key": "A",
+        "text": "调节体温"
+      },
+      {
+        "key": "B",
+        "text": "排出代谢产物"
+      },
+      {
+        "key": "C",
+        "text": "防止外界物质侵害和体内水分丢失"
+      },
+      {
+        "key": "D",
+        "text": "感觉外界刺激"
+      },
+      {
+        "key": "E",
+        "text": "防止深部组织遭受辐射损伤"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 232,
+    "chapter": "皮肤",
+    "question": "对皮肤颜色具有决定作用的结构是",
+    "options": [
+      {
+        "key": "A",
+        "text": "黑素体"
+      },
+      {
+        "key": "B",
+        "text": "透明角质颗粒"
+      },
+      {
+        "key": "C",
+        "text": "黑素颗粒"
+      },
+      {
+        "key": "D",
+        "text": "板层颗粒"
+      },
+      {
+        "key": "E",
+        "text": "伯贝克颗粒"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 233,
+    "chapter": "皮肤",
+    "question": "下列哪一项不是皮肤表皮的衍生物",
+    "options": [
+      {
+        "key": "A",
+        "text": "毛囊"
+      },
+      {
+        "key": "B",
+        "text": "汗腺"
+      },
+      {
+        "key": "C",
+        "text": "皮脂腺"
+      },
+      {
+        "key": "D",
+        "text": "环层小体"
+      },
+      {
+        "key": "E",
+        "text": "指（趾）甲"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 234,
+    "chapter": "皮肤",
+    "question": "白化病的原因是",
+    "options": [
+      {
+        "key": "A",
+        "text": "表皮内无黑素细胞"
+      },
+      {
+        "key": "B",
+        "text": "表皮内黑素细胞数量过少"
+      },
+      {
+        "key": "C",
+        "text": "黑素细胞不能形成黑色素"
+      },
+      {
+        "key": "D",
+        "text": "黑素体黑素化不完全"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 235,
+    "chapter": "神经组织",
+    "question": "神经组织的基本组成成分是",
+    "options": [
+      {
+        "key": "A",
+        "text": "神经细胞和基质"
+      },
+      {
+        "key": "B",
+        "text": "神经细胞和神经纤维"
+      },
+      {
+        "key": "C",
+        "text": "神经细胞和树突、轴突          D. 神经细胞和神经胶质细胞"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 236,
+    "chapter": "神经组织",
+    "question": "神经细胞接受刺激并传导冲动是通过：",
+    "options": [
+      {
+        "key": "A",
+        "text": "尼氏体"
+      },
+      {
+        "key": "B",
+        "text": "线粒体"
+      },
+      {
+        "key": "C",
+        "text": "神经丝"
+      },
+      {
+        "key": "D",
+        "text": "细胞膜"
+      },
+      {
+        "key": "E",
+        "text": "微丝"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 237,
+    "chapter": "神经组织",
+    "question": "神经元具有活跃的合成蛋白质的功能，其原因是胞体内含有大量 的（    ）",
+    "options": [
+      {
+        "key": "A",
+        "text": "粗面内质网和游离核糖体"
+      },
+      {
+        "key": "B",
+        "text": "粗面内质网和高尔基复合体"
+      },
+      {
+        "key": "C",
+        "text": "游离核糖体和高尔基复合体"
+      },
+      {
+        "key": "D",
+        "text": "线粒体和粗面内质网"
+      },
+      {
+        "key": "E",
+        "text": "线粒体和核糖体"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 238,
+    "chapter": "神经组织",
+    "question": "尼氏体分布在神经细胞的",
+    "options": [
+      {
+        "key": "A",
+        "text": "轴突内"
+      },
+      {
+        "key": "B",
+        "text": "细胞体和树突内"
+      },
+      {
+        "key": "C",
+        "text": "细胞体和轴突内"
+      },
+      {
+        "key": "D",
+        "text": "树突和轴突内"
+      },
+      {
+        "key": "E",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 239,
+    "chapter": "神经组织",
+    "question": "神经原纤维分布在神经元的",
+    "options": [
+      {
+        "key": "A",
+        "text": "胞体和突起"
+      },
+      {
+        "key": "B",
+        "text": "胞体和树突"
+      },
+      {
+        "key": "C",
+        "text": "胞体和轴突"
+      },
+      {
+        "key": "D",
+        "text": "胞体"
+      },
+      {
+        "key": "E",
+        "text": "树突和轴突"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 240,
+    "chapter": "神经组织",
+    "question": "关于突触的描述中，那一项是错误的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "是神经元与神经元之间，或神经元与非神经元之间特化的细胞"
+      },
+      {
+        "key": "B",
+        "text": "可分为电突触和化学突触，通常泛指的突触是后者。"
+      },
+      {
+        "key": "C",
+        "text": "突触前成分包括突触前膜、线粒体和突触小泡"
+      },
+      {
+        "key": "D",
+        "text": "突触小泡内含有营养物质"
+      },
+      {
+        "key": "E",
+        "text": "突触后膜上有特异性受体"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 241,
+    "chapter": "神经组织",
+    "question": "化学突触的电镜结构包括：",
+    "options": [
+      {
+        "key": "A",
+        "text": "突触前膜、突触小泡、突触后膜"
+      },
+      {
+        "key": "B",
+        "text": "线粒体、突触小泡、突触前膜"
+      },
+      {
+        "key": "C",
+        "text": "突触小泡、突触间隙、突触后膜"
+      },
+      {
+        "key": "D",
+        "text": "突触前成分、突触间隙、突触后成分"
+      },
+      {
+        "key": "E",
+        "text": "突触小泡、突触间隙、特异性受体"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 242,
+    "chapter": "神经组织",
+    "question": "在突触中，神经递质的相应受体存在于",
+    "options": [
+      {
+        "key": "A",
+        "text": "突触前膜上"
+      },
+      {
+        "key": "B",
+        "text": "突触后膜上"
+      },
+      {
+        "key": "C",
+        "text": "突触间隙内"
+      },
+      {
+        "key": "D",
+        "text": "突触后成分的胞质内"
+      },
+      {
+        "key": "E",
+        "text": "突触前成分的胞浆内"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 243,
+    "chapter": "神经组织",
+    "question": "电突触是指",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞间的紧密连接"
+      },
+      {
+        "key": "B",
+        "text": "细胞膜的融合处"
+      },
+      {
+        "key": "C",
+        "text": "细胞间的缝隙连接"
+      },
+      {
+        "key": "D",
+        "text": "细胞间的中间连接"
+      },
+      {
+        "key": "E",
+        "text": "细胞间的桥粒连接"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 244,
+    "chapter": "神经组织",
+    "question": "来源于血液单核细胞且有吞噬功能的神经胶质细胞是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "神经膜细胞"
+      },
+      {
+        "key": "B",
+        "text": "小胶质细胞"
+      },
+      {
+        "key": "C",
+        "text": "少突胶质细胞"
+      },
+      {
+        "key": "D",
+        "text": "卫星细胞"
+      },
+      {
+        "key": "E",
+        "text": "星形胶质细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 245,
+    "chapter": "神经组织",
+    "question": "中枢神经系统的神经胶质细胞不包括：",
+    "options": [
+      {
+        "key": "A",
+        "text": "星形胶质细胞"
+      },
+      {
+        "key": "B",
+        "text": "室管膜细胞"
+      },
+      {
+        "key": "C",
+        "text": "少突胶质细胞"
+      },
+      {
+        "key": "D",
+        "text": "卫星细胞"
+      },
+      {
+        "key": "E",
+        "text": "小胶质细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 246,
+    "chapter": "神经组织",
+    "question": "周围神经系统的髓鞘形成细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "星形胶质细胞"
+      },
+      {
+        "key": "B",
+        "text": "少突胶质细胞"
+      },
+      {
+        "key": "C",
+        "text": "小胶质细胞"
+      },
+      {
+        "key": "D",
+        "text": "室管膜细胞"
+      },
+      {
+        "key": "E",
+        "text": "施万细胞"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 247,
+    "chapter": "神经组织",
+    "question": "关于周围神经系统中有髓神经纤维的描述，错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "轴突外包施万细胞"
+      },
+      {
+        "key": "B",
+        "text": "髓鞘有节段性"
+      },
+      {
+        "key": "C",
+        "text": "轴突越粗，髓鞘越厚，结间体越长、"
+      },
+      {
+        "key": "D",
+        "text": "结间体越长，传导速度越慢"
+      },
+      {
+        "key": "E",
+        "text": "郎飞结处的轴膜部分裸露"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 248,
+    "chapter": "神经组织",
+    "question": "中枢神经系统的神经纤维的髓鞘是由哪种细胞形成的",
+    "options": [
+      {
+        "key": "A",
+        "text": "施万细胞"
+      },
+      {
+        "key": "B",
+        "text": "小胶质细胞"
+      },
+      {
+        "key": "C",
+        "text": "少突胶质细胞"
+      },
+      {
+        "key": "D",
+        "text": "星形胶质细胞"
+      },
+      {
+        "key": "E",
+        "text": "室管膜细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 249,
+    "chapter": "神经组织",
+    "question": "髓鞘的主要化学成分是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "蛋白质"
+      },
+      {
+        "key": "B",
+        "text": "脂类和蛋白质"
+      },
+      {
+        "key": "C",
+        "text": "多糖和蛋白质"
+      },
+      {
+        "key": "D",
+        "text": "单糖和脂类"
+      },
+      {
+        "key": "E",
+        "text": "多糖"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 250,
+    "chapter": "神经组织",
+    "question": "有髓神经纤维神经冲动的传递是",
+    "options": [
+      {
+        "key": "A",
+        "text": "在轴膜上连续进行的"
+      },
+      {
+        "key": "B",
+        "text": "由一个施-兰切迹跳到下一个施-兰切迹"
+      },
+      {
+        "key": "C",
+        "text": "在施万细胞膜上传递"
+      },
+      {
+        "key": "D",
+        "text": "由一个郎飞结跳到下一个郎飞结"
+      },
+      {
+        "key": "E",
+        "text": "由一个结间体跳到下一个结间体"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 251,
+    "chapter": "绪论",
+    "question": "以下哪一种组织不属于人体的基本组织？",
+    "options": [
+      {
+        "key": "A",
+        "text": "上皮组织"
+      },
+      {
+        "key": "B",
+        "text": "结缔组织"
+      },
+      {
+        "key": "C",
+        "text": "网状组织"
+      },
+      {
+        "key": "D",
+        "text": "肌肉组织"
+      },
+      {
+        "key": "E",
+        "text": "神经组织"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 252,
+    "chapter": "绪论",
+    "question": "组织学中最常用的制片技术是",
+    "options": [
+      {
+        "key": "A",
+        "text": "石蜡切片"
+      },
+      {
+        "key": "B",
+        "text": "火棉胶切片"
+      },
+      {
+        "key": "C",
+        "text": "冰冻切片"
+      },
+      {
+        "key": "D",
+        "text": "涂片"
+      },
+      {
+        "key": "E",
+        "text": "铺片"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 253,
+    "chapter": "绪论",
+    "question": "以下关于组织学技术的描述错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "组织细胞成分能被酸性染料染色，称为嗜酸性"
+      },
+      {
+        "key": "B",
+        "text": "组织细胞成分能被碱性染料染色，称为嗜碱性"
+      },
+      {
+        "key": "C",
+        "text": "组织细胞成分对酸性、碱性染料的亲和力均不强，称为中性"
+      },
+      {
+        "key": "D",
+        "text": "组织细胞成分染色后呈颜色与将其染色的染料颜色不同，称"
+      },
+      {
+        "key": "E",
+        "text": "用银盐染色时，有些组织结构可直接使银离子还原为银颗粒"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 254,
+    "chapter": "绪论",
+    "question": "涂片一般适用于",
+    "options": [
+      {
+        "key": "A",
+        "text": "上皮组织"
+      },
+      {
+        "key": "B",
+        "text": "骨组织"
+      },
+      {
+        "key": "C",
+        "text": "肌组织"
+      },
+      {
+        "key": "D",
+        "text": "神经组织"
+      },
+      {
+        "key": "E",
+        "text": "血液"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 255,
+    "chapter": "绪论",
+    "question": "PAS反应用于分析",
+    "options": [
+      {
+        "key": "A",
+        "text": "蛋白质"
+      },
+      {
+        "key": "B",
+        "text": "脂肪"
+      },
+      {
+        "key": "C",
+        "text": "多糖"
+      },
+      {
+        "key": "D",
+        "text": "维生素"
+      },
+      {
+        "key": "E",
+        "text": "核酸"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 256,
+    "chapter": "绪论",
+    "question": "扫描电镜术主要用于观察",
+    "options": [
+      {
+        "key": "A",
+        "text": "组织和细胞内部的微细结构"
+      },
+      {
+        "key": "B",
+        "text": "器官和细胞表面的立体微细结构"
+      },
+      {
+        "key": "C",
+        "text": "细胞断裂面的微细结构"
+      },
+      {
+        "key": "D",
+        "text": "各种细胞器的微细结构"
+      },
+      {
+        "key": "E",
+        "text": "细胞膜内蛋白质颗粒的分布"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 257,
+    "chapter": "绪论",
+    "question": "观察活细胞的形态和生长时应该用",
+    "options": [
+      {
+        "key": "A",
+        "text": "荧光显微镜"
+      },
+      {
+        "key": "B",
+        "text": "普通光学显微镜"
+      },
+      {
+        "key": "C",
+        "text": "暗视野显微镜"
+      },
+      {
+        "key": "D",
+        "text": "倒置相差显微镜"
+      },
+      {
+        "key": "E",
+        "text": "电子显微镜"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 258,
+    "chapter": "肌组织",
+    "question": "肌细胞膜又称",
+    "options": [
+      {
+        "key": "A",
+        "text": "肌膜"
+      },
+      {
+        "key": "B",
+        "text": "肌内膜"
+      },
+      {
+        "key": "C",
+        "text": "肌质"
+      },
+      {
+        "key": "D",
+        "text": "肌束膜"
+      },
+      {
+        "key": "E",
+        "text": "肌外膜"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 259,
+    "chapter": "肌组织",
+    "question": "骨骼肌纤维的光镜结构特点是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肌纤维呈细长圆柱形，多核，均匀分布于细胞中央"
+      },
+      {
+        "key": "B",
+        "text": "肌纤维呈细长圆柱形，多核，居肌膜下方"
+      },
+      {
+        "key": "C",
+        "text": "肌纤维呈细长圆柱形，单核，居细胞中央"
+      },
+      {
+        "key": "D",
+        "text": "肌纤维呈圆形或卵圆形，单核，居细胞中央"
+      },
+      {
+        "key": "E",
+        "text": "肌纤维呈圆形或卵圆形，多核，居细胞膜下方"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 260,
+    "chapter": "肌组织",
+    "question": "肌节包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "A带＋I带                    B. 1/2 A带＋I带＋1/2 A带"
+      },
+      {
+        "key": "C",
+        "text": "1/2 I带＋A带＋1/2 I带      D. I带＋H带"
+      },
+      {
+        "key": "E",
+        "text": "1/2 A带＋1/2 I带"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 261,
+    "chapter": "肌组织",
+    "question": "肌节中既有粗肌丝又有细肌丝的部位是",
+    "options": [
+      {
+        "key": "A",
+        "text": "A带                         B. I带"
+      },
+      {
+        "key": "C",
+        "text": "H带                         D. H带两侧的A带"
+      },
+      {
+        "key": "E",
+        "text": "Z线和M线"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 262,
+    "chapter": "肌组织",
+    "question": "骨骼肌纤维横纹的形成原因之一是",
+    "options": [
+      {
+        "key": "A",
+        "text": "明带和暗带的肌丝分布不同"
+      },
+      {
+        "key": "B",
+        "text": "明带和暗带内的肌质网含量不同"
+      },
+      {
+        "key": "C",
+        "text": "明带和暗带的横小管含量不同"
+      },
+      {
+        "key": "D",
+        "text": "明带和暗带内的线粒体数量不同"
+      },
+      {
+        "key": "E",
+        "text": "明带和暗带的糖原含量不同"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 263,
+    "chapter": "肌组织",
+    "question": "关于骨骼肌横小管，下列哪项正确",
+    "options": [
+      {
+        "key": "A",
+        "text": "是肌膜向肌质内凹陷形成"
+      },
+      {
+        "key": "B",
+        "text": "横小管与肌原纤维平行"
+      },
+      {
+        "key": "C",
+        "text": "分支吻合，环绕每根肌丝"
+      },
+      {
+        "key": "D",
+        "text": "哺乳类动物位于Z线水平"
+      },
+      {
+        "key": "E",
+        "text": "能贮存Ca2+"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 264,
+    "chapter": "肌组织",
+    "question": "肌质网是肌细胞内的",
+    "options": [
+      {
+        "key": "A",
+        "text": "粗面内质网"
+      },
+      {
+        "key": "B",
+        "text": "滑面内质网"
+      },
+      {
+        "key": "C",
+        "text": "细胞内小管"
+      },
+      {
+        "key": "D",
+        "text": "高尔基复合体"
+      },
+      {
+        "key": "E",
+        "text": "线粒体"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 265,
+    "chapter": "肌组织",
+    "question": "组成骨骼肌三联体的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "三条横小管"
+      },
+      {
+        "key": "B",
+        "text": "三条纵小管"
+      },
+      {
+        "key": "C",
+        "text": "二条平行的横小管及之间的纵小管"
+      },
+      {
+        "key": "D",
+        "text": "横小管及两侧终池"
+      },
+      {
+        "key": "E",
+        "text": "终池及两侧的横小管"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 266,
+    "chapter": "肌组织",
+    "question": "骨骼肌收缩时，下列哪项描述是错误的",
+    "options": [
+      {
+        "key": "A",
+        "text": "I带变短"
+      },
+      {
+        "key": "B",
+        "text": "H带变短"
+      },
+      {
+        "key": "C",
+        "text": "粗肌丝长度不变"
+      },
+      {
+        "key": "D",
+        "text": "细肌丝变短"
+      },
+      {
+        "key": "E",
+        "text": "肌节变短"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 267,
+    "chapter": "肌组织",
+    "question": "关于终池正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "肌膜内陷形成"
+      },
+      {
+        "key": "B",
+        "text": "横小管向两侧突出形成的膨大"
+      },
+      {
+        "key": "C",
+        "text": "滑面内质网形成"
+      },
+      {
+        "key": "D",
+        "text": "粗面内质网形成"
+      },
+      {
+        "key": "E",
+        "text": "储存能量"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 268,
+    "chapter": "肌组织",
+    "question": "骨骼肌纤维内的Ca2+储存在",
+    "options": [
+      {
+        "key": "A",
+        "text": "横小管内"
+      },
+      {
+        "key": "B",
+        "text": "肌质内"
+      },
+      {
+        "key": "C",
+        "text": "肌质网内"
+      },
+      {
+        "key": "D",
+        "text": "肌球蛋白上"
+      },
+      {
+        "key": "E",
+        "text": "肌动蛋白上"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 269,
+    "chapter": "肌组织",
+    "question": "关于心肌细胞，下列哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞短柱状，有分支，相连成网"
+      },
+      {
+        "key": "B",
+        "text": "多核，位于肌膜下方"
+      },
+      {
+        "key": "C",
+        "text": "胞质内有脂褐素"
+      },
+      {
+        "key": "D",
+        "text": "有横纹"
+      },
+      {
+        "key": "E",
+        "text": "肌纤维相连处称闰盘"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 270,
+    "chapter": "肌组织",
+    "question": "心肌闰盘横位部分位于",
+    "options": [
+      {
+        "key": "A",
+        "text": "Z线"
+      },
+      {
+        "key": "B",
+        "text": "M线"
+      },
+      {
+        "key": "C",
+        "text": "A带中任何一处              D. I带中任何一处"
+      },
+      {
+        "key": "E",
+        "text": "A带和I带交界处"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 271,
+    "chapter": "肌组织",
+    "question": "关于心肌超微结构，下列哪项正确",
+    "options": [
+      {
+        "key": "A",
+        "text": "闰盘纵位部分有紧密连接和中间连接"
+      },
+      {
+        "key": "B",
+        "text": "横小管位于明、暗带交界处"
+      },
+      {
+        "key": "C",
+        "text": "横小管与两侧终池构成三联体"
+      },
+      {
+        "key": "D",
+        "text": "闰盘横部位于M线水平"
+      },
+      {
+        "key": "E",
+        "text": "有粗、细两种肌丝"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 272,
+    "chapter": "肌组织",
+    "question": "电镜下心肌的闰盘部位可见",
+    "options": [
+      {
+        "key": "A",
+        "text": "紧密连接、中间连接和桥粒"
+      },
+      {
+        "key": "B",
+        "text": "紧密连接、中间连接和缝隙连接"
+      },
+      {
+        "key": "C",
+        "text": "紧密连接、桥粒和缝隙连接"
+      },
+      {
+        "key": "D",
+        "text": "中间连接、桥粒和缝隙连接"
+      },
+      {
+        "key": "E",
+        "text": "桥粒和缝隙连接"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 273,
+    "chapter": "肌组织",
+    "question": "关于平滑肌纤维，下列哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "分布在消化道、呼吸道"
+      },
+      {
+        "key": "B",
+        "text": "肌纤维呈长梭形"
+      },
+      {
+        "key": "C",
+        "text": "单核，位于细胞中央"
+      },
+      {
+        "key": "D",
+        "text": "有横纹但不明显"
+      },
+      {
+        "key": "E",
+        "text": "受自主神经支配"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 274,
+    "chapter": "胚胎总论",
+    "question": "受精的地点一般是在",
+    "options": [
+      {
+        "key": "A",
+        "text": "输卵管伞部"
+      },
+      {
+        "key": "B",
+        "text": "输卵管峡部"
+      },
+      {
+        "key": "C",
+        "text": "输卵管壶腹部"
+      },
+      {
+        "key": "D",
+        "text": "输卵管子宫部"
+      },
+      {
+        "key": "E",
+        "text": "子宫体和底部"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 275,
+    "chapter": "胚胎总论",
+    "question": "受精时精子穿入",
+    "options": [
+      {
+        "key": "A",
+        "text": "原始卵泡"
+      },
+      {
+        "key": "B",
+        "text": "卵原细胞"
+      },
+      {
+        "key": "C",
+        "text": "初级卵母细胞"
+      },
+      {
+        "key": "D",
+        "text": "次级卵母细胞"
+      },
+      {
+        "key": "E",
+        "text": "成熟卵细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 276,
+    "chapter": "胚胎总论",
+    "question": "受精后的第几天形成桑椹胚",
+    "options": [
+      {
+        "key": "A",
+        "text": "3天"
+      },
+      {
+        "key": "B",
+        "text": "4天"
+      },
+      {
+        "key": "C",
+        "text": "5-6天"
+      },
+      {
+        "key": "D",
+        "text": "11-12天"
+      },
+      {
+        "key": "E",
+        "text": "24小时"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 277,
+    "chapter": "胚胎总论",
+    "question": "植入时,胚泡首先与子宫内膜接触的部位是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞滋养层"
+      },
+      {
+        "key": "B",
+        "text": "极端滋养层"
+      },
+      {
+        "key": "C",
+        "text": "内细胞群"
+      },
+      {
+        "key": "D",
+        "text": "绒毛膜"
+      },
+      {
+        "key": "E",
+        "text": "透明带"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 278,
+    "chapter": "胚胎总论",
+    "question": "植入的部位通常在",
+    "options": [
+      {
+        "key": "A",
+        "text": "子宫前壁"
+      },
+      {
+        "key": "B",
+        "text": "子宫颈"
+      },
+      {
+        "key": "C",
+        "text": "子宫角"
+      },
+      {
+        "key": "D",
+        "text": "输卵管子宫部"
+      },
+      {
+        "key": "E",
+        "text": "子宫体和底部"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 279,
+    "chapter": "胚胎总论",
+    "question": "植入时的子宫内膜处于",
+    "options": [
+      {
+        "key": "A",
+        "text": "增生期"
+      },
+      {
+        "key": "B",
+        "text": "增生早期"
+      },
+      {
+        "key": "C",
+        "text": "分泌期"
+      },
+      {
+        "key": "D",
+        "text": "卵泡期"
+      },
+      {
+        "key": "E",
+        "text": "月经后期"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 280,
+    "chapter": "胚胎总论",
+    "question": "第几周形成二胚层胚盘",
+    "options": [
+      {
+        "key": "A",
+        "text": "第1周"
+      },
+      {
+        "key": "B",
+        "text": "第2周"
+      },
+      {
+        "key": "C",
+        "text": "第3周"
+      },
+      {
+        "key": "D",
+        "text": "第4周"
+      },
+      {
+        "key": "E",
+        "text": "第5周"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 281,
+    "chapter": "胚胎总论",
+    "question": "下面哪个结构分化为胚内中胚层",
+    "options": [
+      {
+        "key": "A",
+        "text": "滋养层"
+      },
+      {
+        "key": "B",
+        "text": "脊索"
+      },
+      {
+        "key": "C",
+        "text": "神经板"
+      },
+      {
+        "key": "D",
+        "text": "体节"
+      },
+      {
+        "key": "E",
+        "text": "原条"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 282,
+    "chapter": "胚胎总论",
+    "question": "下列哪个结构诱导神经板形成",
+    "options": [
+      {
+        "key": "A",
+        "text": "脊索"
+      },
+      {
+        "key": "B",
+        "text": "原结"
+      },
+      {
+        "key": "C",
+        "text": "圆凹"
+      },
+      {
+        "key": "D",
+        "text": "原沟"
+      },
+      {
+        "key": "E",
+        "text": "神经沟"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 283,
+    "chapter": "胚胎总论",
+    "question": "下列哪个结构不是内胚层分化的",
+    "options": [
+      {
+        "key": "A",
+        "text": "原始消化管"
+      },
+      {
+        "key": "B",
+        "text": "口和鼻腔上皮"
+      },
+      {
+        "key": "C",
+        "text": "肺的上皮"
+      },
+      {
+        "key": "D",
+        "text": "消化腺"
+      },
+      {
+        "key": "E",
+        "text": "胸腺"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 284,
+    "chapter": "胚胎总论",
+    "question": "下列哪个结构不是中胚层分化的",
+    "options": [
+      {
+        "key": "A",
+        "text": "脊柱"
+      },
+      {
+        "key": "B",
+        "text": "真皮"
+      },
+      {
+        "key": "C",
+        "text": "胚外中胚层"
+      },
+      {
+        "key": "D",
+        "text": "泌尿生殖系统"
+      },
+      {
+        "key": "E",
+        "text": "胚内体腔"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 285,
+    "chapter": "胚胎总论",
+    "question": "大部分中轴骨及其骨骼肌来源于",
+    "options": [
+      {
+        "key": "A",
+        "text": "胚外中胚层"
+      },
+      {
+        "key": "B",
+        "text": "间介中胚层"
+      },
+      {
+        "key": "C",
+        "text": "轴旁中胚层"
+      },
+      {
+        "key": "D",
+        "text": "间充质"
+      },
+      {
+        "key": "E",
+        "text": "体壁中胚层"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 286,
+    "chapter": "胚胎总论",
+    "question": "皮肤的表皮来源于",
+    "options": [
+      {
+        "key": "A",
+        "text": "内胚层"
+      },
+      {
+        "key": "B",
+        "text": "胚内中胚层"
+      },
+      {
+        "key": "C",
+        "text": "胚外中胚层"
+      },
+      {
+        "key": "D",
+        "text": "外胚层"
+      },
+      {
+        "key": "E",
+        "text": "体壁中胚层"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 287,
+    "chapter": "胚胎总论",
+    "question": "下列哪一结构不属于胎膜",
+    "options": [
+      {
+        "key": "A",
+        "text": "羊膜"
+      },
+      {
+        "key": "B",
+        "text": "绒毛膜"
+      },
+      {
+        "key": "C",
+        "text": "卵黄囊"
+      },
+      {
+        "key": "D",
+        "text": "尿囊"
+      },
+      {
+        "key": "E",
+        "text": "蜕膜"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 288,
+    "chapter": "胚胎总论",
+    "question": "胎盘绒毛膜间隙内含有",
+    "options": [
+      {
+        "key": "A",
+        "text": "胎儿血"
+      },
+      {
+        "key": "B",
+        "text": "胎儿与母体的血"
+      },
+      {
+        "key": "C",
+        "text": "羊水"
+      },
+      {
+        "key": "D",
+        "text": "组织液"
+      },
+      {
+        "key": "E",
+        "text": "母体血"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 289,
+    "chapter": "胚胎总论",
+    "question": "胎盘是由什么组成的 A,平滑绒毛膜和包蜕膜",
+    "options": [
+      {
+        "key": "B",
+        "text": "平滑绒毛膜和基蜕膜"
+      },
+      {
+        "key": "C",
+        "text": "丛密绒毛膜和底蜕膜"
+      },
+      {
+        "key": "D",
+        "text": "丛密绒毛膜和壁蜕膜"
+      },
+      {
+        "key": "E",
+        "text": "丛密绒毛膜"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 290,
+    "chapter": "胚胎总论",
+    "question": "下列哪个结构分隔了胎儿血和母体血液",
+    "options": [
+      {
+        "key": "A",
+        "text": "胚盘"
+      },
+      {
+        "key": "B",
+        "text": "胎盘膜"
+      },
+      {
+        "key": "C",
+        "text": "胎盘"
+      },
+      {
+        "key": "D",
+        "text": "胎膜"
+      },
+      {
+        "key": "E",
+        "text": "羊膜"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 291,
+    "chapter": "胚胎总论",
+    "question": "中枢神经系统的原基是",
+    "options": [
+      {
+        "key": "A",
+        "text": "神经管"
+      },
+      {
+        "key": "B",
+        "text": "神经沟"
+      },
+      {
+        "key": "C",
+        "text": "神经嵴"
+      },
+      {
+        "key": "D",
+        "text": "神经褶"
+      },
+      {
+        "key": "E",
+        "text": "神经板"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 292,
+    "chapter": "血液",
+    "question": "血液的组成成分是",
+    "options": [
+      {
+        "key": "A",
+        "text": "血浆、红细胞和白细胞      B．血浆和血细胞"
+      },
+      {
+        "key": "C",
+        "text": "血清和血细胞              D．红细胞、白细胞和血小板"
+      },
+      {
+        "key": "E",
+        "text": "血细胞和血小板"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 293,
+    "chapter": "血液",
+    "question": "观察血细胞常用的方法是",
+    "options": [
+      {
+        "key": "A",
+        "text": "涂片、Wright或Giemsa染色  B. 冰冻切片、H-E染色"
+      },
+      {
+        "key": "C",
+        "text": "涂片、H-E染色              D. 石蜡切片、H-E染色"
+      },
+      {
+        "key": "E",
+        "text": "石蜡切片、Wright或Giemsa染色"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 294,
+    "chapter": "血液",
+    "question": "关于成熟红细胞形态的叙述、下列哪项是错误的?",
+    "options": [
+      {
+        "key": "A",
+        "text": "直径平均为7.5微米        B．双凹圆盘状"
+      },
+      {
+        "key": "C",
+        "text": "无细胞核"
+      },
+      {
+        "key": "D",
+        "text": "胞质仅有少量的核糖体"
+      },
+      {
+        "key": "E",
+        "text": "胞质有血红蛋白"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 295,
+    "chapter": "血液",
+    "question": "网织红细胞的胞质内仅存的细胞器是",
+    "options": [
+      {
+        "key": "A",
+        "text": "线粒体"
+      },
+      {
+        "key": "B",
+        "text": "高尔基复合体"
+      },
+      {
+        "key": "C",
+        "text": "核糖体"
+      },
+      {
+        "key": "D",
+        "text": "微体"
+      },
+      {
+        "key": "E",
+        "text": "中心体"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 296,
+    "chapter": "血液",
+    "question": "正常成人外周血液中，网织红细胞占红细胞总数的",
+    "options": [
+      {
+        "key": "A",
+        "text": "5%                      B．2.5%"
+      },
+      {
+        "key": "C",
+        "text": "3%~6%                  D．0.5%~1.5%"
+      },
+      {
+        "key": "E",
+        "text": "10%"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 297,
+    "chapter": "血液",
+    "question": "血液中数量最多和最少的白细胞分别是",
+    "options": [
+      {
+        "key": "A",
+        "text": "中性粒细胞和单核细胞"
+      },
+      {
+        "key": "B",
+        "text": "淋巴细胞和嗜碱性粒细胞"
+      },
+      {
+        "key": "C",
+        "text": "中性粒细胞和嗜酸性粒细胞"
+      },
+      {
+        "key": "D",
+        "text": "中性粒细胞和嗜碱性粒细胞"
+      },
+      {
+        "key": "E",
+        "text": "淋巴细胞和单核细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 298,
+    "chapter": "血液",
+    "question": "区别三种有粒白细胞主要依据是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞大小"
+      },
+      {
+        "key": "B",
+        "text": "细胞核形态"
+      },
+      {
+        "key": "C",
+        "text": "有无嗜天青颗粒"
+      },
+      {
+        "key": "D",
+        "text": "颗粒的嗜色性"
+      },
+      {
+        "key": "E",
+        "text": "颗粒的数量"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 299,
+    "chapter": "血液",
+    "question": "脓细胞是由下列哪种细胞形成的?-",
+    "options": [
+      {
+        "key": "A",
+        "text": "单核细胞"
+      },
+      {
+        "key": "B",
+        "text": "嗜酸性粒细胞"
+      },
+      {
+        "key": "C",
+        "text": "嗜碱性拉细胞"
+      },
+      {
+        "key": "D",
+        "text": "中性粒细胞"
+      },
+      {
+        "key": "E",
+        "text": "淋巴细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 300,
+    "chapter": "血液",
+    "question": "下列细胞中具有吞噬功能的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "嗜碱性粒细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨核细胞"
+      },
+      {
+        "key": "C",
+        "text": "肥大细胞"
+      },
+      {
+        "key": "D",
+        "text": "浆细胞"
+      },
+      {
+        "key": "E",
+        "text": "中性粒细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 301,
+    "chapter": "血液",
+    "question": "下列关于单核细胞的描述错误的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "是白细胞中体积最大的细胞"
+      },
+      {
+        "key": "B",
+        "text": "胞质丰富，弱嗜碱性"
+      },
+      {
+        "key": "C",
+        "text": "进入结缔组织后分化为巨噬细胞"
+      },
+      {
+        "key": "D",
+        "text": "胞质内含许多细小的嗜天青颗粒"
+      },
+      {
+        "key": "E",
+        "text": "胞质内颗粒具有异染性"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 302,
+    "chapter": "血液",
+    "question": "可以减轻过敏反应的白细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "中性粒细胞"
+      },
+      {
+        "key": "B",
+        "text": "嗜酸性粒细胞"
+      },
+      {
+        "key": "C",
+        "text": "嗜碱性粒细胞"
+      },
+      {
+        "key": "D",
+        "text": "淋巴细胞"
+      },
+      {
+        "key": "E",
+        "text": "单核细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 303,
+    "chapter": "血液",
+    "question": "淋巴细胞的特点包括",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞大小不等"
+      },
+      {
+        "key": "B",
+        "text": "可分为不同类型"
+      },
+      {
+        "key": "C",
+        "text": "占白细胞总数的20%-30%"
+      },
+      {
+        "key": "D",
+        "text": "胞质内有少量的嗜天青颗粒"
+      },
+      {
+        "key": "E",
+        "text": "以上都是"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 304,
+    "chapter": "血液",
+    "question": "下列哪种细胞的颗粒内所含的物质与肥大细胞相似",
+    "options": [
+      {
+        "key": "A",
+        "text": "中性粒细胞"
+      },
+      {
+        "key": "B",
+        "text": "嗜酸性粒细胞"
+      },
+      {
+        "key": "C",
+        "text": "嗜碱性粒细胞"
+      },
+      {
+        "key": "D",
+        "text": "淋巴细胞"
+      },
+      {
+        "key": "E",
+        "text": "单核细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 305,
+    "chapter": "血液",
+    "question": "血小板由下列哪种细胞的胞质脱落形成",
+    "options": [
+      {
+        "key": "A",
+        "text": "巨噬细胞"
+      },
+      {
+        "key": "B",
+        "text": "巨核细胞"
+      },
+      {
+        "key": "C",
+        "text": "单核细胞"
+      },
+      {
+        "key": "D",
+        "text": "杆状核粒细胞"
+      },
+      {
+        "key": "E",
+        "text": "分叶核粒细胞"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 306,
+    "chapter": "血液",
+    "question": "关于血小板描述正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "是有核的细胞"
+      },
+      {
+        "key": "B",
+        "text": "细胞直径7-8um"
+      },
+      {
+        "key": "C",
+        "text": "胞质中有嗜碱性的特殊颗粒"
+      },
+      {
+        "key": "D",
+        "text": "胞质的特殊颗粒含组胺和肝素"
+      },
+      {
+        "key": "E",
+        "text": "在止血和凝血过程中起重要作用"
+      }
+    ],
+    "answer": null,
+    "explanation": null
+  },
+  {
+    "id": 307,
+    "chapter": "软骨与骨",
+    "question": "关于软骨组织的描述哪项是错的",
+    "options": [
+      {
+        "key": "A",
+        "text": "由细胞、纤维和基质构成"
+      },
+      {
+        "key": "B",
+        "text": "细胞成分为软骨细胞"
+      },
+      {
+        "key": "C",
+        "text": "基质呈凝胶状半固体状态"
+      },
+      {
+        "key": "D",
+        "text": "三种软骨组织所含有的纤维成分不同"
+      },
+      {
+        "key": "E",
+        "text": "有丰富的血管分布"
+      }
+    ],
+    "answer": "E",
+    "explanation": null
+  },
+  {
+    "id": 308,
+    "chapter": "软骨与骨",
+    "question": "能产生软骨组织细胞外基质的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "成纤维细胞"
+      },
+      {
+        "key": "B",
+        "text": "成骨细胞"
+      },
+      {
+        "key": "C",
+        "text": "软骨细胞"
+      },
+      {
+        "key": "D",
+        "text": "骨细胞"
+      },
+      {
+        "key": "E",
+        "text": "骨原细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 309,
+    "chapter": "软骨与骨",
+    "question": "透明软骨组织含有的纤维成分是",
+    "options": [
+      {
+        "key": "A",
+        "text": "胶原纤维"
+      },
+      {
+        "key": "B",
+        "text": "弹性纤维"
+      },
+      {
+        "key": "C",
+        "text": "网状纤维"
+      },
+      {
+        "key": "D",
+        "text": "胶原原纤维"
+      },
+      {
+        "key": "E",
+        "text": "微原纤维"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 310,
+    "chapter": "软骨与骨",
+    "question": "软骨囊是指",
+    "options": [
+      {
+        "key": "A",
+        "text": "软骨表面的疏松结缔组织"
+      },
+      {
+        "key": "B",
+        "text": "软骨表面的致密结缔组织"
+      },
+      {
+        "key": "C",
+        "text": "紧靠软骨陷窝周围的软骨基质"
+      },
+      {
+        "key": "D",
+        "text": "软骨细胞周围的胶原纤维"
+      },
+      {
+        "key": "E",
+        "text": "软骨细胞所在的空腔"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 311,
+    "chapter": "软骨与骨",
+    "question": "关于同源细胞群，描述正确的是",
+    "options": [
+      {
+        "key": "A",
+        "text": "单核细胞聚集而成"
+      },
+      {
+        "key": "B",
+        "text": "属于一种多核细胞"
+      },
+      {
+        "key": "C",
+        "text": "来源于同一个软骨细胞"
+      },
+      {
+        "key": "D",
+        "text": "是成骨细胞的前体"
+      },
+      {
+        "key": "E",
+        "text": "是破骨细胞的前体"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 312,
+    "chapter": "软骨与骨",
+    "question": "关于骨组织的描述哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "由骨细胞和骨基质构成"
+      },
+      {
+        "key": "B",
+        "text": "细胞间质为钙化的间质"
+      },
+      {
+        "key": "C",
+        "text": "骨盐是骨质坚硬的基础"
+      },
+      {
+        "key": "D",
+        "text": "纤维成分为胶原原纤维"
+      },
+      {
+        "key": "E",
+        "text": "含有丰富的血管"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 313,
+    "chapter": "软骨与骨",
+    "question": "关于骨质的描述哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "为钙化的细胞间质"
+      },
+      {
+        "key": "B",
+        "text": "有机成分为骨胶纤维和基质"
+      },
+      {
+        "key": "C",
+        "text": "无机成分为骨盐"
+      },
+      {
+        "key": "D",
+        "text": "为新形成的纤维和基质"
+      },
+      {
+        "key": "E",
+        "text": "为钙化的类骨质"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 314,
+    "chapter": "软骨与骨",
+    "question": "类骨质是指",
+    "options": [
+      {
+        "key": "A",
+        "text": "新形成尚无骨盐沉积的骨质"
+      },
+      {
+        "key": "B",
+        "text": "尚未形成骨板的骨质"
+      },
+      {
+        "key": "C",
+        "text": "黏合线处的骨质"
+      },
+      {
+        "key": "D",
+        "text": "软骨雏形的机制"
+      },
+      {
+        "key": "E",
+        "text": "中央管周围的基质"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 315,
+    "chapter": "软骨与骨",
+    "question": "关于骨组织细胞的描述哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "骨祖细胞是骨组织的干细胞"
+      },
+      {
+        "key": "B",
+        "text": "成骨细胞由骨原细胞分化形成"
+      },
+      {
+        "key": "C",
+        "text": "骨细胞由成骨细胞转化形成"
+      },
+      {
+        "key": "D",
+        "text": "破骨细胞由骨原细胞融合而成"
+      },
+      {
+        "key": "E",
+        "text": "骨原细胞由间充质细胞分化而来"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 316,
+    "chapter": "软骨与骨",
+    "question": "产生类骨质的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "骨原细胞"
+      },
+      {
+        "key": "B",
+        "text": "成骨细胞"
+      },
+      {
+        "key": "C",
+        "text": "骨细胞"
+      },
+      {
+        "key": "D",
+        "text": "破骨细胞"
+      },
+      {
+        "key": "E",
+        "text": "间充质细胞"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 317,
+    "chapter": "软骨与骨",
+    "question": "能溶解和吸收骨组织的细胞是",
+    "options": [
+      {
+        "key": "A",
+        "text": "骨原细胞"
+      },
+      {
+        "key": "B",
+        "text": "成骨细胞"
+      },
+      {
+        "key": "C",
+        "text": "骨细胞"
+      },
+      {
+        "key": "D",
+        "text": "破骨细胞"
+      },
+      {
+        "key": "E",
+        "text": "间充质细胞"
+      }
+    ],
+    "answer": "D",
+    "explanation": null
+  },
+  {
+    "id": 318,
+    "chapter": "软骨与骨",
+    "question": "关于成骨细胞的描述哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "胞质嗜碱性"
+      },
+      {
+        "key": "B",
+        "text": "含丰富的碱性磷酸酶"
+      },
+      {
+        "key": "C",
+        "text": "含丰富的滑面内质网和发达高尔基复合体"
+      },
+      {
+        "key": "D",
+        "text": "产生纤维和基质"
+      },
+      {
+        "key": "E",
+        "text": "功能静止时转化为骨被覆细胞"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 319,
+    "chapter": "软骨与骨",
+    "question": "相邻骨细胞突起间有",
+    "options": [
+      {
+        "key": "A",
+        "text": "桥粒"
+      },
+      {
+        "key": "B",
+        "text": "半桥粒"
+      },
+      {
+        "key": "C",
+        "text": "缝隙连接"
+      },
+      {
+        "key": "D",
+        "text": "中间连接"
+      },
+      {
+        "key": "E",
+        "text": "紧密连接"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 320,
+    "chapter": "软骨与骨",
+    "question": "关于破骨细胞的描述哪项错误",
+    "options": [
+      {
+        "key": "A",
+        "text": "为多核的大细胞"
+      },
+      {
+        "key": "B",
+        "text": "胞质嗜碱性"
+      },
+      {
+        "key": "C",
+        "text": "有大量线粒体和溶酶体"
+      },
+      {
+        "key": "D",
+        "text": "有许多吞噬泡"
+      },
+      {
+        "key": "E",
+        "text": "活跃时紧贴骨质一侧有皱褶缘"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 321,
+    "chapter": "软骨与骨",
+    "question": "软骨组织和骨组织的相同点是",
+    "options": [
+      {
+        "key": "A",
+        "text": "细胞位于陷窝内"
+      },
+      {
+        "key": "B",
+        "text": "细胞周围的基质形成嗜碱性的囊"
+      },
+      {
+        "key": "C",
+        "text": "细胞有长的突起"
+      },
+      {
+        "key": "D",
+        "text": "有同源细胞群"
+      },
+      {
+        "key": "E",
+        "text": "含有血管"
+      }
+    ],
+    "answer": "A",
+    "explanation": null
+  }
+]
