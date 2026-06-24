@@ -2,105 +2,129 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>组胚刷题 - 源头活水</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #2c7a7b;
-            --primary-light: #38b2ac;
-            --primary-dark: #234e52;
-            --primary-bg: #e6fffa;
-            --accent: #ed8936;
-            --bg: #f0f4f8;
-            --card-bg: #ffffff;
-            --text: #1a202c;
-            --text-secondary: #4a5568;
-            --text-muted: #a0aec0;
+            --primary: #0d9488;
+            --primary-light: #14b8a6;
+            --primary-dark: #0f766e;
+            --primary-bg: #f0fdfa;
+            --accent: #f59e0b;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --surface-elevated: #ffffff;
+            --text: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
             --border: #e2e8f0;
-            --success: #48bb78;
-            --success-bg: #f0fff4;
-            --error: #f56565;
-            --error-bg: #fff5f5;
-            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
-            --shadow: 0 2px 8px rgba(0,0,0,0.08);
-            --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
-            --radius: 12px;
+            --border-light: #f1f5f9;
+            --success: #10b981;
+            --success-bg: #ecfdf5;
+            --success-light: #d1fae5;
+            --error: #ef4444;
+            --error-bg: #fef2f2;
+            --error-light: #fee2e2;
+            --warning: #f59e0b;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
             --radius-sm: 8px;
+            --radius: 12px;
             --radius-lg: 16px;
-            --nav-height: 56px;
+            --radius-xl: 20px;
+            --nav-height: 52px;
+            --bottom-height: 64px;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         html { scroll-behavior: smooth; }
 
         body {
-            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             background: var(--bg);
             color: var(--text);
             min-height: 100vh;
             line-height: 1.6;
             -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
         }
 
-        /* ===== Top Nav Bar ===== */
+        /* ===== Top Bar ===== */
         .topbar {
             position: fixed;
             top: 0; left: 0; right: 0;
             height: var(--nav-height);
-            background: rgba(255,255,255,0.88);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-bottom: 1px solid var(--border);
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(226,232,240,0.6);
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 1.25rem;
+            padding: 0 1rem;
             z-index: 200;
-        }
-
-        .topbar-left {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
         }
 
         .topbar-logo {
             font-family: 'Noto Serif SC', serif;
             font-weight: 700;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             color: var(--primary-dark);
             cursor: pointer;
             user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
         }
 
-        .topbar-logo span {
-            font-size: 0.75rem;
+        .topbar-logo .logo-icon {
+            width: 28px; height: 28px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.85rem;
+        }
+
+        .topbar-logo .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .topbar-logo .logo-sub {
+            font-size: 0.65rem;
             font-weight: 400;
             color: var(--text-muted);
-            margin-left: 0.35rem;
+            font-family: 'Noto Sans SC', sans-serif;
         }
 
         .topbar-right {
             display: flex;
             align-items: center;
-            gap: 0.25rem;
+            gap: 0.15rem;
         }
 
         .topbar-btn {
-            padding: 0.4rem 0.85rem;
+            padding: 0.35rem 0.7rem;
             border: none;
             background: transparent;
             border-radius: 2rem;
             cursor: pointer;
-            font-size: 0.82rem;
+            font-size: 0.8rem;
             font-family: inherit;
             font-weight: 500;
             color: var(--text-secondary);
-            transition: all 0.15s;
+            transition: all 0.2s;
             white-space: nowrap;
+            position: relative;
         }
 
         .topbar-btn:hover {
@@ -111,226 +135,343 @@
         .topbar-btn.active {
             background: var(--primary);
             color: white;
+            box-shadow: 0 2px 8px rgba(13,148,136,0.3);
         }
 
         .topbar-btn .badge {
-            display: inline-block;
+            position: absolute;
+            top: -2px; right: -2px;
             background: var(--error);
             color: white;
-            font-size: 0.65rem;
+            font-size: 0.6rem;
             min-width: 16px;
             height: 16px;
             line-height: 16px;
             border-radius: 8px;
             text-align: center;
-            margin-left: 0.3rem;
             padding: 0 4px;
             font-weight: 600;
+            border: 2px solid white;
         }
 
-        .topbar-btn.active .badge {
-            background: rgba(255,255,255,0.35);
-        }
-
-        /* ===== Main Content ===== */
-        .main {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: calc(var(--nav-height) + 1.25rem) 1rem 6rem;
-        }
-
-        /* ===== Progress Bar ===== */
-        .progress-bar-wrap {
+        .topbar-icon-btn {
+            width: 34px; height: 34px;
+            border: none;
+            background: transparent;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.1rem;
             display: flex;
             align-items: center;
-            gap: 0.75rem;
+            justify-content: center;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            margin-left: 0.3rem;
+        }
+
+        .topbar-icon-btn:hover {
+            background: var(--primary-bg);
+            color: var(--primary);
+        }
+
+        /* ===== Main ===== */
+        .main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: calc(var(--nav-height) + 0.75rem) 1rem calc(var(--bottom-height) + 1rem);
+        }
+
+        /* ===== Progress Ring ===== */
+        .progress-ring-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             margin-bottom: 1rem;
             padding: 0 0.25rem;
         }
 
-        .progress-bar-track {
-            flex: 1;
-            height: 6px;
-            background: var(--border);
-            border-radius: 3px;
-            overflow: hidden;
-            cursor: pointer;
-            position: relative;
-        }
-
-        .progress-bar-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary-light), var(--primary));
-            border-radius: 3px;
-            transition: width 0.25s ease;
-        }
-
-        .progress-bar-track:hover {
-            height: 10px;
-            margin-top: -2px;
-            margin-bottom: -2px;
-        }
-
-        .progress-counter {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            font-weight: 500;
-            white-space: nowrap;
-            min-width: 52px;
-            text-align: right;
-        }
-
-        /* ===== Stats Row ===== */
-        .stats-row {
-            display: flex;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .stat-chip {
+        .progress-info {
             display: flex;
             align-items: center;
-            gap: 0.35rem;
-            padding: 0.35rem 0.75rem;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 2rem;
-            font-size: 0.78rem;
-            color: var(--text-secondary);
-            font-weight: 500;
+            gap: 0.75rem;
         }
 
-        .stat-chip .val {
+        .progress-ring {
+            position: relative;
+            width: 44px; height: 44px;
+        }
+
+        .progress-ring svg {
+            transform: rotate(-90deg);
+        }
+
+        .progress-ring-bg {
+            fill: none;
+            stroke: var(--border-light);
+            stroke-width: 4;
+        }
+
+        .progress-ring-fill {
+            fill: none;
+            stroke: var(--primary);
+            stroke-width: 4;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 0.4s ease;
+        }
+
+        .progress-ring-text {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 0.7rem;
             font-weight: 700;
             color: var(--primary);
         }
 
-        .stat-chip.success .val { color: var(--success); }
-        .stat-chip.error .val { color: var(--error); }
+        .progress-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+        }
+
+        .progress-meta .current {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .progress-meta .total {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .progress-bar-line {
+            flex: 1;
+            height: 4px;
+            background: var(--border-light);
+            border-radius: 2px;
+            overflow: hidden;
+            margin: 0 0.75rem;
+            cursor: pointer;
+        }
+
+        .progress-bar-line-inner {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-light), var(--primary));
+            border-radius: 2px;
+            transition: width 0.4s ease;
+        }
 
         /* ===== Question Card ===== */
         .q-card {
-            background: var(--card-bg);
-            border-radius: var(--radius-lg);
+            background: var(--surface);
+            border-radius: var(--radius-xl);
             padding: 1.5rem;
-            box-shadow: var(--shadow);
-            border: 1px solid var(--border);
-            animation: cardIn 0.25s ease;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-light);
+            animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
         }
 
-        @keyframes cardIn {
-            from { opacity: 0; transform: translateY(12px); }
-            to { opacity: 1; transform: translateY(0); }
+        .q-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-light), var(--primary));
+            opacity: 0;
+            transition: opacity 0.3s;
         }
 
-        .q-meta {
+        .q-card.answered::before {
+            opacity: 1;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px) scale(0.98); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-6px); }
+            75% { transform: translateX(6px); }
+        }
+
+        .q-header {
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1.25rem;
+        }
+
+        .q-badges {
+            display: flex;
+            gap: 0.4rem;
             align-items: center;
-            margin-bottom: 0.85rem;
+            flex-wrap: wrap;
         }
 
-        .q-id {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--primary);
-            background: var(--primary-bg);
-            padding: 0.2rem 0.6rem;
+        .q-badge {
+            padding: 0.25rem 0.65rem;
             border-radius: 2rem;
+            font-size: 0.72rem;
+            font-weight: 600;
         }
 
-        .q-chapter {
-            font-size: 0.75rem;
-            color: var(--text-muted);
+        .q-badge.id {
+            background: var(--primary-bg);
+            color: var(--primary);
+        }
+
+        .q-badge.chapter {
+            background: var(--border-light);
+            color: var(--text-secondary);
         }
 
         .q-actions {
             display: flex;
-            gap: 0.25rem;
-            align-items: center;
+            gap: 0.3rem;
         }
 
         .q-action-btn {
-            background: none;
+            width: 36px; height: 36px;
             border: none;
+            background: var(--border-light);
+            border-radius: 50%;
             cursor: pointer;
-            font-size: 1.1rem;
-            padding: 0.2rem;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: var(--text-muted);
-            transition: color 0.15s;
-            line-height: 1;
+            transition: all 0.2s;
         }
 
-        .q-action-btn:hover { color: var(--accent); }
-        .q-action-btn.active { color: var(--accent); }
+        .q-action-btn:hover {
+            background: var(--primary-bg);
+            color: var(--primary);
+            transform: scale(1.1);
+        }
+
+        .q-action-btn.active {
+            background: var(--warning);
+            color: white;
+        }
+
+        .q-action-btn.active:hover {
+            background: #d97706;
+        }
 
         .q-text {
-            font-size: 1.05rem;
+            font-size: 1.1rem;
             font-weight: 500;
-            line-height: 1.75;
-            margin-bottom: 1.25rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
             color: var(--text);
+            letter-spacing: 0.01em;
         }
 
         /* ===== Options ===== */
-        .opts { display: flex; flex-direction: column; gap: 0.6rem; }
+        .opts { display: flex; flex-direction: column; gap: 0.5rem; }
 
         .opt {
             display: flex;
-            align-items: flex-start;
-            gap: 0.75rem;
-            padding: 0.8rem 1rem;
-            border: 2px solid var(--border);
+            align-items: center;
+            gap: 0.875rem;
+            padding: 0.9rem 1.1rem;
+            border: 2px solid var(--border-light);
             border-radius: var(--radius);
             cursor: pointer;
-            transition: all 0.15s;
-            background: var(--card-bg);
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            background: var(--surface);
             user-select: none;
+            position: relative;
         }
 
         .opt:hover:not(.locked) {
             border-color: var(--primary-light);
             background: var(--primary-bg);
+            transform: translateX(4px);
+            box-shadow: var(--shadow-sm);
         }
 
         .opt-key {
-            width: 26px; height: 26px; min-width: 26px;
-            border-radius: 50%;
+            width: 32px; height: 32px; min-width: 32px;
+            border-radius: 10px;
             background: var(--bg);
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 700;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             color: var(--text-secondary);
-            transition: all 0.15s;
+            transition: all 0.2s;
+            border: 1.5px solid var(--border);
         }
 
         .opt-text {
             font-size: 0.95rem;
             color: var(--text);
-            padding-top: 0.1rem;
             line-height: 1.6;
+            flex: 1;
+        }
+
+        .opt-check {
+            width: 20px; height: 20px;
+            border: 2px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            color: white;
+            opacity: 0;
+            transition: all 0.2s;
         }
 
         /* States */
         .opt.correct {
             border-color: var(--success);
             background: var(--success-bg);
+            animation: pulse 0.4s ease;
         }
         .opt.correct .opt-key {
             background: var(--success);
             color: #fff;
+            border-color: var(--success);
+        }
+        .opt.correct .opt-check {
+            opacity: 1;
+            background: var(--success);
+            border-color: var(--success);
         }
 
         .opt.wrong {
             border-color: var(--error);
             background: var(--error-bg);
+            animation: shake 0.4s ease;
         }
         .opt.wrong .opt-key {
             background: var(--error);
             color: #fff;
+            border-color: var(--error);
+        }
+        .opt.wrong .opt-check {
+            opacity: 1;
+            background: var(--error);
+            border-color: var(--error);
         }
 
         .opt.locked {
@@ -338,53 +479,85 @@
             pointer-events: none;
         }
 
+        .opt.locked:not(.correct):not(.wrong) {
+            opacity: 0.5;
+        }
+
         /* ===== Feedback ===== */
         .feedback {
-            margin-top: 1rem;
-            padding: 0.85rem 1rem;
+            margin-top: 1.25rem;
+            padding: 1rem 1.25rem;
             border-radius: var(--radius);
-            animation: cardIn 0.2s ease;
+            animation: slideUp 0.3s ease;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
         }
 
         .feedback.ok {
             background: var(--success-bg);
-            border: 1px solid var(--success);
+            border: 1.5px solid var(--success-light);
         }
 
         .feedback.fail {
             background: var(--error-bg);
-            border: 1px solid var(--error);
+            border: 1.5px solid var(--error-light);
         }
 
-        .feedback-label {
+        .feedback-icon {
+            width: 28px; height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        .feedback.ok .feedback-icon {
+            background: var(--success);
+            color: white;
+        }
+
+        .feedback.fail .feedback-icon {
+            background: var(--error);
+            color: white;
+        }
+
+        .feedback-body {
+            flex: 1;
+        }
+
+        .feedback-title {
             font-weight: 600;
             font-size: 0.9rem;
-            margin-bottom: 0.25rem;
+            margin-bottom: 0.2rem;
         }
 
-        .feedback.ok .feedback-label { color: var(--success); }
-        .feedback.fail .feedback-label { color: var(--error); }
+        .feedback.ok .feedback-title { color: var(--success); }
+        .feedback.fail .feedback-title { color: var(--error); }
 
         .feedback-detail {
             font-size: 0.85rem;
             color: var(--text-secondary);
         }
 
-        /* ===== AI Analysis Section ===== */
+        /* ===== AI Section ===== */
         .ai-section {
-            margin-top: 1rem;
-            border: 1.5px dashed var(--primary-light);
+            margin-top: 1.25rem;
             border-radius: var(--radius);
-            padding: 1rem;
-            background: var(--primary-bg);
-            animation: cardIn 0.25s ease;
+            overflow: hidden;
+            animation: slideUp 0.3s ease;
+            border: 1.5px solid var(--border-light);
         }
 
         .ai-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 0.5rem;
+            padding: 0.75rem 1rem;
+            background: linear-gradient(135deg, #f0fdfa, #e0f2fe);
+            border-bottom: 1px solid var(--border-light);
         }
 
         .ai-title {
@@ -396,7 +569,7 @@
             gap: 0.4rem;
         }
 
-        .ai-title .ai-icon {
+        .ai-title .sparkle {
             font-size: 1rem;
         }
 
@@ -406,21 +579,25 @@
         }
 
         .ai-btn {
-            padding: 0.3rem 0.7rem;
-            border: 1px solid var(--primary-light);
+            padding: 0.35rem 0.8rem;
+            border: 1.5px solid var(--primary-light);
             background: white;
             border-radius: 2rem;
             cursor: pointer;
             font-size: 0.75rem;
             font-family: inherit;
-            font-weight: 500;
+            font-weight: 600;
             color: var(--primary);
-            transition: all 0.15s;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
         }
 
         .ai-btn:hover {
             background: var(--primary);
             color: white;
+            border-color: var(--primary);
         }
 
         .ai-btn:disabled {
@@ -428,9 +605,14 @@
             cursor: not-allowed;
         }
 
+        .ai-body {
+            padding: 1rem;
+            background: var(--surface);
+        }
+
         .ai-content {
-            font-size: 0.9rem;
-            line-height: 1.7;
+            font-size: 0.88rem;
+            line-height: 1.8;
             color: var(--text-secondary);
             white-space: pre-wrap;
         }
@@ -439,45 +621,372 @@
             color: var(--text-muted);
             font-style: italic;
             margin-bottom: 0.5rem;
-            padding: 0.5rem;
-            background: rgba(0,0,0,0.03);
+            padding: 0.6rem 0.8rem;
+            background: var(--bg);
             border-radius: var(--radius-sm);
             font-size: 0.82rem;
+            border-left: 3px solid var(--primary-light);
         }
 
         .ai-loading {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.6rem;
             color: var(--primary);
             font-size: 0.85rem;
         }
 
-        .ai-loading .ai-dots {
+        .ai-loading .dots {
             display: flex;
             gap: 3px;
         }
 
-        .ai-loading .ai-dot {
+        .ai-loading .dot {
             width: 6px; height: 6px;
             border-radius: 50%;
             background: var(--primary);
             animation: aiBounce 1.2s infinite ease-in-out;
         }
 
-        .ai-loading .ai-dot:nth-child(2) { animation-delay: 0.15s; }
-        .ai-loading .ai-dot:nth-child(3) { animation-delay: 0.3s; }
+        .ai-loading .dot:nth-child(2) { animation-delay: 0.15s; }
+        .ai-loading .dot:nth-child(3) { animation-delay: 0.3s; }
 
         @keyframes aiBounce {
-            0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+            0%, 80%, 100% { transform: scale(0.5); opacity: 0.4; }
             40% { transform: scale(1); opacity: 1; }
         }
 
-        /* ===== Settings Modal ===== */
+        .ai-placeholder {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* ===== Bottom Nav ===== */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0; left: 0; right: 0;
+            height: var(--bottom-height);
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-top: 1px solid rgba(226,232,240,0.6);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+            z-index: 200;
+        }
+
+        .bottom-btn {
+            padding: 0.55rem 1.1rem;
+            border: none;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-family: inherit;
+            font-weight: 600;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .bottom-btn.prev {
+            background: var(--bg);
+            color: var(--text-secondary);
+            border: 1.5px solid var(--border);
+        }
+
+        .bottom-btn.prev:hover { background: var(--border-light); }
+        .bottom-btn.prev:disabled { opacity: 0.3; cursor: not-allowed; }
+
+        .bottom-btn.next {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(13,148,136,0.25);
+        }
+
+        .bottom-btn.next:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(13,148,136,0.35);
+        }
+
+        .bottom-btn.next:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .bottom-center {
+            display: flex;
+            gap: 0.4rem;
+        }
+
+        .bottom-icon-btn {
+            width: 40px; height: 40px;
+            border: none;
+            background: var(--bg);
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+            border: 1.5px solid var(--border);
+        }
+
+        .bottom-icon-btn:hover {
+            background: var(--primary-bg);
+            color: var(--primary);
+            border-color: var(--primary-light);
+            transform: scale(1.08);
+        }
+
+        .bottom-icon-btn.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* ===== Dot Panel ===== */
+        .dot-panel {
+            position: fixed;
+            bottom: var(--bottom-height);
+            left: 0; right: 0;
+            background: rgba(255,255,255,0.97);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border);
+            z-index: 190;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), padding 0.35s;
+            padding: 0 1rem;
+        }
+
+        .dot-panel.open {
+            max-height: 220px;
+            padding: 0.75rem 1rem;
+            overflow-y: auto;
+        }
+
+        .dot-panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.6rem;
+        }
+
+        .dot-panel-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .dot-panel-legend {
+            display: flex;
+            gap: 0.75rem;
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+
+        .dot-panel-legend span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .dot-panel-legend span::before {
+            content: '';
+            display: inline-block;
+            width: 7px; height: 7px;
+            border-radius: 50%;
+        }
+
+        .dot-panel-legend .l-correct::before { background: var(--success); }
+        .dot-panel-legend .l-wrong::before { background: var(--error); }
+        .dot-panel-legend .l-unanswered::before { background: var(--border); }
+
+        .dot-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .dot {
+            width: 30px; height: 30px;
+            border-radius: 8px;
+            background: var(--bg);
+            border: 1.5px solid var(--border-light);
+            cursor: pointer;
+            font-size: 0.65rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            transition: all 0.15s;
+        }
+
+        .dot:hover {
+            transform: scale(1.12);
+            border-color: var(--primary-light);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .dot.correct {
+            background: var(--success);
+            border-color: var(--success);
+            color: #fff;
+        }
+
+        .dot.wrong {
+            background: var(--error);
+            border-color: var(--error);
+            color: #fff;
+        }
+
+        .dot.current {
+            box-shadow: 0 0 0 2px var(--primary), 0 0 0 5px rgba(13,148,136,0.15);
+            border-color: var(--primary);
+            color: var(--primary);
+            background: var(--primary-bg);
+            font-weight: 700;
+        }
+
+        /* ===== Chapter Select ===== */
+        .chapter-page {
+            animation: slideUp 0.3s ease;
+        }
+
+        .chapter-header {
+            margin-bottom: 1.25rem;
+        }
+
+        .chapter-title {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+            color: var(--text);
+        }
+
+        .chapter-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .chapter-card {
+            background: var(--surface);
+            border: 1.5px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chapter-card:hover {
+            border-color: var(--primary-light);
+            background: var(--primary-bg);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .chapter-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 3px; height: 100%;
+            background: linear-gradient(180deg, var(--primary-light), var(--primary));
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .chapter-card:hover::before {
+            opacity: 1;
+        }
+
+        .chapter-card-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+
+        .chapter-card-count {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        .chapter-card-progress {
+            height: 4px;
+            background: var(--border-light);
+            border-radius: 2px;
+            margin-top: 0.6rem;
+            overflow: hidden;
+        }
+
+        .chapter-card-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-light), var(--primary));
+            border-radius: 2px;
+            transition: width 0.4s ease;
+        }
+
+        /* ===== Empty State ===== */
+        .empty {
+            text-align: center;
+            padding: 5rem 1rem;
+            color: var(--text-muted);
+            animation: slideUp 0.3s ease;
+        }
+
+        .empty-icon { font-size: 3.5rem; margin-bottom: 1rem; opacity: 0.4; }
+        .empty-text { font-size: 1rem; font-weight: 500; color: var(--text-secondary); }
+        .empty-hint { font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.7; }
+
+        /* ===== Toast ===== */
+        .toast {
+            position: fixed;
+            top: calc(var(--nav-height) + 0.5rem);
+            left: 50%;
+            transform: translateX(-50%) translateY(-16px);
+            background: var(--text);
+            color: #fff;
+            padding: 0.55rem 1.25rem;
+            border-radius: 2rem;
+            font-size: 0.85rem;
+            z-index: 1000;
+            opacity: 0;
+            transition: all 0.25s ease;
+            pointer-events: none;
+            box-shadow: var(--shadow-lg);
+            font-weight: 500;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* ===== Modal ===== */
         .modal-overlay {
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.4);
+            background: rgba(15,23,42,0.45);
             z-index: 1000;
             display: flex;
             align-items: center;
@@ -485,7 +994,7 @@
             padding: 1rem;
             opacity: 0;
             pointer-events: none;
-            transition: opacity 0.2s;
+            transition: opacity 0.25s;
         }
 
         .modal-overlay.show {
@@ -494,16 +1003,16 @@
         }
 
         .modal {
-            background: var(--card-bg);
-            border-radius: var(--radius-lg);
+            background: var(--surface);
+            border-radius: var(--radius-xl);
             width: 100%;
-            max-width: 480px;
+            max-width: 460px;
             max-height: 85vh;
             overflow-y: auto;
             box-shadow: var(--shadow-lg);
-            border: 1px solid var(--border);
-            transform: translateY(20px) scale(0.96);
-            transition: transform 0.25s ease;
+            border: 1px solid var(--border-light);
+            transform: translateY(16px) scale(0.97);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .modal-overlay.show .modal {
@@ -515,11 +1024,11 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.25rem 1.25rem 0.75rem;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid var(--border-light);
         }
 
         .modal-title {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             font-weight: 700;
             color: var(--text);
         }
@@ -527,7 +1036,7 @@
         .modal-close {
             background: none;
             border: none;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             cursor: pointer;
             color: var(--text-muted);
             line-height: 1;
@@ -545,56 +1054,55 @@
             color: var(--text);
         }
 
-        .modal-body {
-            padding: 1.25rem;
-        }
+        .modal-body { padding: 1.25rem; }
 
-        .form-group {
-            margin-bottom: 1rem;
-        }
+        .form-group { margin-bottom: 1rem; }
 
         .form-label {
             display: block;
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             font-weight: 600;
             color: var(--text-secondary);
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.35rem;
         }
 
         .form-input {
             width: 100%;
-            padding: 0.65rem 0.85rem;
+            padding: 0.65rem 0.9rem;
             border: 1.5px solid var(--border);
             border-radius: var(--radius-sm);
             font-size: 0.9rem;
             font-family: inherit;
             color: var(--text);
             background: var(--bg);
-            transition: border-color 0.15s;
+            transition: all 0.15s;
         }
 
         .form-input:focus {
             outline: none;
             border-color: var(--primary-light);
-            background: var(--card-bg);
+            background: var(--surface);
+            box-shadow: 0 0 0 3px rgba(13,148,136,0.1);
         }
 
         .form-hint {
-            font-size: 0.78rem;
+            font-size: 0.76rem;
             color: var(--text-muted);
             margin-top: 0.3rem;
+            line-height: 1.5;
         }
 
         .form-hint a {
             color: var(--primary);
             text-decoration: none;
+            font-weight: 500;
         }
 
         .form-hint a:hover { text-decoration: underline; }
 
         .form-select {
             width: 100%;
-            padding: 0.65rem 0.85rem;
+            padding: 0.65rem 0.9rem;
             border: 1.5px solid var(--border);
             border-radius: var(--radius-sm);
             font-size: 0.9rem;
@@ -602,17 +1110,23 @@
             color: var(--text);
             background: var(--bg);
             cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.9rem center;
+            padding-right: 2.5rem;
         }
 
         .form-select:focus {
             outline: none;
             border-color: var(--primary-light);
+            box-shadow: 0 0 0 3px rgba(13,148,136,0.1);
         }
 
         .modal-footer {
             display: flex;
             gap: 0.6rem;
-            padding: 0.75rem 1.25rem 1.25rem;
+            padding: 0.5rem 1.25rem 1.25rem;
             justify-content: flex-end;
         }
 
@@ -621,320 +1135,46 @@
             border: none;
             border-radius: var(--radius-sm);
             cursor: pointer;
-            font-size: 0.88rem;
+            font-size: 0.87rem;
             font-family: inherit;
-            font-weight: 500;
+            font-weight: 600;
             transition: all 0.15s;
         }
 
         .modal-btn.secondary {
             background: var(--bg);
             color: var(--text-secondary);
-            border: 1px solid var(--border);
+            border: 1.5px solid var(--border);
         }
 
-        .modal-btn.secondary:hover { background: var(--border); }
+        .modal-btn.secondary:hover { background: var(--border-light); }
 
         .modal-btn.primary {
-            background: var(--primary);
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: white;
         }
 
-        .modal-btn.primary:hover { background: var(--primary-dark); }
-
-        /* ===== Bottom Nav ===== */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0; left: 0; right: 0;
-            background: rgba(255,255,255,0.92);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-top: 1px solid var(--border);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.5rem 1rem;
-            z-index: 200;
-            height: 60px;
-        }
-
-        .bottom-nav-btn {
-            padding: 0.5rem 1.25rem;
-            border: none;
-            border-radius: var(--radius-sm);
-            cursor: pointer;
-            font-size: 0.88rem;
-            font-family: inherit;
-            font-weight: 500;
-            transition: all 0.15s;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-
-        .bottom-nav-btn.prev {
-            background: var(--bg);
-            color: var(--text-secondary);
-            border: 1px solid var(--border);
-        }
-
-        .bottom-nav-btn.prev:hover { background: var(--border); }
-        .bottom-nav-btn.prev:disabled { opacity: 0.35; cursor: not-allowed; }
-
-        .bottom-nav-btn.next {
-            background: var(--primary);
-            color: #fff;
-        }
-
-        .bottom-nav-btn.next:hover { background: var(--primary-dark); }
-        .bottom-nav-btn.next:disabled { opacity: 0.35; cursor: not-allowed; }
-
-        .bottom-nav-center {
-            display: flex;
-            gap: 0.35rem;
-        }
-
-        .bottom-icon-btn {
-            width: 38px; height: 38px;
-            border: none;
-            background: var(--bg);
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            transition: all 0.15s;
-            border: 1px solid var(--border);
-        }
-
-        .bottom-icon-btn:hover {
-            background: var(--primary-bg);
-            color: var(--primary);
-            border-color: var(--primary-light);
-        }
-
-        .bottom-icon-btn.active {
-            background: var(--primary);
-            color: #fff;
-            border-color: var(--primary);
-        }
-
-        /* ===== Dot Panel ===== */
-        .dot-panel {
-            position: fixed;
-            bottom: 60px; left: 0; right: 0;
-            background: rgba(255,255,255,0.96);
-            backdrop-filter: blur(16px);
-            border-top: 1px solid var(--border);
-            z-index: 190;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease, padding 0.3s ease;
-            padding: 0 1rem;
-        }
-
-        .dot-panel.open {
-            max-height: 240px;
-            padding: 0.75rem 1rem;
-            overflow-y: auto;
-        }
-
-        .dot-panel-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.5rem;
-        }
-
-        .dot-panel-title {
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: var(--text-secondary);
-        }
-
-        .dot-panel-legend {
-            display: flex;
-            gap: 0.75rem;
-            font-size: 0.72rem;
-            color: var(--text-muted);
-        }
-
-        .dot-panel-legend span::before {
-            content: '';
-            display: inline-block;
-            width: 8px; height: 8px;
-            border-radius: 50%;
-            margin-right: 0.3rem;
-            vertical-align: middle;
-        }
-
-        .dot-panel-legend .l-correct::before { background: var(--success); }
-        .dot-panel-legend .l-wrong::before { background: var(--error); }
-        .dot-panel-legend .l-unanswered::before { background: var(--border); }
-
-        .dot-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-            justify-content: center;
-        }
-
-        .dot {
-            width: 28px; height: 28px;
-            border-radius: 6px;
-            background: var(--bg);
-            border: 1.5px solid var(--border);
-            cursor: pointer;
-            font-size: 0.65rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-muted);
-            transition: all 0.12s;
-        }
-
-        .dot:hover {
-            transform: scale(1.15);
-            border-color: var(--primary-light);
-        }
-
-        .dot.correct {
-            background: var(--success);
-            border-color: var(--success);
-            color: #fff;
-        }
-
-        .dot.wrong {
-            background: var(--error);
-            border-color: var(--error);
-            color: #fff;
-        }
-
-        .dot.current {
-            box-shadow: 0 0 0 2px var(--primary), 0 0 0 4px rgba(44,122,123,0.2);
-            border-color: var(--primary);
-            color: var(--primary);
-            background: var(--primary-bg);
-        }
-
-        /* ===== Chapter Select ===== */
-        .chapter-page {
-            animation: cardIn 0.25s ease;
-        }
-
-        .chapter-page-title {
-            font-family: 'Noto Serif SC', serif;
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 0.35rem;
-            color: var(--text);
-        }
-
-        .chapter-page-desc {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 1.25rem;
-        }
-
-        .chapter-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            gap: 0.6rem;
-        }
-
-        .chapter-card {
-            background: var(--card-bg);
-            border: 1.5px solid var(--border);
-            border-radius: var(--radius);
-            padding: 0.85rem 1rem;
-            cursor: pointer;
-            transition: all 0.15s;
-            text-align: left;
-        }
-
-        .chapter-card:hover {
-            border-color: var(--primary-light);
-            background: var(--primary-bg);
+        .modal-btn.primary:hover {
             transform: translateY(-1px);
-            box-shadow: var(--shadow);
-        }
-
-        .chapter-card-name {
-            font-size: 0.88rem;
-            font-weight: 600;
-            color: var(--text);
-            margin-bottom: 0.2rem;
-        }
-
-        .chapter-card-count {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        .chapter-card-progress {
-            height: 3px;
-            background: var(--border);
-            border-radius: 2px;
-            margin-top: 0.5rem;
-            overflow: hidden;
-        }
-
-        .chapter-card-progress-fill {
-            height: 100%;
-            background: var(--primary-light);
-            border-radius: 2px;
-            transition: width 0.3s;
-        }
-
-        /* ===== Empty State ===== */
-        .empty {
-            text-align: center;
-            padding: 4rem 1rem;
-            color: var(--text-muted);
-        }
-
-        .empty-icon { font-size: 3rem; margin-bottom: 0.75rem; opacity: 0.5; }
-        .empty-text { font-size: 0.95rem; }
-        .empty-hint { font-size: 0.82rem; margin-top: 0.5rem; opacity: 0.7; }
-
-        /* ===== Toast ===== */
-        .toast {
-            position: fixed;
-            top: calc(var(--nav-height) + 0.75rem);
-            left: 50%;
-            transform: translateX(-50%) translateY(-20px);
-            background: var(--text);
-            color: #fff;
-            padding: 0.55rem 1.25rem;
-            border-radius: 2rem;
-            font-size: 0.85rem;
-            z-index: 1000;
-            opacity: 0;
-            transition: all 0.25s ease;
-            pointer-events: none;
-            box-shadow: var(--shadow-lg);
-        }
-
-        .toast.show {
-            transform: translateX(-50%) translateY(0);
-            opacity: 1;
+            box-shadow: 0 4px 12px rgba(13,148,136,0.3);
         }
 
         /* ===== Responsive ===== */
         @media (max-width: 600px) {
-            .topbar-btn { padding: 0.35rem 0.6rem; font-size: 0.78rem; }
+            .topbar-btn { padding: 0.3rem 0.55rem; font-size: 0.75rem; }
             .topbar-btn .badge { display: none; }
-            .q-card { padding: 1.15rem; }
+            .q-card { padding: 1.15rem; border-radius: var(--radius-lg); }
             .q-text { font-size: 1rem; }
-            .chapter-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
-            .modal { max-width: 100%; }
+            .chapter-grid { grid-template-columns: repeat(2, 1fr); }
+            .progress-bar-line { display: none; }
+        }
+
+        @media (min-width: 601px) {
+            .progress-ring-wrap { padding: 0 0.5rem; }
         }
 
         /* ===== Scrollbar ===== */
-        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar { width: 3px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
     </style>
@@ -943,8 +1183,12 @@
 
 <!-- Top Bar -->
 <div class="topbar">
-    <div class="topbar-left">
-        <div class="topbar-logo" onclick="goHome()">组胚刷题<span>源头活水</span></div>
+    <div class="topbar-logo" onclick="goHome()">
+        <div class="logo-icon">组</div>
+        <div class="logo-text">
+            组胚刷题
+            <span class="logo-sub">源头活水</span>
+        </div>
     </div>
     <div class="topbar-right">
         <button class="topbar-btn active" data-view="practice" onclick="switchView('practice')">顺序</button>
@@ -952,7 +1196,7 @@
         <button class="topbar-btn" data-view="chapter" onclick="switchView('chapter')">章节</button>
         <button class="topbar-btn" data-view="wrong" onclick="switchView('wrong')">错题<span class="badge" id="wrong-badge" style="display:none">0</span></button>
         <button class="topbar-btn" data-view="bookmark" onclick="switchView('bookmark')">收藏</button>
-        <button class="topbar-btn" onclick="openSettings()" title="设置">&#9881;</button>
+        <button class="topbar-icon-btn" onclick="openSettings()" title="设置">&#9881;</button>
     </div>
 </div>
 
@@ -960,7 +1204,7 @@
 <div class="main" id="app">
     <div style="display:flex;justify-content:center;align-items:center;height:60vh;color:var(--text-muted);font-size:0.9rem;">
         <div style="text-align:center">
-            <div style="width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 0.75rem;"></div>
+            <div style="width:32px;height:32px;border:3px solid var(--border-light);border-top-color:var(--primary);border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 0.75rem;"></div>
             加载中...
         </div>
     </div>
@@ -981,12 +1225,16 @@
 
 <!-- Bottom Nav -->
 <div class="bottom-nav" id="bottomNav">
-    <button class="bottom-nav-btn prev" id="prevBtn" onclick="prevQuestion()" disabled>&#8592; 上一题</button>
-    <div class="bottom-nav-center">
+    <button class="bottom-btn prev" id="prevBtn" onclick="prevQuestion()" disabled>
+        <span>&#8592;</span> 上一题
+    </button>
+    <div class="bottom-center">
         <button class="bottom-icon-btn" id="dotToggle" onclick="toggleDotPanel()" title="题目导航">&#9776;</button>
         <button class="bottom-icon-btn" id="shuffleBtn" onclick="reshuffle()" title="重新打乱">&#8635;</button>
     </div>
-    <button class="bottom-nav-btn next" id="nextBtn" onclick="nextQuestion()">下一题 &#8594;</button>
+    <button class="bottom-btn next" id="nextBtn" onclick="nextQuestion()">
+        下一题 <span>&#8594;</span>
+    </button>
 </div>
 
 <!-- Toast -->
@@ -996,14 +1244,14 @@
 <div class="modal-overlay" id="settingsModal">
     <div class="modal">
         <div class="modal-header">
-            <div class="modal-title">&#9881; AI 设置</div>
+            <div class="modal-title">AI 设置</div>
             <button class="modal-close" onclick="closeSettings()">&times;</button>
         </div>
         <div class="modal-body">
             <div class="form-group">
                 <label class="form-label">DeepSeek API Key</label>
                 <input type="password" class="form-input" id="apiKeyInput" placeholder="sk-xxxxxxxxxxxxxxxxxxxxxxxx">
-                <div class="form-hint">在 <a href="https://platform.deepseek.com/api_keys" target="_blank">DeepSeek 平台</a> 获取 API Key，仅保存在本地浏览器中</div>
+                <div class="form-hint">在 <a href="https://platform.deepseek.com/api_keys" target="_blank">DeepSeek 平台</a> 获取 API Key，仅保存在本地浏览器</div>
             </div>
             <div class="form-group">
                 <label class="form-label">模型选择</label>
@@ -1042,7 +1290,7 @@ let bookmarkedQuestions = new Set();
 let selectedChapter = null;
 let dotPanelOpen = false;
 let aiSettings = { key: '', model: 'deepseek-v4-flash', style: 'detailed' };
-let aiCache = {}; // Cache AI responses
+let aiCache = {};
 
 // ===== Data =====
 async function loadQuestions() {
@@ -1054,7 +1302,7 @@ async function loadQuestions() {
         render();
         updateBadges();
     } catch(e) {
-        document.getElementById('app').innerHTML = '<div class="empty"><div class="empty-icon">&#9888;</div><div class="empty-text">题库加载失败</div><div class="empty-hint">请刷新页面重试</div></div>';
+        document.getElementById('app').innerHTML = '<div class="empty"><div class="empty-icon">&#128260;</div><div class="empty-text">题库加载失败</div><div class="empty-hint">请刷新页面重试</div></div>';
     }
 }
 
@@ -1171,7 +1419,7 @@ async function requestAIAnalysis(qid) {
 
     container.innerHTML = `
         <div class="ai-loading">
-            <div class="ai-dots"><div class="ai-dot"></div><div class="ai-dot"></div><div class="ai-dot"></div></div>
+            <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
             <span>AI 正在解析...</span>
         </div>
     `;
@@ -1225,15 +1473,12 @@ async function requestAIAnalysis(qid) {
                     const delta = data.choices?.[0]?.delta;
                     if (!delta) continue;
 
-                    // Handle reasoning/thinking content
                     if (delta.reasoning_content) {
                         thinkingText += delta.reasoning_content;
                         inThinking = true;
                     }
                     if (delta.content) {
-                        if (inThinking) {
-                            inThinking = false;
-                        }
+                        if (inThinking) inThinking = false;
                         fullText += delta.content;
                     }
 
@@ -1267,24 +1512,26 @@ function getAIAnalysisHTML(qid) {
         return `
             <div class="ai-section" id="ai-section-${qid}">
                 <div class="ai-header">
-                    <div class="ai-title"><span class="ai-icon">&#129302;</span> AI 解析</div>
+                    <div class="ai-title"><span class="sparkle">&#10024;</span> AI 解析</div>
                     <div class="ai-actions">
                         <button class="ai-btn" onclick="requestAIAnalysis(${qid})">&#8635; 重新解析</button>
                     </div>
                 </div>
-                <div id="ai-result-${qid}"><div class="ai-content">${cached}</div></div>
+                <div class="ai-body" id="ai-result-${qid}"><div class="ai-content">${cached}</div></div>
             </div>
         `;
     }
     return `
         <div class="ai-section" id="ai-section-${qid}">
             <div class="ai-header">
-                <div class="ai-title"><span class="ai-icon">&#129302;</span> AI 解析</div>
+                <div class="ai-title"><span class="sparkle">&#10024;</span> AI 解析</div>
                 <div class="ai-actions">
                     <button class="ai-btn" onclick="requestAIAnalysis(${qid})">&#9654; 开始解析</button>
                 </div>
             </div>
-            <div id="ai-result-${qid}"><div class="ai-content" style="color:var(--text-muted)">点击"开始解析"，AI 将为你详细讲解本题知识点...</div></div>
+            <div class="ai-body" id="ai-result-${qid}">
+                <div class="ai-placeholder">点击「开始解析」，AI 将为你详细讲解本题知识点...</div>
+            </div>
         </div>
     `;
 }
@@ -1307,7 +1554,7 @@ function render() {
         app.innerHTML = `<div class="empty">
             <div class="empty-icon">${currentView === 'wrong' ? '&#128465;' : '&#9733;'}</div>
             <div class="empty-text">${currentView === 'wrong' ? '暂无错题，继续加油' : '暂无收藏题目'}</div>
-            <div class="empty-hint">错题和收藏的题目会显示在这里</div>
+            <div class="empty-hint">${currentView === 'wrong' ? '答错的题目会自动收录到这里' : '点击题目旁的星号收藏重点题目'}</div>
         </div>`;
         return;
     }
@@ -1316,49 +1563,66 @@ function render() {
     const ua = userAnswers[q.id];
     const answered = ua !== undefined;
     const stats = calcStats();
+    const progressPct = ((currentIndex + 1) / currentQuestions.length) * 100;
+    const circumference = 2 * Math.PI * 18;
+    const strokeOffset = circumference - (progressPct / 100) * circumference;
 
     app.innerHTML = `
-        <div class="progress-bar-wrap">
-            <div class="progress-bar-track" onclick="handleProgressClick(event)" title="点击跳转">
-                <div class="progress-bar-fill" style="width:${((currentIndex+1)/currentQuestions.length)*100}%"></div>
+        <div class="progress-ring-wrap">
+            <div class="progress-info">
+                <div class="progress-ring">
+                    <svg width="44" height="44" viewBox="0 0 44 44">
+                        <circle class="progress-ring-bg" cx="22" cy="22" r="18"/>
+                        <circle class="progress-ring-fill" cx="22" cy="22" r="18"
+                            stroke-dasharray="${circumference}"
+                            stroke-dashoffset="${strokeOffset}"/>
+                    </svg>
+                    <div class="progress-ring-text">${Math.round(progressPct)}%</div>
+                </div>
+                <div class="progress-meta">
+                    <div class="current">${currentIndex + 1} <span style="color:var(--text-muted);font-weight:400">/ ${currentQuestions.length}</span></div>
+                    <div class="total">对 ${stats.correct} · 错 ${stats.wrong}</div>
+                </div>
             </div>
-            <div class="progress-counter">${currentIndex+1}/${currentQuestions.length}</div>
+            <div class="progress-bar-line" onclick="handleProgressClick(event)" title="点击跳转">
+                <div class="progress-bar-line-inner" style="width:${progressPct}%"></div>
+            </div>
         </div>
-        <div class="stats-row">
-            <div class="stat-chip"><span>总</span><span class="val">${stats.total}</span></div>
-            <div class="stat-chip"><span>答</span><span class="val">${stats.answered}</span></div>
-            <div class="stat-chip success"><span>对</span><span class="val">${stats.correct}</span></div>
-            <div class="stat-chip error"><span>错</span><span class="val">${stats.wrong}</span></div>
-            <div class="stat-chip"><span>率</span><span class="val">${stats.accuracy}%</span></div>
-        </div>
-        <div class="q-card">
-            <div class="q-meta">
-                <div style="display:flex;gap:0.4rem;align-items:center;">
-                    <span class="q-id">No.${q.id}</span>
-                    <span class="q-chapter">${q.chapter}</span>
+        <div class="q-card ${answered ? 'answered' : ''}">
+            <div class="q-header">
+                <div class="q-badges">
+                    <span class="q-badge id">No.${q.id}</span>
+                    <span class="q-badge chapter">${q.chapter}</span>
                 </div>
                 <div class="q-actions">
-                    <button class="q-action-btn ${bookmarkedQuestions.has(q.id)?'active':''}" onclick="toggleBookmark(${q.id})" title="收藏">${bookmarkedQuestions.has(q.id)?'&#9733;':'&#9734;'}</button>
+                    <button class="q-action-btn ${bookmarkedQuestions.has(q.id)?'active':''}" onclick="toggleBookmark(${q.id})" title="收藏">
+                        ${bookmarkedQuestions.has(q.id)?'&#9733;':'&#9734;'}
+                    </button>
                 </div>
             </div>
             <div class="q-text">${q.question}</div>
             <div class="opts">
                 ${q.options.map(o => {
                     let cls = 'opt';
+                    let check = '';
                     if (answered) {
                         cls += ' locked';
-                        if (o.key === q.answer) cls += ' correct';
-                        else if (o.key === ua && o.key !== q.answer) cls += ' wrong';
+                        if (o.key === q.answer) { cls += ' correct'; check = '&#10003;'; }
+                        else if (o.key === ua && o.key !== q.answer) { cls += ' wrong'; check = '&#10007;'; }
                     }
                     return `<div class="${cls}" onclick="selectOption('${o.key}')">
                         <span class="opt-key">${o.key}</span>
                         <span class="opt-text">${o.text}</span>
+                        <span class="opt-check">${check}</span>
                     </div>`;
                 }).join('')}
             </div>
             ${answered ? `<div class="feedback ${ua===q.answer?'ok':'fail'}">
-                <div class="feedback-label">${ua===q.answer?'&#10004; 回答正确':'&#10008; 回答错误'}</div>
-                <div class="feedback-detail">正确答案：<strong>${q.answer}</strong>${q.explanation?' &middot; '+q.explanation:''}</div>
+                <div class="feedback-icon">${ua===q.answer?'&#10003;':'&#10007;'}</div>
+                <div class="feedback-body">
+                    <div class="feedback-title">${ua===q.answer?'回答正确':'回答错误'}</div>
+                    <div class="feedback-detail">正确答案：<strong>${q.answer}</strong>${q.explanation?' · '+q.explanation:''}</div>
+                </div>
             </div>` : ''}
             ${answered ? getAIAnalysisHTML(q.id) : ''}
         </div>
@@ -1377,8 +1641,10 @@ function renderChapterPage(app) {
 
     app.innerHTML = `
         <div class="chapter-page">
-            <div class="chapter-page-title">章节练习</div>
-            <div class="chapter-page-desc">共 ${chapters.length} 个章节，${questions.length} 道题，已答 ${totalAnswered} 道</div>
+            <div class="chapter-header">
+                <div class="chapter-title">章节练习</div>
+                <div class="chapter-desc">共 ${chapters.length} 个章节 ${questions.length} 道题 · 已答 ${totalAnswered} 道</div>
+            </div>
             <div class="chapter-grid">
                 ${chapters.map(ch => {
                     const total = counts[ch];
@@ -1535,7 +1801,7 @@ function handleProgressClick(e) {
 // ===== Keyboard =====
 document.addEventListener('keydown', e => {
     if (!currentQuestions.length) return;
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
     if (e.key === 'ArrowLeft') prevQuestion();
     else if (e.key === 'ArrowRight') nextQuestion();
     else if (e.key === 'Escape') {
