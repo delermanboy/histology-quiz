@@ -1,1285 +1,628 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>组胚刷题 - 源头活水</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #0d9488;
-            --primary-light: #14b8a6;
-            --primary-dark: #0f766e;
-            --primary-bg: #f0fdfa;
-            --accent: #f59e0b;
-            --bg: #f8fafc;
-            --surface: #ffffff;
-            --surface-elevated: #ffffff;
-            --text: #0f172a;
-            --text-secondary: #475569;
-            --text-muted: #94a3b8;
-            --border: #e2e8f0;
-            --border-light: #f1f5f9;
-            --success: #10b981;
-            --success-bg: #ecfdf5;
-            --success-light: #d1fae5;
-            --error: #ef4444;
-            --error-bg: #fef2f2;
-            --error-light: #fee2e2;
-            --warning: #f59e0b;
-            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            --radius-sm: 8px;
-            --radius: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 20px;
-            --nav-height: 52px;
-            --bottom-height: 64px;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-
-        html { scroll-behavior: smooth; }
-
-        body {
-            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            overflow-x: hidden;
-        }
-
-        /* ===== Top Bar ===== */
-        .topbar {
-            position: fixed;
-            top: 0; left: 0; right: 0;
-            height: var(--nav-height);
-            background: rgba(255,255,255,0.85);
-            backdrop-filter: saturate(180%) blur(20px);
-            -webkit-backdrop-filter: saturate(180%) blur(20px);
-            border-bottom: 1px solid rgba(226,232,240,0.6);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 1rem;
-            z-index: 200;
-        }
-
-        .topbar-logo {
-            font-family: 'Noto Serif SC', serif;
-            font-weight: 700;
-            font-size: 1.05rem;
-            color: var(--primary-dark);
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-
-        .topbar-logo .logo-icon {
-            width: 28px; height: 28px;
-            background: linear-gradient(135deg, var(--primary), var(--primary-light));
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 0.85rem;
-        }
-
-        .topbar-logo .logo-text {
-            display: flex;
-            flex-direction: column;
-            line-height: 1.2;
-        }
-
-        .topbar-logo .logo-sub {
-            font-size: 0.65rem;
-            font-weight: 400;
-            color: var(--text-muted);
-            font-family: 'Noto Sans SC', sans-serif;
-        }
-
-        .topbar-right {
-            display: flex;
-            align-items: center;
-            gap: 0.15rem;
-        }
-
-        .topbar-btn {
-            padding: 0.35rem 0.7rem;
-            border: none;
-            background: transparent;
-            border-radius: 2rem;
-            cursor: pointer;
-            font-size: 0.8rem;
-            font-family: inherit;
-            font-weight: 500;
-            color: var(--text-secondary);
-            transition: all 0.2s;
-            white-space: nowrap;
-            position: relative;
-        }
-
-        .topbar-btn:hover {
-            background: var(--primary-bg);
-            color: var(--primary);
-        }
-
-        .topbar-btn.active {
-            background: var(--primary);
-            color: white;
-            box-shadow: 0 2px 8px rgba(13,148,136,0.3);
-        }
-
-        .topbar-btn .badge {
-            position: absolute;
-            top: -2px; right: -2px;
-            background: var(--error);
-            color: white;
-            font-size: 0.6rem;
-            min-width: 16px;
-            height: 16px;
-            line-height: 16px;
-            border-radius: 8px;
-            text-align: center;
-            padding: 0 4px;
-            font-weight: 600;
-            border: 2px solid white;
-        }
-
-        .topbar-icon-btn {
-            width: 34px; height: 34px;
-            border: none;
-            background: transparent;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1.1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            transition: all 0.2s;
-            margin-left: 0.3rem;
-        }
-
-        .topbar-icon-btn:hover {
-            background: var(--primary-bg);
-            color: var(--primary);
-        }
-
-        /* ===== Main ===== */
-        .main {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: calc(var(--nav-height) + 0.75rem) 1rem calc(var(--bottom-height) + 1rem);
-        }
-
-        /* ===== Progress Ring ===== */
-        .progress-ring-wrap {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 1rem;
-            padding: 0 0.25rem;
-        }
-
-        .progress-info {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        .progress-ring {
-            position: relative;
-            width: 44px; height: 44px;
-        }
-
-        .progress-ring svg {
-            transform: rotate(-90deg);
-        }
-
-        .progress-ring-bg {
-            fill: none;
-            stroke: var(--border-light);
-            stroke-width: 4;
-        }
-
-        .progress-ring-fill {
-            fill: none;
-            stroke: var(--primary);
-            stroke-width: 4;
-            stroke-linecap: round;
-            transition: stroke-dashoffset 0.4s ease;
-        }
-
-        .progress-ring-text {
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 0.7rem;
-            font-weight: 700;
-            color: var(--primary);
-        }
-
-        .progress-meta {
-            display: flex;
-            flex-direction: column;
-            gap: 0.1rem;
-        }
-
-        .progress-meta .current {
-            font-size: 0.9rem;
-            font-weight: 700;
-            color: var(--text);
-        }
-
-        .progress-meta .total {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        .progress-bar-line {
-            flex: 1;
-            height: 4px;
-            background: var(--border-light);
-            border-radius: 2px;
-            overflow: hidden;
-            margin: 0 0.75rem;
-            cursor: pointer;
-        }
-
-        .progress-bar-line-inner {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary-light), var(--primary));
-            border-radius: 2px;
-            transition: width 0.4s ease;
-        }
-
-        /* ===== Question Card ===== */
-        .q-card {
-            background: var(--surface);
-            border-radius: var(--radius-xl);
-            padding: 1.5rem;
-            box-shadow: var(--shadow-md);
-            border: 1px solid var(--border-light);
-            animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .q-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-light), var(--primary));
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .q-card.answered::before {
-            opacity: 1;
-        }
-
-        @keyframes slideUp {
-            from { opacity: 0; transform: translateY(20px) scale(0.98); }
-            to { opacity: 1; transform: translateY(0) scale(1); }
-        }
-
-        @keyframes slideInRight {
-            from { opacity: 0; transform: translateX(30px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.02); }
-        }
-
-        @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-6px); }
-            75% { transform: translateX(6px); }
-        }
-
-        .q-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 1.25rem;
-        }
-
-        .q-badges {
-            display: flex;
-            gap: 0.4rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .q-badge {
-            padding: 0.25rem 0.65rem;
-            border-radius: 2rem;
-            font-size: 0.72rem;
-            font-weight: 600;
-        }
-
-        .q-badge.id {
-            background: var(--primary-bg);
-            color: var(--primary);
-        }
-
-        .q-badge.chapter {
-            background: var(--border-light);
-            color: var(--text-secondary);
-        }
-
-        .q-actions {
-            display: flex;
-            gap: 0.3rem;
-        }
-
-        .q-action-btn {
-            width: 36px; height: 36px;
-            border: none;
-            background: var(--border-light);
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-muted);
-            transition: all 0.2s;
-        }
-
-        .q-action-btn:hover {
-            background: var(--primary-bg);
-            color: var(--primary);
-            transform: scale(1.1);
-        }
-
-        .q-action-btn.active {
-            background: var(--warning);
-            color: white;
-        }
-
-        .q-action-btn.active:hover {
-            background: #d97706;
-        }
-
-        .q-text {
-            font-size: 1.1rem;
-            font-weight: 500;
-            line-height: 1.8;
-            margin-bottom: 1.5rem;
-            color: var(--text);
-            letter-spacing: 0.01em;
-        }
-
-        /* ===== Options ===== */
-        .opts { display: flex; flex-direction: column; gap: 0.5rem; }
-
-        .opt {
-            display: flex;
-            align-items: center;
-            gap: 0.875rem;
-            padding: 0.9rem 1.1rem;
-            border: 2px solid var(--border-light);
-            border-radius: var(--radius);
-            cursor: pointer;
-            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-            background: var(--surface);
-            user-select: none;
-            position: relative;
-        }
-
-        .opt:hover:not(.locked) {
-            border-color: var(--primary-light);
-            background: var(--primary-bg);
-            transform: translateX(4px);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .opt-key {
-            width: 32px; height: 32px; min-width: 32px;
-            border-radius: 10px;
-            background: var(--bg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            transition: all 0.2s;
-            border: 1.5px solid var(--border);
-        }
-
-        .opt-text {
-            font-size: 0.95rem;
-            color: var(--text);
-            line-height: 1.6;
-            flex: 1;
-        }
-
-        .opt-check {
-            width: 20px; height: 20px;
-            border: 2px solid var(--border);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.7rem;
-            color: white;
-            opacity: 0;
-            transition: all 0.2s;
-        }
-
-        /* States */
-        .opt.correct {
-            border-color: var(--success);
-            background: var(--success-bg);
-            animation: pulse 0.4s ease;
-        }
-        .opt.correct .opt-key {
-            background: var(--success);
-            color: #fff;
-            border-color: var(--success);
-        }
-        .opt.correct .opt-check {
-            opacity: 1;
-            background: var(--success);
-            border-color: var(--success);
-        }
-
-        .opt.wrong {
-            border-color: var(--error);
-            background: var(--error-bg);
-            animation: shake 0.4s ease;
-        }
-        .opt.wrong .opt-key {
-            background: var(--error);
-            color: #fff;
-            border-color: var(--error);
-        }
-        .opt.wrong .opt-check {
-            opacity: 1;
-            background: var(--error);
-            border-color: var(--error);
-        }
-
-        .opt.locked {
-            cursor: default;
-            pointer-events: none;
-        }
-
-        .opt.locked:not(.correct):not(.wrong) {
-            opacity: 0.5;
-        }
-
-        /* ===== Feedback ===== */
-        .feedback {
-            margin-top: 1.25rem;
-            padding: 1rem 1.25rem;
-            border-radius: var(--radius);
-            animation: slideUp 0.3s ease;
-            display: flex;
-            align-items: flex-start;
-            gap: 0.75rem;
-        }
-
-        .feedback.ok {
-            background: var(--success-bg);
-            border: 1.5px solid var(--success-light);
-        }
-
-        .feedback.fail {
-            background: var(--error-bg);
-            border: 1.5px solid var(--error-light);
-        }
-
-        .feedback-icon {
-            width: 28px; height: 28px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.85rem;
-            flex-shrink: 0;
-        }
-
-        .feedback.ok .feedback-icon {
-            background: var(--success);
-            color: white;
-        }
-
-        .feedback.fail .feedback-icon {
-            background: var(--error);
-            color: white;
-        }
-
-        .feedback-body {
-            flex: 1;
-        }
-
-        .feedback-title {
-            font-weight: 600;
-            font-size: 0.9rem;
-            margin-bottom: 0.2rem;
-        }
-
-        .feedback.ok .feedback-title { color: var(--success); }
-        .feedback.fail .feedback-title { color: var(--error); }
-
-        .feedback-detail {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-        }
-
-        /* ===== AI Section ===== */
-        .ai-section {
-            margin-top: 1.25rem;
-            border-radius: var(--radius);
-            overflow: hidden;
-            animation: slideUp 0.3s ease;
-            border: 1.5px solid var(--border-light);
-        }
-
-        .ai-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.75rem 1rem;
-            background: linear-gradient(135deg, #f0fdfa, #e0f2fe);
-            border-bottom: 1px solid var(--border-light);
-        }
-
-        .ai-title {
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--primary-dark);
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-
-        .ai-title .sparkle {
-            font-size: 1rem;
-        }
-
-        .ai-actions {
-            display: flex;
-            gap: 0.35rem;
-        }
-
-        .ai-btn {
-            padding: 0.35rem 0.8rem;
-            border: 1.5px solid var(--primary-light);
-            background: white;
-            border-radius: 2rem;
-            cursor: pointer;
-            font-size: 0.75rem;
-            font-family: inherit;
-            font-weight: 600;
-            color: var(--primary);
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-        }
-
-        .ai-btn:hover {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-        }
-
-        .ai-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .ai-body {
-            padding: 1rem;
-            background: var(--surface);
-        }
-
-        .ai-content {
-            font-size: 0.88rem;
-            line-height: 1.8;
-            color: var(--text-secondary);
-            white-space: pre-wrap;
-        }
-
-        .ai-content .ai-thinking {
-            color: var(--text-muted);
-            font-style: italic;
-            margin-bottom: 0.5rem;
-            padding: 0.6rem 0.8rem;
-            background: var(--bg);
-            border-radius: var(--radius-sm);
-            font-size: 0.82rem;
-            border-left: 3px solid var(--primary-light);
-        }
-
-        .ai-loading {
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            color: var(--primary);
-            font-size: 0.85rem;
-        }
-
-        .ai-loading .dots {
-            display: flex;
-            gap: 3px;
-        }
-
-        .ai-loading .dot {
-            width: 6px; height: 6px;
-            border-radius: 50%;
-            background: var(--primary);
-            animation: aiBounce 1.2s infinite ease-in-out;
-        }
-
-        .ai-loading .dot:nth-child(2) { animation-delay: 0.15s; }
-        .ai-loading .dot:nth-child(3) { animation-delay: 0.3s; }
-
-        @keyframes aiBounce {
-            0%, 80%, 100% { transform: scale(0.5); opacity: 0.4; }
-            40% { transform: scale(1); opacity: 1; }
-        }
-
-        .ai-placeholder {
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            text-align: center;
-            padding: 1rem 0;
-        }
-
-        /* ===== Bottom Nav ===== */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0; left: 0; right: 0;
-            height: var(--bottom-height);
-            background: rgba(255,255,255,0.92);
-            backdrop-filter: saturate(180%) blur(20px);
-            -webkit-backdrop-filter: saturate(180%) blur(20px);
-            border-top: 1px solid rgba(226,232,240,0.6);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 1rem;
-            z-index: 200;
-        }
-
-        .bottom-btn {
-            padding: 0.55rem 1.1rem;
-            border: none;
-            border-radius: var(--radius);
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-family: inherit;
-            font-weight: 600;
-            transition: all 0.2s;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-
-        .bottom-btn.prev {
-            background: var(--bg);
-            color: var(--text-secondary);
-            border: 1.5px solid var(--border);
-        }
-
-        .bottom-btn.prev:hover { background: var(--border-light); }
-        .bottom-btn.prev:disabled { opacity: 0.3; cursor: not-allowed; }
-
-        .bottom-btn.next {
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: #fff;
-            box-shadow: 0 2px 8px rgba(13,148,136,0.25);
-        }
-
-        .bottom-btn.next:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(13,148,136,0.35);
-        }
-
-        .bottom-btn.next:disabled {
-            opacity: 0.3;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: none;
-        }
-
-        .bottom-center {
-            display: flex;
-            gap: 0.4rem;
-        }
-
-        .bottom-icon-btn {
-            width: 40px; height: 40px;
-            border: none;
-            background: var(--bg);
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            transition: all 0.2s;
-            border: 1.5px solid var(--border);
-        }
-
-        .bottom-icon-btn:hover {
-            background: var(--primary-bg);
-            color: var(--primary);
-            border-color: var(--primary-light);
-            transform: scale(1.08);
-        }
-
-        .bottom-icon-btn.active {
-            background: var(--primary);
-            color: #fff;
-            border-color: var(--primary);
-        }
-
-        /* ===== Dot Panel ===== */
-        .dot-panel {
-            position: fixed;
-            bottom: var(--bottom-height);
-            left: 0; right: 0;
-            background: rgba(255,255,255,0.97);
-            backdrop-filter: blur(20px);
-            border-top: 1px solid var(--border);
-            z-index: 190;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), padding 0.35s;
-            padding: 0 1rem;
-        }
-
-        .dot-panel.open {
-            max-height: 220px;
-            padding: 0.75rem 1rem;
-            overflow-y: auto;
-        }
-
-        .dot-panel-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.6rem;
-        }
-
-        .dot-panel-title {
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: var(--text-secondary);
-        }
-
-        .dot-panel-legend {
-            display: flex;
-            gap: 0.75rem;
-            font-size: 0.72rem;
-            color: var(--text-muted);
-        }
-
-        .dot-panel-legend span {
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-        }
-
-        .dot-panel-legend span::before {
-            content: '';
-            display: inline-block;
-            width: 7px; height: 7px;
-            border-radius: 50%;
-        }
-
-        .dot-panel-legend .l-correct::before { background: var(--success); }
-        .dot-panel-legend .l-wrong::before { background: var(--error); }
-        .dot-panel-legend .l-unanswered::before { background: var(--border); }
-
-        .dot-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-            justify-content: center;
-        }
-
-        .dot {
-            width: 30px; height: 30px;
-            border-radius: 8px;
-            background: var(--bg);
-            border: 1.5px solid var(--border-light);
-            cursor: pointer;
-            font-size: 0.65rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-muted);
-            transition: all 0.15s;
-        }
-
-        .dot:hover {
-            transform: scale(1.12);
-            border-color: var(--primary-light);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .dot.correct {
-            background: var(--success);
-            border-color: var(--success);
-            color: #fff;
-        }
-
-        .dot.wrong {
-            background: var(--error);
-            border-color: var(--error);
-            color: #fff;
-        }
-
-        .dot.current {
-            box-shadow: 0 0 0 2px var(--primary), 0 0 0 5px rgba(13,148,136,0.15);
-            border-color: var(--primary);
-            color: var(--primary);
-            background: var(--primary-bg);
-            font-weight: 700;
-        }
-
-        /* ===== Chapter Select ===== */
-        .chapter-page {
-            animation: slideUp 0.3s ease;
-        }
-
-        .chapter-header {
-            margin-bottom: 1.25rem;
-        }
-
-        .chapter-title {
-            font-family: 'Noto Serif SC', serif;
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 0.3rem;
-            color: var(--text);
-        }
-
-        .chapter-desc {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .chapter-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 0.75rem;
-        }
-
-        .chapter-card {
-            background: var(--surface);
-            border: 1.5px solid var(--border-light);
-            border-radius: var(--radius-lg);
-            padding: 1rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .chapter-card:hover {
-            border-color: var(--primary-light);
-            background: var(--primary-bg);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .chapter-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0;
-            width: 3px; height: 100%;
-            background: linear-gradient(180deg, var(--primary-light), var(--primary));
-            opacity: 0;
-            transition: opacity 0.2s;
-        }
-
-        .chapter-card:hover::before {
-            opacity: 1;
-        }
-
-        .chapter-card-name {
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--text);
-            margin-bottom: 0.25rem;
-        }
-
-        .chapter-card-count {
-            font-size: 0.78rem;
-            color: var(--text-muted);
-        }
-
-        .chapter-card-progress {
-            height: 4px;
-            background: var(--border-light);
-            border-radius: 2px;
-            margin-top: 0.6rem;
-            overflow: hidden;
-        }
-
-        .chapter-card-progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--primary-light), var(--primary));
-            border-radius: 2px;
-            transition: width 0.4s ease;
-        }
-
-        /* ===== Empty State ===== */
-        .empty {
-            text-align: center;
-            padding: 5rem 1rem;
-            color: var(--text-muted);
-            animation: slideUp 0.3s ease;
-        }
-
-        .empty-icon { font-size: 3.5rem; margin-bottom: 1rem; opacity: 0.4; }
-        .empty-text { font-size: 1rem; font-weight: 500; color: var(--text-secondary); }
-        .empty-hint { font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.7; }
-
-        /* ===== Toast ===== */
-        .toast {
-            position: fixed;
-            top: calc(var(--nav-height) + 0.5rem);
-            left: 50%;
-            transform: translateX(-50%) translateY(-16px);
-            background: var(--text);
-            color: #fff;
-            padding: 0.55rem 1.25rem;
-            border-radius: 2rem;
-            font-size: 0.85rem;
-            z-index: 1000;
-            opacity: 0;
-            transition: all 0.25s ease;
-            pointer-events: none;
-            box-shadow: var(--shadow-lg);
-            font-weight: 500;
-        }
-
-        .toast.show {
-            transform: translateX(-50%) translateY(0);
-            opacity: 1;
-        }
-
-        /* ===== Modal ===== */
-        .modal-overlay {
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(15,23,42,0.45);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.25s;
-        }
-
-        .modal-overlay.show {
-            opacity: 1;
-            pointer-events: auto;
-        }
-
-        .modal {
-            background: var(--surface);
-            border-radius: var(--radius-xl);
-            width: 100%;
-            max-width: 460px;
-            max-height: 85vh;
-            overflow-y: auto;
-            box-shadow: var(--shadow-lg);
-            border: 1px solid var(--border-light);
-            transform: translateY(16px) scale(0.97);
-            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .modal-overlay.show .modal {
-            transform: translateY(0) scale(1);
-        }
-
-        .modal-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.25rem 1.25rem 0.75rem;
-            border-bottom: 1px solid var(--border-light);
-        }
-
-        .modal-title {
-            font-size: 1.05rem;
-            font-weight: 700;
-            color: var(--text);
-        }
-
-        .modal-close {
-            background: none;
-            border: none;
-            font-size: 1.4rem;
-            cursor: pointer;
-            color: var(--text-muted);
-            line-height: 1;
-            padding: 0.2rem;
-            width: 32px; height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            transition: all 0.15s;
-        }
-
-        .modal-close:hover {
-            background: var(--bg);
-            color: var(--text);
-        }
-
-        .modal-body { padding: 1.25rem; }
-
-        .form-group { margin-bottom: 1rem; }
-
-        .form-label {
-            display: block;
-            font-size: 0.82rem;
-            font-weight: 600;
-            color: var(--text-secondary);
-            margin-bottom: 0.35rem;
-        }
-
-        .form-input {
-            width: 100%;
-            padding: 0.65rem 0.9rem;
-            border: 1.5px solid var(--border);
-            border-radius: var(--radius-sm);
-            font-size: 0.9rem;
-            font-family: inherit;
-            color: var(--text);
-            background: var(--bg);
-            transition: all 0.15s;
-        }
-
-        .form-input:focus {
-            outline: none;
-            border-color: var(--primary-light);
-            background: var(--surface);
-            box-shadow: 0 0 0 3px rgba(13,148,136,0.1);
-        }
-
-        .form-hint {
-            font-size: 0.76rem;
-            color: var(--text-muted);
-            margin-top: 0.3rem;
-            line-height: 1.5;
-        }
-
-        .form-hint a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .form-hint a:hover { text-decoration: underline; }
-
-        .form-select {
-            width: 100%;
-            padding: 0.65rem 0.9rem;
-            border: 1.5px solid var(--border);
-            border-radius: var(--radius-sm);
-            font-size: 0.9rem;
-            font-family: inherit;
-            color: var(--text);
-            background: var(--bg);
-            cursor: pointer;
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 0.9rem center;
-            padding-right: 2.5rem;
-        }
-
-        .form-select:focus {
-            outline: none;
-            border-color: var(--primary-light);
-            box-shadow: 0 0 0 3px rgba(13,148,136,0.1);
-        }
-
-        .modal-footer {
-            display: flex;
-            gap: 0.6rem;
-            padding: 0.5rem 1.25rem 1.25rem;
-            justify-content: flex-end;
-        }
-
-        .modal-btn {
-            padding: 0.55rem 1.25rem;
-            border: none;
-            border-radius: var(--radius-sm);
-            cursor: pointer;
-            font-size: 0.87rem;
-            font-family: inherit;
-            font-weight: 600;
-            transition: all 0.15s;
-        }
-
-        .modal-btn.secondary {
-            background: var(--bg);
-            color: var(--text-secondary);
-            border: 1.5px solid var(--border);
-        }
-
-        .modal-btn.secondary:hover { background: var(--border-light); }
-
-        .modal-btn.primary {
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-            color: white;
-        }
-
-        .modal-btn.primary:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(13,148,136,0.3);
-        }
-
-        /* ===== Responsive ===== */
-        @media (max-width: 600px) {
-            .topbar-btn { padding: 0.3rem 0.55rem; font-size: 0.75rem; }
-            .topbar-btn .badge { display: none; }
-            .q-card { padding: 1.15rem; border-radius: var(--radius-lg); }
-            .q-text { font-size: 1rem; }
-            .chapter-grid { grid-template-columns: repeat(2, 1fr); }
-            .progress-bar-line { display: none; }
-        }
-
-        @media (min-width: 601px) {
-            .progress-ring-wrap { padding: 0 0.5rem; }
-        }
-
-        /* ===== Scrollbar ===== */
-        ::-webkit-scrollbar { width: 3px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>组胚刷题 - 源头活水</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #0d9488;
+  --primary-light: #14b8a6;
+  --primary-dark: #0f766e;
+  --primary-bg: #f0fdfa;
+  --accent: #f59e0b;
+  --accent-light: #fbbf24;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --border: #e2e8f0;
+  --border-light: #f1f5f9;
+  --success: #10b981;
+  --success-bg: #ecfdf5;
+  --success-light: #d1fae5;
+  --error: #ef4444;
+  --error-bg: #fef2f2;
+  --error-light: #fee2e2;
+  --warning: #f59e0b;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --nav-height: 52px;
+  --bottom-height: 64px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg); color: var(--text); min-height: 100vh;
+  line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden;
+}
+
+/* ===== Top Bar ===== */
+.topbar {
+  position: fixed; top: 0; left: 0; right: 0; height: var(--nav-height);
+  background: rgba(255,255,255,0.88); backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(226,232,240,0.6);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 1rem; z-index: 200;
+}
+.topbar-logo {
+  font-family: 'Noto Serif SC', serif; font-weight: 700; font-size: 1.05rem;
+  color: var(--primary-dark); cursor: pointer; user-select: none;
+  display: flex; align-items: center; gap: 0.4rem;
+}
+.topbar-logo .logo-icon {
+  width: 28px; height: 28px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  border-radius: 8px; display: flex; align-items: center; justify-content: center;
+  color: white; font-size: 0.85rem;
+}
+.topbar-logo .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+.topbar-logo .logo-sub {
+  font-size: 0.65rem; font-weight: 400; color: var(--text-muted);
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.topbar-right { display: flex; align-items: center; gap: 0.5rem; }
+.topbar-stats {
+  display: flex; align-items: center; gap: 0.6rem;
+  padding: 0.2rem 0.6rem; background: var(--bg); border-radius: 2rem;
+  border: 1px solid var(--border-light); font-size: 0.78rem;
+}
+.topbar-stat {
+  display: flex; align-items: center; gap: 0.25rem;
+  font-weight: 600; color: var(--text-secondary);
+}
+.topbar-stat.fire { color: var(--accent); }
+.topbar-stat.xp { color: var(--primary); }
+.topbar-stat .stat-icon { font-size: 0.9rem; }
+.topbar-btn {
+  padding: 0.35rem 0.7rem; border: none; background: transparent;
+  border-radius: 2rem; cursor: pointer; font-size: 0.78rem;
+  font-family: inherit; font-weight: 500; color: var(--text-secondary);
+  transition: all 0.2s; white-space: nowrap;
+}
+.topbar-btn:hover { background: var(--primary-bg); color: var(--primary); }
+.topbar-btn.active { background: var(--primary); color: white; box-shadow: 0 2px 8px rgba(13,148,136,0.3); }
+.topbar-btn .badge {
+  position: absolute; top: -2px; right: -2px; background: var(--error); color: white;
+  font-size: 0.6rem; min-width: 16px; height: 16px; line-height: 16px;
+  border-radius: 8px; text-align: center; padding: 0 4px; font-weight: 600; border: 2px solid white;
+}
+.topbar-icon-btn {
+  width: 34px; height: 34px; border: none; background: transparent; border-radius: 50%;
+  cursor: pointer; font-size: 1.1rem; display: flex; align-items: center; justify-content: center;
+  color: var(--text-secondary); transition: all 0.2s;
+}
+.topbar-icon-btn:hover { background: var(--primary-bg); color: var(--primary); }
+
+/* ===== Main ===== */
+.main {
+  max-width: 680px; margin: 0 auto;
+  padding: calc(var(--nav-height) + 0.5rem) 1rem calc(var(--bottom-height) + 1rem);
+}
+
+/* ===== Daily Stats Bar ===== */
+.daily-stats {
+  display: flex; gap: 0.5rem; margin-bottom: 0.75rem; overflow-x: auto;
+  padding-bottom: 0.25rem; scrollbar-width: none;
+}
+.daily-stats::-webkit-scrollbar { display: none; }
+.daily-stat {
+  flex-shrink: 0; padding: 0.4rem 0.75rem; background: var(--surface);
+  border: 1px solid var(--border-light); border-radius: 2rem;
+  font-size: 0.75rem; color: var(--text-secondary); font-weight: 500;
+  display: flex; align-items: center; gap: 0.3rem;
+  box-shadow: var(--shadow-sm);
+}
+.daily-stat .ds-val { font-weight: 700; color: var(--primary); }
+.daily-stat .ds-icon { font-size: 0.85rem; }
+
+/* ===== Progress Ring ===== */
+.progress-ring-wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 0.75rem; padding: 0 0.25rem;
+}
+.progress-info { display: flex; align-items: center; gap: 0.75rem; }
+.progress-ring { position: relative; width: 44px; height: 44px; }
+.progress-ring svg { transform: rotate(-90deg); }
+.progress-ring-bg { fill: none; stroke: var(--border-light); stroke-width: 4; }
+.progress-ring-fill { fill: none; stroke: var(--primary); stroke-width: 4; stroke-linecap: round; transition: stroke-dashoffset 0.4s ease; }
+.progress-ring-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 0.7rem; font-weight: 700; color: var(--primary); }
+.progress-meta { display: flex; flex-direction: column; gap: 0.1rem; }
+.progress-meta .current { font-size: 0.9rem; font-weight: 700; color: var(--text); }
+.progress-meta .total { font-size: 0.75rem; color: var(--text-muted); }
+.progress-bar-line { flex: 1; height: 4px; background: var(--border-light); border-radius: 2px; overflow: hidden; margin: 0 0.75rem; cursor: pointer; }
+.progress-bar-line-inner { height: 100%; background: linear-gradient(90deg, var(--primary-light), var(--primary)); border-radius: 2px; transition: width 0.4s ease; }
+
+/* ===== Combo Banner ===== */
+.combo-banner {
+  display: flex; align-items: center; justify-content: center;
+  gap: 0.4rem; padding: 0.4rem 0;
+  margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 600;
+  color: var(--accent); animation: slideDown 0.3s ease;
+}
+.combo-banner.hidden { display: none; }
+@keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ===== Timer ===== */
+.q-timer {
+  display: flex; align-items: center; gap: 0.3rem;
+  font-size: 0.75rem; color: var(--text-muted); font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.q-timer.urgent { color: var(--error); animation: pulse 0.8s infinite; }
+
+/* ===== Question Card ===== */
+.q-card {
+  background: var(--surface); border-radius: var(--radius-xl); padding: 1.5rem;
+  box-shadow: var(--shadow-md); border: 1px solid var(--border-light);
+  animation: slideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative; overflow: hidden;
+}
+.q-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--primary-light), var(--primary));
+  opacity: 0; transition: opacity 0.3s;
+}
+.q-card.answered::before { opacity: 1; }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.02); } }
+@keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+@keyframes pop { 0% { transform: scale(0.5); opacity: 0; } 50% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-60px) scale(1.3); opacity: 0; }
+}
+
+.q-header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.q-badges { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
+.q-badge { padding: 0.25rem 0.65rem; border-radius: 2rem; font-size: 0.72rem; font-weight: 600; }
+.q-badge.id { background: var(--primary-bg); color: var(--primary); }
+.q-badge.chapter { background: var(--border-light); color: var(--text-secondary); }
+.q-actions { display: flex; gap: 0.3rem; }
+.q-action-btn {
+  width: 36px; height: 36px; border: none; background: var(--border-light);
+  border-radius: 50%; cursor: pointer; font-size: 1rem;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.2s;
+}
+.q-action-btn:hover { background: var(--primary-bg); color: var(--primary); transform: scale(1.1); }
+.q-action-btn.active { background: var(--warning); color: white; }
+.q-action-btn.active:hover { background: #d97706; }
+.q-text { font-size: 1.1rem; font-weight: 500; line-height: 1.8; margin-bottom: 1.25rem; color: var(--text); letter-spacing: 0.01em; }
+
+/* ===== Options ===== */
+.opts { display: flex; flex-direction: column; gap: 0.5rem; position: relative; }
+.opt {
+  display: flex; align-items: center; gap: 0.875rem;
+  padding: 0.9rem 1.1rem; border: 2px solid var(--border-light);
+  border-radius: var(--radius); cursor: pointer; transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  background: var(--surface); user-select: none; position: relative;
+}
+.opt:hover:not(.locked) { border-color: var(--primary-light); background: var(--primary-bg); transform: translateX(4px); box-shadow: var(--shadow-sm); }
+.opt-key {
+  width: 32px; height: 32px; min-width: 32px; border-radius: 10px;
+  background: var(--bg); display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 0.85rem; color: var(--text-secondary);
+  transition: all 0.2s; border: 1.5px solid var(--border);
+}
+.opt-text { font-size: 0.95rem; color: var(--text); line-height: 1.6; flex: 1; }
+.opt-check {
+  width: 20px; height: 20px; border: 2px solid var(--border); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.7rem; color: white; opacity: 0; transition: all 0.2s;
+}
+.opt.correct { border-color: var(--success); background: var(--success-bg); animation: pulse 0.4s ease; }
+.opt.correct .opt-key { background: var(--success); color: #fff; border-color: var(--success); }
+.opt.correct .opt-check { opacity: 1; background: var(--success); border-color: var(--success); }
+.opt.wrong { border-color: var(--error); background: var(--error-bg); animation: shake 0.4s ease; }
+.opt.wrong .opt-key { background: var(--error); color: #fff; border-color: var(--error); }
+.opt.wrong .opt-check { opacity: 1; background: var(--error); border-color: var(--error); }
+.opt.locked { cursor: default; pointer-events: none; }
+.opt.locked:not(.correct):not(.wrong) { opacity: 0.5; }
+
+/* Floating XP text */
+.float-xp {
+  position: absolute; right: 1rem; top: 50%;
+  font-size: 1rem; font-weight: 700; color: var(--accent);
+  pointer-events: none; animation: floatUp 1s ease forwards;
+  z-index: 10;
+}
+
+/* ===== Feedback ===== */
+.feedback {
+  margin-top: 1.25rem; padding: 1rem 1.25rem; border-radius: var(--radius);
+  animation: slideUp 0.3s ease; display: flex; align-items: flex-start; gap: 0.75rem;
+}
+.feedback.ok { background: var(--success-bg); border: 1.5px solid var(--success-light); }
+.feedback.fail { background: var(--error-bg); border: 1.5px solid var(--error-light); }
+.feedback-icon { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+.feedback.ok .feedback-icon { background: var(--success); color: white; }
+.feedback.fail .feedback-icon { background: var(--error); color: white; }
+.feedback-body { flex: 1; }
+.feedback-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.2rem; }
+.feedback.ok .feedback-title { color: var(--success); }
+.feedback.fail .feedback-title { color: var(--error); }
+.feedback-detail { font-size: 0.85rem; color: var(--text-secondary); }
+.feedback-xp { font-size: 0.8rem; color: var(--accent); font-weight: 600; margin-top: 0.3rem; }
+
+/* ===== AI Section ===== */
+.ai-section {
+  margin-top: 1.25rem; border-radius: var(--radius); overflow: hidden;
+  animation: slideUp 0.3s ease; border: 1.5px solid var(--border-light);
+}
+.ai-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0.75rem 1rem; background: linear-gradient(135deg, #f0fdfa, #e0f2fe);
+  border-bottom: 1px solid var(--border-light);
+}
+.ai-title { font-size: 0.85rem; font-weight: 600; color: var(--primary-dark); display: flex; align-items: center; gap: 0.4rem; }
+.ai-title .sparkle { font-size: 1rem; }
+.ai-actions { display: flex; gap: 0.35rem; }
+.ai-btn {
+  padding: 0.35rem 0.8rem; border: 1.5px solid var(--primary-light); background: white;
+  border-radius: 2rem; cursor: pointer; font-size: 0.75rem; font-family: inherit;
+  font-weight: 600; color: var(--primary); transition: all 0.2s;
+  display: flex; align-items: center; gap: 0.3rem;
+}
+.ai-btn:hover { background: var(--primary); color: white; border-color: var(--primary); }
+.ai-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.ai-body { padding: 1rem; background: var(--surface); }
+.ai-content { font-size: 0.88rem; line-height: 1.8; color: var(--text-secondary); white-space: pre-wrap; }
+.ai-content .ai-thinking { color: var(--text-muted); font-style: italic; margin-bottom: 0.5rem; padding: 0.6rem 0.8rem; background: var(--bg); border-radius: var(--radius-sm); font-size: 0.82rem; border-left: 3px solid var(--primary-light); }
+.ai-loading { display: flex; align-items: center; gap: 0.6rem; color: var(--primary); font-size: 0.85rem; }
+.ai-loading .dots { display: flex; gap: 3px; }
+.ai-loading .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--primary); animation: aiBounce 1.2s infinite ease-in-out; }
+.ai-loading .dot:nth-child(2) { animation-delay: 0.15s; }
+.ai-loading .dot:nth-child(3) { animation-delay: 0.3s; }
+@keyframes aiBounce { 0%, 80%, 100% { transform: scale(0.5); opacity: 0.4; } 40% { transform: scale(1); opacity: 1; } }
+.ai-placeholder { color: var(--text-muted); font-size: 0.85rem; text-align: center; padding: 1rem 0; }
+
+/* ===== Celebration Canvas ===== */
+#confetti-canvas {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 999; opacity: 0; transition: opacity 0.3s;
+}
+#confetti-canvas.active { opacity: 1; }
+
+/* ===== Level Up Banner ===== */
+.levelup-banner {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.8);
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white; padding: 1.5rem 2.5rem; border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg); z-index: 1001; text-align: center;
+  opacity: 0; pointer-events: none; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.levelup-banner.show { opacity: 1; transform: translate(-50%, -50%) scale(1); pointer-events: auto; }
+.levelup-banner .lu-icon { font-size: 3rem; margin-bottom: 0.5rem; }
+.levelup-banner .lu-title { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.25rem; }
+.levelup-banner .lu-sub { font-size: 0.9rem; opacity: 0.9; }
+
+/* ===== Bottom Nav ===== */
+.bottom-nav {
+  position: fixed; bottom: 0; left: 0; right: 0; height: var(--bottom-height);
+  background: rgba(255,255,255,0.92); backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-top: 1px solid rgba(226,232,240,0.6);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 1rem; z-index: 200;
+}
+.bottom-btn {
+  padding: 0.55rem 1.1rem; border: none; border-radius: var(--radius);
+  cursor: pointer; font-size: 0.85rem; font-family: inherit; font-weight: 600;
+  transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.4rem;
+}
+.bottom-btn.prev { background: var(--bg); color: var(--text-secondary); border: 1.5px solid var(--border); }
+.bottom-btn.prev:hover { background: var(--border-light); }
+.bottom-btn.prev:disabled { opacity: 0.3; cursor: not-allowed; }
+.bottom-btn.next {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #fff; box-shadow: 0 2px 8px rgba(13,148,136,0.25);
+}
+.bottom-btn.next:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(13,148,136,0.35); }
+.bottom-btn.next:disabled { opacity: 0.3; cursor: not-allowed; transform: none; box-shadow: none; }
+.bottom-center { display: flex; gap: 0.4rem; }
+.bottom-icon-btn {
+  width: 40px; height: 40px; border: none; background: var(--bg); border-radius: 50%;
+  cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center;
+  color: var(--text-secondary); transition: all 0.2s; border: 1.5px solid var(--border);
+}
+.bottom-icon-btn:hover { background: var(--primary-bg); color: var(--primary); border-color: var(--primary-light); transform: scale(1.08); }
+.bottom-icon-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+/* ===== Dot Panel ===== */
+.dot-panel {
+  position: fixed; bottom: var(--bottom-height); left: 0; right: 0;
+  background: rgba(255,255,255,0.97); backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border); z-index: 190;
+  max-height: 0; overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), padding 0.35s;
+  padding: 0 1rem;
+}
+.dot-panel.open { max-height: 220px; padding: 0.75rem 1rem; overflow-y: auto; }
+.dot-panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; }
+.dot-panel-title { font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); }
+.dot-panel-legend { display: flex; gap: 0.75rem; font-size: 0.72rem; color: var(--text-muted); }
+.dot-panel-legend span { display: flex; align-items: center; gap: 0.3rem; }
+.dot-panel-legend span::before { content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%; }
+.dot-panel-legend .l-correct::before { background: var(--success); }
+.dot-panel-legend .l-wrong::before { background: var(--error); }
+.dot-panel-legend .l-unanswered::before { background: var(--border); }
+.dot-grid { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; }
+.dot {
+  width: 30px; height: 30px; border-radius: 8px; background: var(--bg);
+  border: 1.5px solid var(--border-light); cursor: pointer; font-size: 0.65rem;
+  font-weight: 600; display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: all 0.15s;
+}
+.dot:hover { transform: scale(1.12); border-color: var(--primary-light); box-shadow: var(--shadow-sm); }
+.dot.correct { background: var(--success); border-color: var(--success); color: #fff; }
+.dot.wrong { background: var(--error); border-color: var(--error); color: #fff; }
+.dot.current { box-shadow: 0 0 0 2px var(--primary), 0 0 0 5px rgba(13,148,136,0.15); border-color: var(--primary); color: var(--primary); background: var(--primary-bg); font-weight: 700; }
+
+/* ===== Chapter Select ===== */
+.chapter-page { animation: slideUp 0.3s ease; }
+.chapter-header { margin-bottom: 1.25rem; }
+.chapter-title { font-family: 'Noto Serif SC', serif; font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--text); }
+.chapter-desc { font-size: 0.85rem; color: var(--text-muted); }
+.chapter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.75rem; }
+.chapter-card {
+  background: var(--surface); border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-lg); padding: 1rem; cursor: pointer; transition: all 0.2s;
+  position: relative; overflow: hidden;
+}
+.chapter-card:hover { border-color: var(--primary-light); background: var(--primary-bg); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.chapter-card::before { content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%; background: linear-gradient(180deg, var(--primary-light), var(--primary)); opacity: 0; transition: opacity 0.2s; }
+.chapter-card:hover::before { opacity: 1; }
+.chapter-card-name { font-size: 0.9rem; font-weight: 600; color: var(--text); margin-bottom: 0.25rem; }
+.chapter-card-count { font-size: 0.78rem; color: var(--text-muted); }
+.chapter-card-progress { height: 4px; background: var(--border-light); border-radius: 2px; margin-top: 0.6rem; overflow: hidden; }
+.chapter-card-progress-fill { height: 100%; background: linear-gradient(90deg, var(--primary-light), var(--primary)); border-radius: 2px; transition: width 0.4s ease; }
+
+/* ===== Empty State ===== */
+.empty { text-align: center; padding: 5rem 1rem; color: var(--text-muted); animation: slideUp 0.3s ease; }
+.empty-icon { font-size: 3.5rem; margin-bottom: 1rem; opacity: 0.4; }
+.empty-text { font-size: 1rem; font-weight: 500; color: var(--text-secondary); }
+.empty-hint { font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.7; }
+
+/* ===== Toast ===== */
+.toast {
+  position: fixed; top: calc(var(--nav-height) + 0.5rem); left: 50%;
+  transform: translateX(-50%) translateY(-16px); background: var(--text); color: #fff;
+  padding: 0.55rem 1.25rem; border-radius: 2rem; font-size: 0.85rem;
+  z-index: 1000; opacity: 0; transition: all 0.25s ease; pointer-events: none;
+  box-shadow: var(--shadow-lg); font-weight: 500;
+}
+.toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+
+/* ===== Modal ===== */
+.modal-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15,23,42,0.45); z-index: 1000;
+  display: flex; align-items: center; justify-content: center;
+  padding: 1rem; opacity: 0; pointer-events: none; transition: opacity 0.25s;
+}
+.modal-overlay.show { opacity: 1; pointer-events: auto; }
+.modal {
+  background: var(--surface); border-radius: var(--radius-xl); width: 100%;
+  max-width: 480px; max-height: 85vh; overflow-y: auto;
+  box-shadow: var(--shadow-lg); border: 1px solid var(--border-light);
+  transform: translateY(16px) scale(0.97); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.modal-overlay.show .modal { transform: translateY(0) scale(1); }
+.modal-header { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 1.25rem 0.75rem; border-bottom: 1px solid var(--border-light); }
+.modal-title { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+.modal-close { background: none; border: none; font-size: 1.4rem; cursor: pointer; color: var(--text-muted); line-height: 1; padding: 0.2rem; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: all 0.15s; }
+.modal-close:hover { background: var(--bg); color: var(--text); }
+.modal-body { padding: 1.25rem; }
+.modal-footer { display: flex; gap: 0.6rem; padding: 0.5rem 1.25rem 1.25rem; justify-content: flex-end; }
+
+/* Achievement Grid */
+.achieve-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+.achieve-item {
+  text-align: center; padding: 0.75rem 0.5rem; border-radius: var(--radius);
+  border: 1.5px solid var(--border-light); background: var(--bg);
+  transition: all 0.2s; position: relative;
+}
+.achieve-item.unlocked { background: var(--surface); border-color: var(--primary-light); }
+.achieve-item.unlocked .achieve-icon { filter: none; opacity: 1; }
+.achieve-item .achieve-icon { font-size: 1.8rem; margin-bottom: 0.4rem; filter: grayscale(100%); opacity: 0.4; transition: all 0.3s; }
+.achieve-item.unlocked .achieve-icon { animation: pop 0.4s ease; }
+.achieve-item .achieve-name { font-size: 0.75rem; font-weight: 600; color: var(--text-secondary); }
+.achieve-item .achieve-desc { font-size: 0.68rem; color: var(--text-muted); margin-top: 0.15rem; }
+.achieve-item .achieve-new {
+  position: absolute; top: -4px; right: -4px;
+  background: var(--error); color: white; font-size: 0.6rem;
+  padding: 0.1rem 0.4rem; border-radius: 1rem; font-weight: 700;
+}
+
+/* Stats Panel */
+.stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1rem; }
+.stats-card {
+  background: var(--bg); border-radius: var(--radius); padding: 1rem;
+  border: 1px solid var(--border-light); text-align: center;
+}
+.stats-card .sc-val { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+.stats-card .sc-label { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.2rem; }
+
+/* Form */
+.form-group { margin-bottom: 1rem; }
+.form-label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem; }
+.form-input {
+  width: 100%; padding: 0.65rem 0.9rem; border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm); font-size: 0.9rem; font-family: inherit;
+  color: var(--text); background: var(--bg); transition: all 0.15s;
+}
+.form-input:focus { outline: none; border-color: var(--primary-light); background: var(--surface); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
+.form-hint { font-size: 0.76rem; color: var(--text-muted); margin-top: 0.3rem; line-height: 1.5; }
+.form-hint a { color: var(--primary); text-decoration: none; font-weight: 500; }
+.form-hint a:hover { text-decoration: underline; }
+.form-select {
+  width: 100%; padding: 0.65rem 0.9rem; border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm); font-size: 0.9rem; font-family: inherit;
+  color: var(--text); background: var(--bg); cursor: pointer; appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 0.9rem center; padding-right: 2.5rem;
+}
+.form-select:focus { outline: none; border-color: var(--primary-light); box-shadow: 0 0 0 3px rgba(13,148,136,0.1); }
+.modal-btn {
+  padding: 0.55rem 1.25rem; border: none; border-radius: var(--radius-sm);
+  cursor: pointer; font-size: 0.87rem; font-family: inherit; font-weight: 600; transition: all 0.15s;
+}
+.modal-btn.secondary { background: var(--bg); color: var(--text-secondary); border: 1.5px solid var(--border); }
+.modal-btn.secondary:hover { background: var(--border-light); }
+.modal-btn.primary { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; }
+.modal-btn.primary:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(13,148,136,0.3); }
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .topbar-btn { padding: 0.3rem 0.55rem; font-size: 0.75rem; }
+  .topbar-stats { display: none; }
+  .q-card { padding: 1.15rem; border-radius: var(--radius-lg); }
+  .q-text { font-size: 1rem; }
+  .chapter-grid { grid-template-columns: repeat(2, 1fr); }
+  .progress-bar-line { display: none; }
+  .achieve-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 601px) { .progress-ring-wrap { padding: 0 0.5rem; } }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+</style>
 </head>
 <body>
 
+<!-- Celebration Canvas -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- Level Up Banner -->
+<div class="levelup-banner" id="levelupBanner">
+  <div class="lu-icon">&#127942;</div>
+  <div class="lu-title" id="levelupTitle">升级了！</div>
+  <div class="lu-sub" id="levelupSub">恭喜达到 Lv.2</div>
+</div>
+
 <!-- Top Bar -->
 <div class="topbar">
-    <div class="topbar-logo" onclick="goHome()">
-        <div class="logo-icon">组</div>
-        <div class="logo-text">
-            组胚刷题
-            <span class="logo-sub">源头活水</span>
-        </div>
+  <div class="topbar-logo" onclick="goHome()">
+    <div class="logo-icon">组</div>
+    <div class="logo-text">组胚刷题<span class="logo-sub">源头活水</span></div>
+  </div>
+  <div class="topbar-right">
+    <div class="topbar-stats" id="topbarStats">
+      <div class="topbar-stat fire" id="streakDisplay"><span class="stat-icon">&#128293;</span><span id="streakVal">0</span></div>
+      <div class="topbar-stat xp" id="xpDisplay"><span class="stat-icon">&#11088;</span><span id="xpVal">0</span></div>
+      <div class="topbar-stat" id="levelDisplay"><span class="stat-icon">&#127941;</span>Lv.<span id="levelVal">1</span></div>
     </div>
-    <div class="topbar-right">
-        <button class="topbar-btn active" data-view="practice" onclick="switchView('practice')">顺序</button>
-        <button class="topbar-btn" data-view="random" onclick="switchView('random')">随机</button>
-        <button class="topbar-btn" data-view="chapter" onclick="switchView('chapter')">章节</button>
-        <button class="topbar-btn" data-view="wrong" onclick="switchView('wrong')">错题<span class="badge" id="wrong-badge" style="display:none">0</span></button>
-        <button class="topbar-btn" data-view="bookmark" onclick="switchView('bookmark')">收藏</button>
-        <button class="topbar-icon-btn" onclick="openSettings()" title="设置">&#9881;</button>
-    </div>
+    <button class="topbar-btn active" data-view="practice" onclick="switchView('practice')">顺序</button>
+    <button class="topbar-btn" data-view="random" onclick="switchView('random')">随机</button>
+    <button class="topbar-btn" data-view="chapter" onclick="switchView('chapter')">章节</button>
+    <button class="topbar-btn" data-view="wrong" onclick="switchView('wrong')">错题<span class="badge" id="wrong-badge" style="display:none">0</span></button>
+    <button class="topbar-btn" data-view="bookmark" onclick="switchView('bookmark')">收藏</button>
+    <button class="topbar-icon-btn" onclick="openAchievements()" title="成就">&#127942;</button>
+    <button class="topbar-icon-btn" onclick="openSettings()" title="设置">&#9881;</button>
+  </div>
 </div>
 
 <!-- Main -->
 <div class="main" id="app">
-    <div style="display:flex;justify-content:center;align-items:center;height:60vh;color:var(--text-muted);font-size:0.9rem;">
-        <div style="text-align:center">
-            <div style="width:32px;height:32px;border:3px solid var(--border-light);border-top-color:var(--primary);border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 0.75rem;"></div>
-            加载中...
-        </div>
+  <div style="display:flex;justify-content:center;align-items:center;height:60vh;color:var(--text-muted);font-size:0.9rem;">
+    <div style="text-align:center">
+      <div style="width:32px;height:32px;border:3px solid var(--border-light);border-top-color:var(--primary);border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 0.75rem;"></div>
+      加载中...
     </div>
+  </div>
 </div>
 
 <!-- Dot Panel -->
 <div class="dot-panel" id="dotPanel">
-    <div class="dot-panel-header">
-        <span class="dot-panel-title" id="dotPanelTitle">题目导航</span>
-        <div class="dot-panel-legend">
-            <span class="l-correct">正确</span>
-            <span class="l-wrong">错误</span>
-            <span class="l-unanswered">未答</span>
-        </div>
+  <div class="dot-panel-header">
+    <span class="dot-panel-title" id="dotPanelTitle">题目导航</span>
+    <div class="dot-panel-legend">
+      <span class="l-correct">正确</span><span class="l-wrong">错误</span><span class="l-unanswered">未答</span>
     </div>
-    <div class="dot-grid" id="dotGrid"></div>
+  </div>
+  <div class="dot-grid" id="dotGrid"></div>
 </div>
 
 <!-- Bottom Nav -->
 <div class="bottom-nav" id="bottomNav">
-    <button class="bottom-btn prev" id="prevBtn" onclick="prevQuestion()" disabled>
-        <span>&#8592;</span> 上一题
-    </button>
-    <div class="bottom-center">
-        <button class="bottom-icon-btn" id="dotToggle" onclick="toggleDotPanel()" title="题目导航">&#9776;</button>
-        <button class="bottom-icon-btn" id="shuffleBtn" onclick="reshuffle()" title="重新打乱">&#8635;</button>
-    </div>
-    <button class="bottom-btn next" id="nextBtn" onclick="nextQuestion()">
-        下一题 <span>&#8594;</span>
-    </button>
+  <button class="bottom-btn prev" id="prevBtn" onclick="prevQuestion()" disabled><span>&#8592;</span> 上一题</button>
+  <div class="bottom-center">
+    <button class="bottom-icon-btn" id="dotToggle" onclick="toggleDotPanel()" title="题目导航">&#9776;</button>
+    <button class="bottom-icon-btn" id="shuffleBtn" onclick="reshuffle()" title="重新打乱">&#8635;</button>
+  </div>
+  <button class="bottom-btn next" id="nextBtn" onclick="nextQuestion()">下一题 <span>&#8594;</span></button>
 </div>
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
+<!-- Achievements Modal -->
+<div class="modal-overlay" id="achieveModal">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">&#127942; 我的成就</div>
+      <button class="modal-close" onclick="closeAchievements()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="stats-grid" id="statsGrid"></div>
+      <div style="font-size:0.82rem;font-weight:600;color:var(--text-secondary);margin-bottom:0.75rem;">徽章墙</div>
+      <div class="achieve-grid" id="achieveGrid"></div>
+    </div>
+    <div class="modal-footer">
+      <button class="modal-btn primary" onclick="closeAchievements()">太棒了</button>
+    </div>
+  </div>
+</div>
+
 <!-- Settings Modal -->
 <div class="modal-overlay" id="settingsModal">
-    <div class="modal">
-        <div class="modal-header">
-            <div class="modal-title">AI 设置</div>
-            <button class="modal-close" onclick="closeSettings()">&times;</button>
-        </div>
-        <div class="modal-body">
-            <div class="form-group">
-                <label class="form-label">DeepSeek API Key</label>
-                <input type="password" class="form-input" id="apiKeyInput" placeholder="sk-xxxxxxxxxxxxxxxxxxxxxxxx">
-                <div class="form-hint">在 <a href="https://platform.deepseek.com/api_keys" target="_blank">DeepSeek 平台</a> 获取 API Key，仅保存在本地浏览器</div>
-            </div>
-            <div class="form-group">
-                <label class="form-label">模型选择</label>
-                <select class="form-select" id="modelSelect">
-                    <option value="deepseek-v4-flash">DeepSeek-V4-Flash (高速，推荐)</option>
-                    <option value="deepseek-v4-pro">DeepSeek-V4-Pro (推理强)</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label class="form-label">解析风格</label>
-                <select class="form-select" id="styleSelect">
-                    <option value="detailed">详细解析 (知识点+推理)</option>
-                    <option value="concise">简洁解析 (一句话总结)</option>
-                    <option value="exam">考试技巧 (考点+易错点)</option>
-                </select>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <button class="modal-btn secondary" onclick="closeSettings()">取消</button>
-            <button class="modal-btn primary" onclick="saveSettings()">保存</button>
-        </div>
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">AI 设置</div>
+      <button class="modal-close" onclick="closeSettings()">&times;</button>
     </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">DeepSeek API Key</label>
+        <input type="password" class="form-input" id="apiKeyInput" placeholder="sk-xxxxxxxxxxxxxxxxxxxxxxxx">
+        <div class="form-hint">在 <a href="https://platform.deepseek.com/api_keys" target="_blank">DeepSeek 平台</a> 获取 API Key，仅保存在本地浏览器</div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">模型选择</label>
+        <select class="form-select" id="modelSelect"><option value="deepseek-v4-flash">DeepSeek-V4-Flash (高速，推荐)</option><option value="deepseek-v4-pro">DeepSeek-V4-Pro (推理强)</option></select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">解析风格</label>
+        <select class="form-select" id="styleSelect"><option value="detailed">详细解析 (知识点+推理)</option><option value="concise">简洁解析 (一句话总结)</option><option value="exam">考试技巧 (考点+易错点)</option></select>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="modal-btn secondary" onclick="closeSettings()">取消</button>
+      <button class="modal-btn primary" onclick="saveSettings()">保存</button>
+    </div>
+  </div>
 </div>
 
 <style>@keyframes spin{to{transform:rotate(360deg)}}</style>
 
 <script>
-// ===== State =====
+// ===== Game State =====
 let questions = [];
 let currentView = 'practice';
 let currentIndex = 0;
@@ -1289,532 +632,687 @@ let wrongQuestions = new Set();
 let bookmarkedQuestions = new Set();
 let selectedChapter = null;
 let dotPanelOpen = false;
+
+// Gamification
+let gameState = {
+  totalXP: 0,
+  streak: 0,
+  bestStreak: 0,
+  level: 1,
+  todayAnswered: 0,
+  todayCorrect: 0,
+  todayXP: 0,
+  todayBestStreak: 0,
+  totalAnswered: 0,
+  totalCorrect: 0,
+  fastAnswers: 0, // answered within 5s
+  achievements: {}, // id -> { unlocked: bool, unlockedAt: date }
+  lastDate: null,
+  questionStartTime: 0,
+};
+
+const ACHIEVEMENTS = [
+  { id: 'first_step', name: '初出茅庐', desc: '完成第1道题', icon: '&#128099;', check: g => g.totalAnswered >= 1 },
+  { id: 'century', name: '百题斩', desc: '累计答对100题', icon: '&#9876;', check: g => g.totalCorrect >= 100 },
+  { id: 'streak_5', name: '渐入佳境', desc: '连续答对5题', icon: '&#128293;', check: g => g.bestStreak >= 5 },
+  { id: 'streak_10', name: '全对王者', desc: '连续答对10题', icon: '&#128081;', check: g => g.bestStreak >= 10 },
+  { id: 'streak_20', name: '无敌战神', desc: '连续答对20题', icon: '&#127941;', check: g => g.bestStreak >= 20 },
+  { id: 'speed_demon', name: '速度之星', desc: '5秒内答对10题', icon: '&#9889;', check: g => g.fastAnswers >= 10 },
+  { id: 'collector', name: '收藏达人', desc: '收藏20道题', icon: '&#11088;', check: () => bookmarkedQuestions.size >= 20 },
+  { id: 'chapter_master', name: '章节通关', desc: '完成任一章节全部题目', icon: '&#128218;', check: () => checkChapterComplete() },
+  { id: 'wrong_slayer', name: '错题克星', desc: '错题本答对10题', icon: '&#128170;', check: () => checkWrongSlayer() },
+  { id: 'daily_500', name: '日进斗金', desc: '单日获得500 XP', icon: '&#128176;', check: g => g.todayXP >= 500 },
+  { id: 'level_5', name: '学有所成', desc: '达到等级5', icon: '&#127891;', check: g => g.level >= 5 },
+  { id: 'level_10', name: '组胚大师', desc: '达到等级10', icon: '&#127775;', check: g => g.level >= 10 },
+];
+
 let aiSettings = { key: '', model: 'deepseek-v4-flash', style: 'detailed' };
 let aiCache = {};
 
 // ===== Data =====
 async function loadQuestions() {
-    try {
-        const r = await fetch('questions.json');
-        questions = await r.json();
-        loadSaved();
-        currentQuestions = [...questions];
-        render();
-        updateBadges();
-    } catch(e) {
-        document.getElementById('app').innerHTML = '<div class="empty"><div class="empty-icon">&#128260;</div><div class="empty-text">题库加载失败</div><div class="empty-hint">请刷新页面重试</div></div>';
-    }
+  try {
+    const r = await fetch('questions.json');
+    questions = await r.json();
+    loadSaved();
+    resetDailyIfNeeded();
+    currentQuestions = [...questions];
+    render();
+    updateBadges();
+    updateTopbarStats();
+  } catch(e) {
+    document.getElementById('app').innerHTML = '<div class="empty"><div class="empty-icon">&#128260;</div><div class="empty-text">题库加载失败</div><div class="empty-hint">请刷新页面重试</div></div>';
+  }
 }
 
 function loadSaved() {
-    try {
-        const w = localStorage.getItem('hb_wrong');
-        const b = localStorage.getItem('hb_bookmark');
-        const a = localStorage.getItem('hb_answers');
-        const s = localStorage.getItem('hb_ai_settings');
-        const c = localStorage.getItem('hb_ai_cache');
-        if (w) wrongQuestions = new Set(JSON.parse(w));
-        if (b) bookmarkedQuestions = new Set(JSON.parse(b));
-        if (a) userAnswers = JSON.parse(a);
-        if (s) aiSettings = JSON.parse(s);
-        if (c) aiCache = JSON.parse(c);
-    } catch(e) {}
+  try {
+    const w = localStorage.getItem('hb_wrong');
+    const b = localStorage.getItem('hb_bookmark');
+    const a = localStorage.getItem('hb_answers');
+    const s = localStorage.getItem('hb_ai_settings');
+    const c = localStorage.getItem('hb_ai_cache');
+    const g = localStorage.getItem('hb_game');
+    if (w) wrongQuestions = new Set(JSON.parse(w));
+    if (b) bookmarkedQuestions = new Set(JSON.parse(b));
+    if (a) userAnswers = JSON.parse(a);
+    if (s) aiSettings = JSON.parse(s);
+    if (c) aiCache = JSON.parse(c);
+    if (g) gameState = { ...gameState, ...JSON.parse(g) };
+  } catch(e) {}
 }
 
 function save() {
-    try {
-        localStorage.setItem('hb_wrong', JSON.stringify([...wrongQuestions]));
-        localStorage.setItem('hb_bookmark', JSON.stringify([...bookmarkedQuestions]));
-        localStorage.setItem('hb_answers', JSON.stringify(userAnswers));
-        localStorage.setItem('hb_ai_settings', JSON.stringify(aiSettings));
-        localStorage.setItem('hb_ai_cache', JSON.stringify(aiCache));
-    } catch(e) {}
+  try {
+    localStorage.setItem('hb_wrong', JSON.stringify([...wrongQuestions]));
+    localStorage.setItem('hb_bookmark', JSON.stringify([...bookmarkedQuestions]));
+    localStorage.setItem('hb_answers', JSON.stringify(userAnswers));
+    localStorage.setItem('hb_ai_settings', JSON.stringify(aiSettings));
+    localStorage.setItem('hb_ai_cache', JSON.stringify(aiCache));
+    localStorage.setItem('hb_game', JSON.stringify(gameState));
+  } catch(e) {}
+}
+
+function resetDailyIfNeeded() {
+  const today = new Date().toDateString();
+  if (gameState.lastDate !== today) {
+    gameState.todayAnswered = 0;
+    gameState.todayCorrect = 0;
+    gameState.todayXP = 0;
+    gameState.todayBestStreak = 0;
+    gameState.lastDate = today;
+    save();
+  }
+}
+
+// ===== Gamification Logic =====
+function getLevel(xp) {
+  let level = 1;
+  let needed = 100;
+  let totalNeeded = 0;
+  while (xp >= totalNeeded + needed) {
+    totalNeeded += needed;
+    level++;
+    needed = level * 100;
+  }
+  return { level, currentXP: xp - totalNeeded, neededXP: needed, totalNeeded };
+}
+
+function addXP(baseAmount, isCorrect, streak, timeMs) {
+  let xp = baseAmount;
+  if (isCorrect) {
+    // streak bonus
+    if (streak >= 20) xp += 20;
+    else if (streak >= 10) xp += 10;
+    else if (streak >= 5) xp += 5;
+    else if (streak >= 3) xp += 2;
+    // fast bonus
+    if (timeMs < 5000) { xp += 5; gameState.fastAnswers++; }
+    else if (timeMs < 10000) xp += 2;
+  }
+  const oldLevel = getLevel(gameState.totalXP).level;
+  gameState.totalXP += xp;
+  gameState.todayXP += xp;
+  const newLevel = getLevel(gameState.totalXP).level;
+  if (newLevel > oldLevel) {
+    gameState.level = newLevel;
+    showLevelUp(newLevel);
+  }
+  return xp;
+}
+
+function showLevelUp(level) {
+  const banner = document.getElementById('levelupBanner');
+  document.getElementById('levelupTitle').textContent = '升级了！';
+  document.getElementById('levelupSub').textContent = `恭喜达到 Lv.${level}`;
+  banner.classList.add('show');
+  fireConfetti(100);
+  setTimeout(() => banner.classList.remove('show'), 2500);
+}
+
+function checkAchievements() {
+  let newlyUnlocked = [];
+  ACHIEVEMENTS.forEach(ach => {
+    if (!gameState.achievements[ach.id] && ach.check(gameState)) {
+      gameState.achievements[ach.id] = { unlocked: true, unlockedAt: Date.now(), isNew: true };
+      newlyUnlocked.push(ach);
+    }
+  });
+  if (newlyUnlocked.length > 0) {
+    save();
+    newlyUnlocked.forEach((ach, i) => {
+      setTimeout(() => toast(`&#127942; 解锁成就：${ach.name}`), i * 800);
+    });
+  }
+  return newlyUnlocked;
+}
+
+function checkChapterComplete() {
+  const counts = {};
+  questions.forEach(q => counts[q.chapter] = (counts[q.chapter] || 0) + 1);
+  for (const ch of Object.keys(counts)) {
+    const qs = questions.filter(q => q.chapter === ch);
+    if (qs.every(q => userAnswers[q.id] !== undefined)) return true;
+  }
+  return false;
+}
+
+function checkWrongSlayer() {
+  // Count wrong questions that were later answered correctly
+  let count = 0;
+  wrongQuestions.forEach(id => {
+    const q = questions.find(x => x.id === id);
+    if (q && userAnswers[id] === q.answer) count++;
+  });
+  return count >= 10;
+}
+
+function updateTopbarStats() {
+  document.getElementById('streakVal').textContent = gameState.streak;
+  document.getElementById('xpVal').textContent = gameState.totalXP;
+  const lvl = getLevel(gameState.totalXP);
+  document.getElementById('levelVal').textContent = lvl.level;
+  gameState.level = lvl.level;
+}
+
+// ===== Confetti =====
+function fireConfetti(count = 60) {
+  const canvas = document.getElementById('confetti-canvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  canvas.classList.add('active');
+
+  const particles = [];
+  const colors = ['#0d9488', '#14b8a6', '#f59e0b', '#10b981', '#ef4444', '#3b82f6', '#8b5cf6'];
+  for (let i = 0; i < count; i++) {
+    particles.push({
+      x: Math.random() * canvas.width,
+      y: -10 - Math.random() * 50,
+      vx: (Math.random() - 0.5) * 6,
+      vy: Math.random() * 3 + 2,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      size: Math.random() * 6 + 3,
+      rotation: Math.random() * Math.PI * 2,
+      rotSpeed: (Math.random() - 0.5) * 0.2,
+      life: 1,
+    });
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let alive = 0;
+    particles.forEach(p => {
+      if (p.life <= 0) return;
+      alive++;
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.1;
+      p.rotation += p.rotSpeed;
+      p.life -= 0.008;
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.rotation);
+      ctx.globalAlpha = p.life;
+      ctx.fillStyle = p.color;
+      ctx.fillRect(-p.size/2, -p.size/2, p.size, p.size);
+      ctx.restore();
+    });
+    if (alive > 0) requestAnimationFrame(animate);
+    else canvas.classList.remove('active');
+  }
+  animate();
 }
 
 // ===== Helpers =====
 function shuffle(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 function toast(msg) {
-    const t = document.getElementById('toast');
-    t.textContent = msg;
-    t.classList.add('show');
-    clearTimeout(t._timer);
-    t._timer = setTimeout(() => t.classList.remove('show'), 1800);
+  const t = document.getElementById('toast');
+  t.innerHTML = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 2200);
 }
 
 function getChapterCounts() {
-    const c = {};
-    questions.forEach(q => c[q.chapter] = (c[q.chapter] || 0) + 1);
-    return c;
+  const c = {};
+  questions.forEach(q => c[q.chapter] = (c[q.chapter] || 0) + 1);
+  return c;
 }
 
 function updateBadges() {
-    const b = document.getElementById('wrong-badge');
-    if (wrongQuestions.size > 0) {
-        b.style.display = 'inline';
-        b.textContent = wrongQuestions.size;
-    } else {
-        b.style.display = 'none';
-    }
+  const b = document.getElementById('wrong-badge');
+  if (wrongQuestions.size > 0) { b.style.display = 'inline'; b.textContent = wrongQuestions.size; }
+  else b.style.display = 'none';
 }
 
 // ===== Settings =====
 function openSettings() {
-    document.getElementById('apiKeyInput').value = aiSettings.key;
-    document.getElementById('modelSelect').value = aiSettings.model;
-    document.getElementById('styleSelect').value = aiSettings.style;
-    document.getElementById('settingsModal').classList.add('show');
+  document.getElementById('apiKeyInput').value = aiSettings.key;
+  document.getElementById('modelSelect').value = aiSettings.model;
+  document.getElementById('styleSelect').value = aiSettings.style;
+  document.getElementById('settingsModal').classList.add('show');
 }
-
-function closeSettings() {
-    document.getElementById('settingsModal').classList.remove('show');
-}
-
+function closeSettings() { document.getElementById('settingsModal').classList.remove('show'); }
 function saveSettings() {
-    aiSettings.key = document.getElementById('apiKeyInput').value.trim();
-    aiSettings.model = document.getElementById('modelSelect').value;
-    aiSettings.style = document.getElementById('styleSelect').value;
-    save();
-    closeSettings();
-    toast('设置已保存');
+  aiSettings.key = document.getElementById('apiKeyInput').value.trim();
+  aiSettings.model = document.getElementById('modelSelect').value;
+  aiSettings.style = document.getElementById('styleSelect').value;
+  save(); closeSettings(); toast('设置已保存');
 }
+
+// ===== Achievements =====
+function openAchievements() {
+  const grid = document.getElementById('achieveGrid');
+  const stats = document.getElementById('statsGrid');
+  const lvl = getLevel(gameState.totalXP);
+
+  stats.innerHTML = `
+    <div class="stats-card"><div class="sc-val">${gameState.totalXP}</div><div class="sc-label">总经验</div></div>
+    <div class="stats-card"><div class="sc-val">${gameState.totalAnswered}</div><div class="sc-label">总答题</div></div>
+    <div class="stats-card"><div class="sc-val">${gameState.totalCorrect}</div><div class="sc-label">总正确</div></div>
+    <div class="stats-card"><div class="sc-val">${gameState.bestStreak}</div><div class="sc-label">最高连击</div></div>
+  `;
+
+  grid.innerHTML = ACHIEVEMENTS.map(ach => {
+    const unlocked = gameState.achievements[ach.id]?.unlocked;
+    const isNew = gameState.achievements[ach.id]?.isNew;
+    if (isNew) { gameState.achievements[ach.id].isNew = false; save(); }
+    return `<div class="achieve-item ${unlocked ? 'unlocked' : ''}">
+      ${isNew ? '<span class="achieve-new">NEW</span>' : ''}
+      <div class="achieve-icon">${ach.icon}</div>
+      <div class="achieve-name">${ach.name}</div>
+      <div class="achieve-desc">${ach.desc}</div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('achieveModal').classList.add('show');
+}
+function closeAchievements() { document.getElementById('achieveModal').classList.remove('show'); }
 
 // ===== AI Analysis =====
 function getStylePrompt(style) {
-    switch(style) {
-        case 'concise':
-            return '请用一句话简洁总结本题考点和正确答案的原因。';
-        case 'exam':
-            return '请从考试角度分析：1) 本题考点是什么；2) 常见易错点；3) 答题技巧和记忆方法。';
-        default:
-            return '请详细解析本题：1) 题目涉及的知识点；2) 为什么正确答案是正确的；3) 其他选项为什么错误；4) 相关知识点拓展。';
-    }
+  switch(style) {
+    case 'concise': return '请用一句话简洁总结本题考点和正确答案的原因。';
+    case 'exam': return '请从考试角度分析：1) 本题考点是什么；2) 常见易错点；3) 答题技巧和记忆方法。';
+    default: return '请详细解析本题：1) 题目涉及的知识点；2) 为什么正确答案是正确的；3) 其他选项为什么错误；4) 相关知识点拓展。';
+  }
 }
 
 async function requestAIAnalysis(qid) {
-    if (!aiSettings.key) {
-        toast('请先配置 DeepSeek API Key');
-        openSettings();
-        return;
+  if (!aiSettings.key) { toast('请先配置 DeepSeek API Key'); openSettings(); return; }
+  const q = questions.find(x => x.id === qid);
+  if (!q) return;
+  const cacheKey = qid + '_' + aiSettings.style;
+  if (aiCache[cacheKey]) { showAIResult(qid, aiCache[cacheKey]); return; }
+  const container = document.getElementById('ai-result-' + qid);
+  if (!container) return;
+  container.innerHTML = `<div class="ai-loading"><div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div><span>AI 正在解析...</span></div>`;
+  const optsText = q.options.map(o => `${o.key}. ${o.text}`).join('\n');
+  const prompt = `你是一位组织学与胚胎学专家。请分析以下组胚选择题。\n\n题目：${q.question}\n\n选项：\n${optsText}\n\n正确答案：${q.answer}\n\n${getStylePrompt(aiSettings.style)}\n\n请用中文回答。`;
+  try {
+    const response = await fetch('https://api.deepseek.com/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + aiSettings.key },
+      body: JSON.stringify({ model: aiSettings.model, messages: [
+        { role: 'system', content: '你是一位资深的组织学与胚胎学教授，擅长用清晰易懂的方式讲解医学知识。' },
+        { role: 'user', content: prompt }
+      ], stream: true, temperature: 0.5, max_tokens: 2048 })
+    });
+    if (!response.ok) { const err = await response.json().catch(() => ({})); throw new Error(err.error?.message || 'API 请求失败'); }
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText = '', thinkingText = '', inThinking = false;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = decoder.decode(value, { stream: true });
+      const lines = chunk.split('\n');
+      for (const line of lines) {
+        if (!line.trim() || line === 'data: [DONE]') continue;
+        if (!line.startsWith('data: ')) continue;
+        try {
+          const data = JSON.parse(line.slice(6));
+          const delta = data.choices?.[0]?.delta;
+          if (!delta) continue;
+          if (delta.reasoning_content) { thinkingText += delta.reasoning_content; inThinking = true; }
+          if (delta.content) { if (inThinking) inThinking = false; fullText += delta.content; }
+          const display = (thinkingText ? `<div class="ai-thinking">${thinkingText}</div>` : '') + fullText;
+          container.innerHTML = `<div class="ai-content">${display}</div>`;
+        } catch(e) {}
+      }
     }
-
-    const q = questions.find(x => x.id === qid);
-    if (!q) return;
-
-    const cacheKey = qid + '_' + aiSettings.style;
-    if (aiCache[cacheKey]) {
-        showAIResult(qid, aiCache[cacheKey]);
-        return;
-    }
-
-    const container = document.getElementById('ai-result-' + qid);
-    if (!container) return;
-
-    container.innerHTML = `
-        <div class="ai-loading">
-            <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-            <span>AI 正在解析...</span>
-        </div>
-    `;
-
-    const optsText = q.options.map(o => `${o.key}. ${o.text}`).join('\n');
-    const prompt = `你是一位组织学与胚胎学专家。请分析以下组胚选择题。\n\n题目：${q.question}\n\n选项：\n${optsText}\n\n正确答案：${q.answer}\n\n${getStylePrompt(aiSettings.style)}\n\n请用中文回答。`;
-
-    try {
-        const response = await fetch('https://api.deepseek.com/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + aiSettings.key
-            },
-            body: JSON.stringify({
-                model: aiSettings.model,
-                messages: [
-                    { role: 'system', content: '你是一位资深的组织学与胚胎学教授，擅长用清晰易懂的方式讲解医学知识。' },
-                    { role: 'user', content: prompt }
-                ],
-                stream: true,
-                temperature: 0.5,
-                max_tokens: 2048
-            })
-        });
-
-        if (!response.ok) {
-            const err = await response.json().catch(() => ({}));
-            throw new Error(err.error?.message || 'API 请求失败');
-        }
-
-        const reader = response.body.getReader();
-        const decoder = new TextDecoder();
-        let fullText = '';
-        let thinkingText = '';
-        let inThinking = false;
-
-        while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
-
-            const chunk = decoder.decode(value, { stream: true });
-            const lines = chunk.split('\n');
-
-            for (const line of lines) {
-                if (!line.trim() || line === 'data: [DONE]') continue;
-                if (!line.startsWith('data: ')) continue;
-
-                try {
-                    const data = JSON.parse(line.slice(6));
-                    const delta = data.choices?.[0]?.delta;
-                    if (!delta) continue;
-
-                    if (delta.reasoning_content) {
-                        thinkingText += delta.reasoning_content;
-                        inThinking = true;
-                    }
-                    if (delta.content) {
-                        if (inThinking) inThinking = false;
-                        fullText += delta.content;
-                    }
-
-                    const display = (thinkingText ? `<div class="ai-thinking">${thinkingText}</div>` : '') + fullText;
-                    container.innerHTML = `<div class="ai-content">${display}</div>`;
-                } catch(e) {}
-            }
-        }
-
-        const finalResult = (thinkingText ? `<div class="ai-thinking">${thinkingText}</div>` : '') + fullText;
-        aiCache[cacheKey] = finalResult;
-        save();
-        showAIResult(qid, finalResult);
-
-    } catch(err) {
-        container.innerHTML = `<div class="ai-content" style="color:var(--error)">解析失败：${err.message}</div>`;
-    }
+    const finalResult = (thinkingText ? `<div class="ai-thinking">${thinkingText}</div>` : '') + fullText;
+    aiCache[cacheKey] = finalResult; save(); showAIResult(qid, finalResult);
+  } catch(err) { container.innerHTML = `<div class="ai-content" style="color:var(--error)">解析失败：${err.message}</div>`; }
 }
 
 function showAIResult(qid, html) {
-    const container = document.getElementById('ai-result-' + qid);
-    if (container) {
-        container.innerHTML = `<div class="ai-content">${html}</div>`;
-    }
+  const container = document.getElementById('ai-result-' + qid);
+  if (container) container.innerHTML = `<div class="ai-content">${html}</div>`;
 }
 
 function getAIAnalysisHTML(qid) {
-    const cacheKey = qid + '_' + aiSettings.style;
-    const cached = aiCache[cacheKey];
-    if (cached) {
-        return `
-            <div class="ai-section" id="ai-section-${qid}">
-                <div class="ai-header">
-                    <div class="ai-title"><span class="sparkle">&#10024;</span> AI 解析</div>
-                    <div class="ai-actions">
-                        <button class="ai-btn" onclick="requestAIAnalysis(${qid})">&#8635; 重新解析</button>
-                    </div>
-                </div>
-                <div class="ai-body" id="ai-result-${qid}"><div class="ai-content">${cached}</div></div>
-            </div>
-        `;
-    }
-    return `
-        <div class="ai-section" id="ai-section-${qid}">
-            <div class="ai-header">
-                <div class="ai-title"><span class="sparkle">&#10024;</span> AI 解析</div>
-                <div class="ai-actions">
-                    <button class="ai-btn" onclick="requestAIAnalysis(${qid})">&#9654; 开始解析</button>
-                </div>
-            </div>
-            <div class="ai-body" id="ai-result-${qid}">
-                <div class="ai-placeholder">点击「开始解析」，AI 将为你详细讲解本题知识点...</div>
-            </div>
-        </div>
-    `;
+  const cacheKey = qid + '_' + aiSettings.style;
+  const cached = aiCache[cacheKey];
+  if (cached) {
+    return `<div class="ai-section" id="ai-section-${qid}"><div class="ai-header"><div class="ai-title"><span class="sparkle">&#10024;</span> AI 解析</div><div class="ai-actions"><button class="ai-btn" onclick="requestAIAnalysis(${qid})">&#8635; 重新解析</button></div></div><div class="ai-body" id="ai-result-${qid}"><div class="ai-content">${cached}</div></div></div>`;
+  }
+  return `<div class="ai-section" id="ai-section-${qid}"><div class="ai-header"><div class="ai-title"><span class="sparkle">&#10024;</span> AI 解析</div><div class="ai-actions"><button class="ai-btn" onclick="requestAIAnalysis(${qid})">&#9654; 开始解析</button></div></div><div class="ai-body" id="ai-result-${qid}"><div class="ai-placeholder">点击「开始解析」，AI 将为你详细讲解本题知识点...</div></div></div>`;
 }
+
+// ===== Timer =====
+function startTimer() { gameState.questionStartTime = Date.now(); }
+function getElapsedTime() { return Date.now() - gameState.questionStartTime; }
 
 // ===== Render =====
 function render() {
-    const app = document.getElementById('app');
-    const bottomNav = document.getElementById('bottomNav');
+  const app = document.getElementById('app');
+  const bottomNav = document.getElementById('bottomNav');
 
-    if (currentView === 'chapter' && !selectedChapter) {
-        bottomNav.style.display = 'none';
-        closeDotPanel();
-        renderChapterPage(app);
-        return;
-    }
+  if (currentView === 'chapter' && !selectedChapter) {
+    bottomNav.style.display = 'none'; closeDotPanel();
+    renderChapterPage(app); return;
+  }
+  bottomNav.style.display = 'flex';
 
-    bottomNav.style.display = 'flex';
+  if (currentQuestions.length === 0) {
+    app.innerHTML = `<div class="empty"><div class="empty-icon">${currentView === 'wrong' ? '&#128465;' : '&#9733;'}</div><div class="empty-text">${currentView === 'wrong' ? '暂无错题，继续加油' : '暂无收藏题目'}</div><div class="empty-hint">${currentView === 'wrong' ? '答错的题目会自动收录到这里' : '点击题目旁的星号收藏重点题目'}</div></div>`;
+    return;
+  }
 
-    if (currentQuestions.length === 0) {
-        app.innerHTML = `<div class="empty">
-            <div class="empty-icon">${currentView === 'wrong' ? '&#128465;' : '&#9733;'}</div>
-            <div class="empty-text">${currentView === 'wrong' ? '暂无错题，继续加油' : '暂无收藏题目'}</div>
-            <div class="empty-hint">${currentView === 'wrong' ? '答错的题目会自动收录到这里' : '点击题目旁的星号收藏重点题目'}</div>
-        </div>`;
-        return;
-    }
+  const q = currentQuestions[currentIndex];
+  const ua = userAnswers[q.id];
+  const answered = ua !== undefined;
+  const stats = calcStats();
+  const progressPct = ((currentIndex + 1) / currentQuestions.length) * 100;
+  const circumference = 2 * Math.PI * 18;
+  const strokeOffset = circumference - (progressPct / 100) * circumference;
 
-    const q = currentQuestions[currentIndex];
-    const ua = userAnswers[q.id];
-    const answered = ua !== undefined;
-    const stats = calcStats();
-    const progressPct = ((currentIndex + 1) / currentQuestions.length) * 100;
-    const circumference = 2 * Math.PI * 18;
-    const strokeOffset = circumference - (progressPct / 100) * circumference;
+  // Combo banner
+  const comboHtml = gameState.streak >= 3 && answered && ua === q.answer ?
+    `<div class="combo-banner" id="comboBanner"><span>&#128293;</span> ${gameState.streak} 连击！继续加油！</div>` : '';
 
-    app.innerHTML = `
-        <div class="progress-ring-wrap">
-            <div class="progress-info">
-                <div class="progress-ring">
-                    <svg width="44" height="44" viewBox="0 0 44 44">
-                        <circle class="progress-ring-bg" cx="22" cy="22" r="18"/>
-                        <circle class="progress-ring-fill" cx="22" cy="22" r="18"
-                            stroke-dasharray="${circumference}"
-                            stroke-dashoffset="${strokeOffset}"/>
-                    </svg>
-                    <div class="progress-ring-text">${Math.round(progressPct)}%</div>
-                </div>
-                <div class="progress-meta">
-                    <div class="current">${currentIndex + 1} <span style="color:var(--text-muted);font-weight:400">/ ${currentQuestions.length}</span></div>
-                    <div class="total">对 ${stats.correct} · 错 ${stats.wrong}</div>
-                </div>
-            </div>
-            <div class="progress-bar-line" onclick="handleProgressClick(event)" title="点击跳转">
-                <div class="progress-bar-line-inner" style="width:${progressPct}%"></div>
-            </div>
+  // Timer
+  const timerHtml = !answered ?
+    `<div class="q-timer" id="qTimer"><span>&#9201;</span> <span id="timerVal">0.0</span> 秒</div>` : '';
+
+  // Daily stats
+  const dailyHtml = `
+    <div class="daily-stats">
+      <div class="daily-stat"><span class="ds-icon">&#128197;</span>今日 <span class="ds-val">${gameState.todayAnswered}</span> 题</div>
+      <div class="daily-stat"><span class="ds-icon">&#9989;</span>对 <span class="ds-val">${gameState.todayCorrect}</span></div>
+      <div class="daily-stat"><span class="ds-icon">&#11088;</span>+<span class="ds-val">${gameState.todayXP}</span> XP</div>
+      <div class="daily-stat"><span class="ds-icon">&#128293;</span>连击 <span class="ds-val">${gameState.streak}</span></div>
+    </div>
+  `;
+
+  app.innerHTML = dailyHtml + comboHtml + `
+    <div class="progress-ring-wrap">
+      <div class="progress-info">
+        <div class="progress-ring">
+          <svg width="44" height="44" viewBox="0 0 44 44">
+            <circle class="progress-ring-bg" cx="22" cy="22" r="18"/>
+            <circle class="progress-ring-fill" cx="22" cy="22" r="18" stroke-dasharray="${circumference}" stroke-dashoffset="${strokeOffset}"/>
+          </svg>
+          <div class="progress-ring-text">${Math.round(progressPct)}%</div>
         </div>
-        <div class="q-card ${answered ? 'answered' : ''}">
-            <div class="q-header">
-                <div class="q-badges">
-                    <span class="q-badge id">No.${q.id}</span>
-                    <span class="q-badge chapter">${q.chapter}</span>
-                </div>
-                <div class="q-actions">
-                    <button class="q-action-btn ${bookmarkedQuestions.has(q.id)?'active':''}" onclick="toggleBookmark(${q.id})" title="收藏">
-                        ${bookmarkedQuestions.has(q.id)?'&#9733;':'&#9734;'}
-                    </button>
-                </div>
-            </div>
-            <div class="q-text">${q.question}</div>
-            <div class="opts">
-                ${q.options.map(o => {
-                    let cls = 'opt';
-                    let check = '';
-                    if (answered) {
-                        cls += ' locked';
-                        if (o.key === q.answer) { cls += ' correct'; check = '&#10003;'; }
-                        else if (o.key === ua && o.key !== q.answer) { cls += ' wrong'; check = '&#10007;'; }
-                    }
-                    return `<div class="${cls}" onclick="selectOption('${o.key}')">
-                        <span class="opt-key">${o.key}</span>
-                        <span class="opt-text">${o.text}</span>
-                        <span class="opt-check">${check}</span>
-                    </div>`;
-                }).join('')}
-            </div>
-            ${answered ? `<div class="feedback ${ua===q.answer?'ok':'fail'}">
-                <div class="feedback-icon">${ua===q.answer?'&#10003;':'&#10007;'}</div>
-                <div class="feedback-body">
-                    <div class="feedback-title">${ua===q.answer?'回答正确':'回答错误'}</div>
-                    <div class="feedback-detail">正确答案：<strong>${q.answer}</strong>${q.explanation?' · '+q.explanation:''}</div>
-                </div>
-            </div>` : ''}
-            ${answered ? getAIAnalysisHTML(q.id) : ''}
+        <div class="progress-meta">
+          <div class="current">${currentIndex + 1} <span style="color:var(--text-muted);font-weight:400">/ ${currentQuestions.length}</span></div>
+          <div class="total">对 ${stats.correct} · 错 ${stats.wrong}</div>
         </div>
-    `;
+      </div>
+      <div class="progress-bar-line" onclick="handleProgressClick(event)" title="点击跳转">
+        <div class="progress-bar-line-inner" style="width:${progressPct}%"></div>
+      </div>
+    </div>
+    ${timerHtml}
+    <div class="q-card ${answered ? 'answered' : ''}">
+      <div class="q-header">
+        <div class="q-badges">
+          <span class="q-badge id">No.${q.id}</span>
+          <span class="q-badge chapter">${q.chapter}</span>
+        </div>
+        <div class="q-actions">
+          <button class="q-action-btn ${bookmarkedQuestions.has(q.id)?'active':''}" onclick="toggleBookmark(${q.id})" title="收藏">${bookmarkedQuestions.has(q.id)?'&#9733;':'&#9734;'}</button>
+        </div>
+      </div>
+      <div class="q-text">${q.question}</div>
+      <div class="opts" id="opts-${q.id}">
+        ${q.options.map(o => {
+          let cls = 'opt'; let check = '';
+          if (answered) {
+            cls += ' locked';
+            if (o.key === q.answer) { cls += ' correct'; check = '&#10003;'; }
+            else if (o.key === ua && o.key !== q.answer) { cls += ' wrong'; check = '&#10007;'; }
+          }
+          return `<div class="${cls}" onclick="selectOption('${o.key}')">
+            <span class="opt-key">${o.key}</span>
+            <span class="opt-text">${o.text}</span>
+            <span class="opt-check">${check}</span>
+          </div>`;
+        }).join('')}
+      </div>
+      ${answered ? `<div class="feedback ${ua===q.answer?'ok':'fail'}">
+        <div class="feedback-icon">${ua===q.answer?'&#10003;':'&#10007;'}</div>
+        <div class="feedback-body">
+          <div class="feedback-title">${ua===q.answer?'回答正确':'回答错误'}</div>
+          <div class="feedback-detail">正确答案：<strong>${q.answer}</strong>${q.explanation?' · '+q.explanation:''}</div>
+          <div class="feedback-xp" id="feedbackXP"></div>
+        </div>
+      </div>` : ''}
+      ${answered ? getAIAnalysisHTML(q.id) : ''}
+    </div>
+  `;
 
-    document.getElementById('prevBtn').disabled = currentIndex === 0;
-    document.getElementById('nextBtn').disabled = currentIndex === currentQuestions.length - 1;
+  document.getElementById('prevBtn').disabled = currentIndex === 0;
+  document.getElementById('nextBtn').disabled = currentIndex === currentQuestions.length - 1;
 
-    renderDots();
+  if (!answered) startTimer();
+  renderDots();
 }
 
 function renderChapterPage(app) {
-    const counts = getChapterCounts();
-    const chapters = Object.keys(counts).sort();
-    const totalAnswered = questions.filter(q => userAnswers[q.id] !== undefined).length;
-
-    app.innerHTML = `
-        <div class="chapter-page">
-            <div class="chapter-header">
-                <div class="chapter-title">章节练习</div>
-                <div class="chapter-desc">共 ${chapters.length} 个章节 ${questions.length} 道题 · 已答 ${totalAnswered} 道</div>
-            </div>
-            <div class="chapter-grid">
-                ${chapters.map(ch => {
-                    const total = counts[ch];
-                    const done = questions.filter(q => q.chapter === ch && userAnswers[q.id] !== undefined).length;
-                    const pct = Math.round((done/total)*100);
-                    return `<div class="chapter-card" onclick="selectChapter('${ch}')">
-                        <div class="chapter-card-name">${ch}</div>
-                        <div class="chapter-card-count">${done}/${total} 已完成</div>
-                        <div class="chapter-card-progress">
-                            <div class="chapter-card-progress-fill" style="width:${pct}%"></div>
-                        </div>
-                    </div>`;
-                }).join('')}
-            </div>
-        </div>
-    `;
+  const counts = getChapterCounts();
+  const chapters = Object.keys(counts).sort();
+  const totalAnswered = questions.filter(q => userAnswers[q.id] !== undefined).length;
+  app.innerHTML = `
+    <div class="chapter-page">
+      <div class="chapter-header">
+        <div class="chapter-title">章节练习</div>
+        <div class="chapter-desc">共 ${chapters.length} 个章节 ${questions.length} 道题 · 已答 ${totalAnswered} 道</div>
+      </div>
+      <div class="chapter-grid">
+        ${chapters.map(ch => {
+          const total = counts[ch];
+          const done = questions.filter(q => q.chapter === ch && userAnswers[q.id] !== undefined).length;
+          const pct = Math.round((done/total)*100);
+          return `<div class="chapter-card" onclick="selectChapter('${ch}')"><div class="chapter-card-name">${ch}</div><div class="chapter-card-count">${done}/${total} 已完成</div><div class="chapter-card-progress"><div class="chapter-card-progress-fill" style="width:${pct}%"></div></div></div>`;
+        }).join('')}
+      </div>
+    </div>`;
 }
 
 function renderDots() {
-    const grid = document.getElementById('dotGrid');
-    const title = document.getElementById('dotPanelTitle');
-    title.textContent = selectedChapter || (currentView === 'wrong' ? '错题本' : currentView === 'bookmark' ? '收藏夹' : '题目导航');
-
-    const total = currentQuestions.length;
-    const maxDots = 200;
-    const step = total > maxDots ? Math.ceil(total / maxDots) : 1;
-    
-    let html = '';
-    for (let i = 0; i < total; i += step) {
-        const qq = currentQuestions[i];
-        const ua = userAnswers[qq.id];
-        let cls = 'dot';
-        if (i === currentIndex) cls += ' current';
-        else if (ua !== undefined) cls += ua === qq.answer ? ' correct' : ' wrong';
-        html += `<div class="${cls}" onclick="goToQuestion(${i})" title="第${qq.id}题">${i+1}</div>`;
-    }
-    grid.innerHTML = html;
+  const grid = document.getElementById('dotGrid');
+  const title = document.getElementById('dotPanelTitle');
+  title.textContent = selectedChapter || (currentView === 'wrong' ? '错题本' : currentView === 'bookmark' ? '收藏夹' : '题目导航');
+  const total = currentQuestions.length;
+  const maxDots = 200;
+  const step = total > maxDots ? Math.ceil(total / maxDots) : 1;
+  let html = '';
+  for (let i = 0; i < total; i += step) {
+    const qq = currentQuestions[i];
+    const ua = userAnswers[qq.id];
+    let cls = 'dot';
+    if (i === currentIndex) cls += ' current';
+    else if (ua !== undefined) cls += ua === qq.answer ? ' correct' : ' wrong';
+    html += `<div class="${cls}" onclick="goToQuestion(${i})" title="第${qq.id}题">${i+1}</div>`;
+  }
+  grid.innerHTML = html;
 }
 
 function calcStats() {
-    const total = currentQuestions.length;
-    let answered = 0, correct = 0, wrong = 0;
-    currentQuestions.forEach(q => {
-        if (userAnswers[q.id] !== undefined) {
-            answered++;
-            if (userAnswers[q.id] === q.answer) correct++;
-            else wrong++;
-        }
-    });
-    return { total, answered, correct, wrong, accuracy: answered > 0 ? Math.round((correct/answered)*100) : 0 };
+  const total = currentQuestions.length;
+  let answered = 0, correct = 0, wrong = 0;
+  currentQuestions.forEach(q => {
+    if (userAnswers[q.id] !== undefined) {
+      answered++;
+      if (userAnswers[q.id] === q.answer) correct++;
+      else wrong++;
+    }
+  });
+  return { total, answered, correct, wrong, accuracy: answered > 0 ? Math.round((correct/answered)*100) : 0 };
 }
+
+// Timer interval
+setInterval(() => {
+  const timer = document.getElementById('timerVal');
+  if (timer && gameState.questionStartTime > 0) {
+    const elapsed = (Date.now() - gameState.questionStartTime) / 1000;
+    timer.textContent = elapsed.toFixed(1);
+    const timerEl = document.getElementById('qTimer');
+    if (timerEl && elapsed > 10) timerEl.classList.add('urgent');
+  }
+}, 100);
 
 // ===== Actions =====
 function selectOption(key) {
-    const q = currentQuestions[currentIndex];
-    if (userAnswers[q.id] !== undefined) return;
-    userAnswers[q.id] = key;
-    if (key !== q.answer) wrongQuestions.add(q.id);
-    else wrongQuestions.delete(q.id);
-    save();
-    updateBadges();
-    render();
+  const q = currentQuestions[currentIndex];
+  if (userAnswers[q.id] !== undefined) return;
+
+  const timeMs = getElapsedTime();
+  userAnswers[q.id] = key;
+  gameState.totalAnswered++;
+  gameState.todayAnswered++;
+
+  const isCorrect = key === q.answer;
+  if (isCorrect) {
+    gameState.streak++;
+    gameState.totalCorrect++;
+    gameState.todayCorrect++;
+    if (gameState.streak > gameState.bestStreak) gameState.bestStreak = gameState.streak;
+    if (gameState.streak > gameState.todayBestStreak) gameState.todayBestStreak = gameState.streak;
+    wrongQuestions.delete(q.id);
+  } else {
+    gameState.streak = 0;
+    wrongQuestions.add(q.id);
+  }
+
+  // XP
+  const xpEarned = addXP(isCorrect ? 10 : 2, isCorrect, gameState.streak, timeMs);
+
+  save();
+  updateBadges();
+  updateTopbarStats();
+  render();
+
+  // Show XP in feedback
+  const xpEl = document.getElementById('feedbackXP');
+  if (xpEl) {
+    let xpText = `+${xpEarned} XP`;
+    if (gameState.streak >= 3) xpText += ` · ${gameState.streak}连击加成`;
+    if (timeMs < 5000) xpText += ` · 速度加成`;
+    xpEl.textContent = xpText;
+  }
+
+  // Effects
+  if (isCorrect) {
+    fireConfetti(gameState.streak >= 10 ? 100 : gameState.streak >= 5 ? 60 : 30);
+    if (gameState.streak >= 5) toast(`&#128293; ${gameState.streak} 连击！太厉害了！`);
+  }
+
+  // Achievements
+  checkAchievements();
 }
 
-function prevQuestion() {
-    if (currentIndex > 0) { currentIndex--; render(); }
-}
-
-function nextQuestion() {
-    if (currentIndex < currentQuestions.length - 1) { currentIndex++; render(); }
-}
-
-function goToQuestion(i) {
-    currentIndex = i;
-    render();
-    if (dotPanelOpen) closeDotPanel();
-}
+function prevQuestion() { if (currentIndex > 0) { currentIndex--; render(); } }
+function nextQuestion() { if (currentIndex < currentQuestions.length - 1) { currentIndex++; render(); } }
+function goToQuestion(i) { currentIndex = i; render(); if (dotPanelOpen) closeDotPanel(); }
 
 function toggleBookmark(id) {
-    if (bookmarkedQuestions.has(id)) { bookmarkedQuestions.delete(id); toast('已取消收藏'); }
-    else { bookmarkedQuestions.add(id); toast('已收藏'); }
-    save();
-    render();
+  if (bookmarkedQuestions.has(id)) { bookmarkedQuestions.delete(id); toast('已取消收藏'); }
+  else { bookmarkedQuestions.add(id); toast('已收藏'); }
+  save(); render();
 }
 
 function selectChapter(ch) {
-    selectedChapter = ch;
-    currentQuestions = questions.filter(q => q.chapter === ch);
-    currentIndex = 0;
-    render();
+  selectedChapter = ch;
+  currentQuestions = questions.filter(q => q.chapter === ch);
+  currentIndex = 0; render();
 }
 
 function switchView(view) {
-    currentView = view;
-    currentIndex = 0;
-    selectedChapter = null;
-    dotPanelOpen = false;
-    document.getElementById('dotPanel').classList.remove('open');
-    document.getElementById('dotToggle').classList.remove('active');
-
-    switch(view) {
-        case 'practice': currentQuestions = [...questions]; break;
-        case 'random': currentQuestions = shuffle(questions); toast('已随机打乱'); break;
-        case 'chapter': currentQuestions = []; break;
-        case 'wrong':
-            currentQuestions = questions.filter(q => wrongQuestions.has(q.id));
-            if (!currentQuestions.length) toast('暂无错题');
-            break;
-        case 'bookmark':
-            currentQuestions = questions.filter(q => bookmarkedQuestions.has(q.id));
-            if (!currentQuestions.length) toast('暂无收藏');
-            break;
-    }
-
-    document.querySelectorAll('.topbar-btn').forEach(b => b.classList.toggle('active', b.dataset.view === view));
-    render();
+  currentView = view; currentIndex = 0; selectedChapter = null;
+  dotPanelOpen = false;
+  document.getElementById('dotPanel').classList.remove('open');
+  document.getElementById('dotToggle').classList.remove('active');
+  switch(view) {
+    case 'practice': currentQuestions = [...questions]; break;
+    case 'random': currentQuestions = shuffle(questions); toast('已随机打乱'); break;
+    case 'chapter': currentQuestions = []; break;
+    case 'wrong':
+      currentQuestions = questions.filter(q => wrongQuestions.has(q.id));
+      if (!currentQuestions.length) toast('暂无错题');
+      break;
+    case 'bookmark':
+      currentQuestions = questions.filter(q => bookmarkedQuestions.has(q.id));
+      if (!currentQuestions.length) toast('暂无收藏');
+      break;
+  }
+  document.querySelectorAll('.topbar-btn').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  render();
 }
 
-function goHome() {
-    switchView('practice');
-}
+function goHome() { switchView('practice'); }
 
 function reshuffle() {
-    if (currentView === 'random' || currentView === 'practice') {
-        currentQuestions = shuffle(currentQuestions);
-        currentIndex = 0;
-        toast('已重新打乱');
-        render();
-    }
+  if (currentView === 'random' || currentView === 'practice') {
+    currentQuestions = shuffle(currentQuestions);
+    currentIndex = 0; toast('已重新打乱'); render();
+  }
 }
 
-// ===== Dot Panel =====
 function toggleDotPanel() {
-    dotPanelOpen = !dotPanelOpen;
-    document.getElementById('dotPanel').classList.toggle('open', dotPanelOpen);
-    document.getElementById('dotToggle').classList.toggle('active', dotPanelOpen);
-    if (dotPanelOpen) renderDots();
+  dotPanelOpen = !dotPanelOpen;
+  document.getElementById('dotPanel').classList.toggle('open', dotPanelOpen);
+  document.getElementById('dotToggle').classList.toggle('active', dotPanelOpen);
+  if (dotPanelOpen) renderDots();
 }
-
 function closeDotPanel() {
-    dotPanelOpen = false;
-    document.getElementById('dotPanel').classList.remove('open');
-    document.getElementById('dotToggle').classList.remove('active');
+  dotPanelOpen = false;
+  document.getElementById('dotPanel').classList.remove('open');
+  document.getElementById('dotToggle').classList.remove('active');
 }
 
-// ===== Progress Bar Click =====
 function handleProgressClick(e) {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const ratio = (e.clientX - rect.left) / rect.width;
-    const idx = Math.round(ratio * (currentQuestions.length - 1));
-    goToQuestion(Math.max(0, Math.min(currentQuestions.length - 1, idx)));
+  const rect = e.currentTarget.getBoundingClientRect();
+  const ratio = (e.clientX - rect.left) / rect.width;
+  const idx = Math.round(ratio * (currentQuestions.length - 1));
+  goToQuestion(Math.max(0, Math.min(currentQuestions.length - 1, idx)));
 }
 
 // ===== Keyboard =====
 document.addEventListener('keydown', e => {
-    if (!currentQuestions.length) return;
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
-    if (e.key === 'ArrowLeft') prevQuestion();
-    else if (e.key === 'ArrowRight') nextQuestion();
-    else if (e.key === 'Escape') {
-        closeDotPanel();
-        closeSettings();
-    }
-    else if (/^[A-Ea-e]$/.test(e.key)) selectOption(e.key.toUpperCase());
+  if (!currentQuestions.length) return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+  if (e.key === 'ArrowLeft') prevQuestion();
+  else if (e.key === 'ArrowRight') nextQuestion();
+  else if (e.key === 'Escape') { closeDotPanel(); closeSettings(); closeAchievements(); }
+  else if (/^[A-Ea-e]$/.test(e.key)) selectOption(e.key.toUpperCase());
 });
 
-// Close modal on overlay click
-document.getElementById('settingsModal').addEventListener('click', e => {
-    if (e.target === e.currentTarget) closeSettings();
-});
+// Modal overlays
+document.getElementById('settingsModal').addEventListener('click', e => { if (e.target === e.currentTarget) closeSettings(); });
+document.getElementById('achieveModal').addEventListener('click', e => { if (e.target === e.currentTarget) closeAchievements(); });
 
 // ===== Init =====
 loadQuestions();
