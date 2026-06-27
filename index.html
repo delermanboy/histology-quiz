@@ -2027,6 +2027,7 @@ select.input option { background: #1a1a2e; color: #f1f5f9; }
   <button class="nav-item" data-page="layered" onclick="navigateTo('layered')">境界突破</button>
   <button class="nav-item" data-page="challenge" onclick="navigateTo('challenge')">生死试炼</button>
   <button class="nav-item" data-page="knowledge" onclick="navigateTo('knowledge')">知识点</button>
+  <button class="nav-item" data-page="memorize" onclick="navigateTo('memorize')">背题模式</button>
   <button class="nav-item" data-page="favorites" onclick="navigateTo('favorites')">&#x2B50;收藏</button>
   <button class="nav-item" data-page="search" onclick="navigateTo('search')">&#x1F50D;搜索</button>
   <button class="nav-item" data-page="settings" onclick="navigateTo('settings')">修炼设置</button>
@@ -2103,6 +2104,11 @@ select.input option { background: #1a1a2e; color: #f1f5f9; }
         <div class="mode-icon">&#x1F4A1;</div>
         <h3>知识点系统</h3>
         <p>智能分析薄弱知识点，气泡云可视化展示，AI一键总结攻克盲区</p>
+      </div>
+      <div class="mode-card scroll-card" onclick="navigateTo('memorize')">
+        <div class="mode-icon">&#x1F4D6;</div>
+        <h3>背题模式</h3>
+        <p>直接展示题目与正确答案，快速浏览记忆，适合考前突击背诵</p>
       </div>
     </div>
   </div>
@@ -2271,6 +2277,29 @@ select.input option { background: #1a1a2e; color: #f1f5f9; }
           </div>
           <button class="btn btn-danger btn-sm" onclick="clearAllData()">清除数据</button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page" id="page-memorize">
+    <div class="card">
+      <div class="card-header">
+        <h3 style="font-size:17px;font-weight:700;">背题模式</h3>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <span style="font-size:13px;color:var(--text-muted);">章节：</span>
+          <select class="select" id="memorizeChapterFilter" onchange="startMemorize()">
+            <option value="all">全部章节</option>
+          </select>
+          <span style="font-size:13px;color:var(--text-muted);">题型：</span>
+          <select class="select" id="memorizeTypeFilter" onchange="startMemorize()">
+            <option value="all">全部</option>
+            <option value="A1型题">A1型题</option>
+            <option value="B型题">B型题</option>
+          </select>
+        </div>
+      </div>
+      <div class="card-body">
+        <div id="memorizeContent"></div>
       </div>
     </div>
   </div>
@@ -11131,6 +11160,9 @@ function navigateTo(page) {
   if (page === 'search') {
     renderSearchPage();
   }
+  if (page === 'memorize') {
+    initMemorize();
+  }
 }
 
 function updateStats() {
@@ -12343,6 +12375,144 @@ function toggleSearchFavorite(questionId) {
     const isFav = isFavorited(questionId);
     btn.innerHTML = isFav ? '&#x2B50;' : '&#x2606;';
     btn.title = isFav ? '取消收藏' : '收藏';
+  }
+}
+
+// ========== 背题模式 ==========
+let memorizeState = {
+  questions: [],
+  currentIndex: 0,
+  chapterFilter: 'all',
+  typeFilter: 'all'
+};
+
+function initMemorize() {
+  const chapterSelect = document.getElementById('memorizeChapterFilter');
+  if (chapterSelect && chapterSelect.options.length <= 1) {
+    chapters.forEach(ch => {
+      const opt = document.createElement('option');
+      opt.value = ch;
+      opt.textContent = ch;
+      chapterSelect.appendChild(opt);
+    });
+  }
+  startMemorize();
+}
+
+function startMemorize() {
+  const chapter = document.getElementById('memorizeChapterFilter')?.value || 'all';
+  const type = document.getElementById('memorizeTypeFilter')?.value || 'all';
+
+  let pool = [...allQuestions];
+  if (chapter !== 'all') pool = pool.filter(q => q.chapter === chapter);
+  if (type !== 'all') pool = pool.filter(q => q.type === type);
+
+  memorizeState = {
+    questions: pool,
+    currentIndex: 0,
+    chapterFilter: chapter,
+    typeFilter: type
+  };
+
+  renderMemorize();
+}
+
+function renderMemorize() {
+  const container = document.getElementById('memorizeContent');
+  if (!container) return;
+
+  const { questions, currentIndex } = memorizeState;
+  const total = questions.length;
+
+  if (total === 0) {
+    container.innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--text-secondary);"><div style="font-size:48px;margin-bottom:16px;">&#x1F4D6;</div><p>该筛选条件下暂无题目</p></div>';
+    return;
+  }
+
+  const q = questions[currentIndex];
+  const letters = ['A', 'B', 'C', 'D', 'E'];
+
+  let optionsHtml = '';
+  letters.forEach(letter => {
+    const text = q[letter];
+    if (!text) return;
+    const isCorrect = q.answer.includes(letter);
+    const cls = isCorrect ? 'option-item correct' : 'option-item';
+    const label = isCorrect ? '<span class="option-status-tag correct-tag">&#x2713; 正确答案</span>' : '';
+    optionsHtml += `<div class="${cls}" style="cursor:default;">
+      <div class="option-letter">${letter}</div>
+      <div class="option-text">${text}</div>
+      ${label}
+    </div>`;
+  });
+
+  const html = `
+    <div style="margin-bottom:16px;">
+      <div class="progress-text">
+        <span>进度 ${currentIndex + 1}/${total}</span>
+        <span>${Math.round((currentIndex + 1) / total * 100)}%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${Math.round((currentIndex + 1) / total * 100)}%"></div></div>
+    </div>
+
+    <div class="question-container">
+      <div class="question-header">
+        <div class="question-meta">
+          <span class="tag tag-chapter">${q.chapter}</span>
+          <span class="tag tag-type">${q.type}</span>
+        </div>
+        <span class="question-number">第 ${currentIndex + 1}/${total} 题</span>
+      </div>
+
+      <div class="question-text">${q.question}</div>
+      ${q.image ? `<div class="question-image"><img src="images/${q.image}" alt="题目图片" onerror="this.style.display='none'"/></div>` : ''}
+
+      <div class="options-list">${optionsHtml}</div>
+
+      <div class="analysis-panel" style="margin-top:20px;">
+        <h4>&#x1F4D6; 答案解析</h4>
+        <div class="analysis-content">
+          <p><strong>正确答案：${q.answer}</strong></p>
+          ${q.analysis ? `<p style="margin-top:8px;">${q.analysis}</p>` : '<p style="color:var(--text-muted);">暂无解析</p>'}
+        </div>
+      </div>
+    </div>
+
+    <div class="action-bar">
+      <div class="action-left">
+        <button class="btn btn-outline" onclick="memorizePrev()" ${currentIndex === 0 ? 'disabled' : ''}>&#x2190; 上一题</button>
+        <button class="btn btn-outline" onclick="memorizeNext()" ${currentIndex === total - 1 ? 'disabled' : ''}>下一题 &#x2192;</button>
+      </div>
+      <div class="action-right">
+        <button class="btn btn-outline" onclick="toggleMemorizeFavorite()" id="memorizeFavBtn" title="收藏此题" style="padding:6px 10px;font-size:16px;">${isFavorited(q.id) ? '&#x2B50;' : '&#x2606;'}</button>
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = html;
+}
+
+function memorizePrev() {
+  if (memorizeState.currentIndex > 0) {
+    memorizeState.currentIndex--;
+    renderMemorize();
+  }
+}
+
+function memorizeNext() {
+  if (memorizeState.currentIndex < memorizeState.questions.length - 1) {
+    memorizeState.currentIndex++;
+    renderMemorize();
+  }
+}
+
+function toggleMemorizeFavorite() {
+  const q = memorizeState.questions[memorizeState.currentIndex];
+  if (!q) return;
+  toggleSearchFavorite(q.id);
+  const btn = document.getElementById('memorizeFavBtn');
+  if (btn) {
+    btn.innerHTML = isFavorited(q.id) ? '&#x2B50;' : '&#x2606;';
   }
 }
 
