@@ -2340,7 +2340,17 @@ let wrongQuestions = [];
 let markedQuestions = [];
 let chapters = [];
 let currentMode = 'home';
-let     allQuestions = [
+let allQuestions = [];
+let settings = {};
+let favorites = [];
+let chapterProgress = {};
+let challenge = {};
+let layeredMode = {};
+let layeredStats = {};
+
+function init() {
+  try {
+    allQuestions = [
     {
       "id": 1,
       "chapter": "上皮",
@@ -11036,8 +11046,6 @@ async function requestChallengeAIAnalysis(qIdx) {
 
   if (btnEl) { btnEl.disabled = false; btnEl.innerHTML = '&#x1F916; AI解析'; }
 }
-
-init();
 
 // ==================== Knowledge System ====================
 
