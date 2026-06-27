@@ -2301,7 +2301,22 @@ select.input option { background: #1a1a2e; color: #f1f5f9; }
 </div>
 
 <script>
-let     allQuestions = [
+let questionStats = {};
+let wrongQuestions = [];
+let markedQuestions = [];
+let chapters = [];
+let currentMode = 'home';
+let allQuestions = [];
+let settings = {};
+let favorites = [];
+let chapterProgress = {};
+let challenge = {};
+let layeredMode = {};
+let layeredStats = {};
+
+function init() {
+  try {
+    allQuestions = [
     {
       "id": 1,
       "chapter": "上皮",
@@ -11061,11 +11076,8 @@ let     allQuestions = [
       "E": "法洛四联症"
     }
   ];
-
   } catch(e) {
     console.error('Failed to load questions:', e);
-    showToast('题库加载失败');
-    return;
   }
 
   chapters = [...new Set(allQuestions.map(q => q.chapter))].filter(Boolean).sort();
@@ -11075,6 +11087,9 @@ let     allQuestions = [
   renderLayeredGrid();
   loadSettings();
 }
+
+init();
+
 
 function navigateTo(page) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
