@@ -12475,6 +12475,7 @@ function renderMemorize() {
           <p><strong>正确答案：${q.answer}</strong></p>
           ${q.analysis ? `<p style="margin-top:8px;">${q.analysis}</p>` : '<p style="color:var(--text-muted);">暂无解析</p>'}
         </div>
+        <div id="memorizeAiAnalysis_${currentIndex}"></div>
       </div>
     </div>
 
@@ -12484,6 +12485,7 @@ function renderMemorize() {
         <button class="btn btn-outline" onclick="memorizeNext()" ${currentIndex === total - 1 ? 'disabled' : ''}>下一题 &#x2192;</button>
       </div>
       <div class="action-right">
+        <button class="btn btn-outline" onclick="requestMemorizeAIAnalysis(${currentIndex})" id="memorizeAiBtn_${currentIndex}">&#x1F916; AI解析</button>
         <button class="btn btn-outline" onclick="toggleMemorizeFavorite()" id="memorizeFavBtn" title="收藏此题" style="padding:6px 10px;font-size:16px;">${isFavorited(q.id) ? '&#x2B50;' : '&#x2606;'}</button>
       </div>
     </div>
@@ -13276,6 +13278,148 @@ async function requestAIAnalysis(qIdx) {
     const aiText = config.parse(data) || 'AI 未返回解析内容';
 
     // 写入缓存
+    if (aiText && q.id) setAICache(q.id, aiText);
+
+    if (containerEl) {
+      containerEl.innerHTML = `<div class="ai-analysis"><div class="ai-label">&#x1F916; AI 智能解析</div>${formatAIAnalysis(aiText)}</div>`;
+    }
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      if (containerEl) containerEl.innerHTML = `<div class="ai-analysis" style="border-color:rgba(239,68,68,0.2);background:rgba(239,68,68,0.05);"><div class="ai-label" style="color:var(--danger);background:rgba(239,68,68,0.1);">&#x26A0; 请求超时</div><p>AI 解析响应超过15秒，请检查网络或稍后重试。</p></div>`;
+    } else if (containerEl) {
+      containerEl.innerHTML = `<div class="ai-analysis" style="border-color:rgba(239,68,68,0.2);background:rgba(239,68,68,0.05);"><div class="ai-label" style="color:var(--danger);background:rgba(239,68,68,0.1);">&#x26A0; 解析失败</div><p>${escapeHtml(err.message)}</p></div>`;
+    }
+  }
+
+  if (btnEl) { btnEl.disabled = false; btnEl.innerHTML = '&#x1F916; AI解析'; }
+}
+
+async function requestMemorizeAIAnalysis(idx) {
+  const q = memorizeState.questions[idx];
+  const model = settings.aiModel || 'deepseek';
+  const apiKey = settings.apiKeys?.[model];
+  if (!apiKey) {
+    showToast('请先在修炼设置中配置 API Key');
+    return;
+  }
+
+  const btnEl = document.getElementById(`memorizeAiBtn_${idx}`);
+  const containerEl = document.getElementById(`memorizeAiAnalysis_${idx}`);
+
+  const cached = getAICache(q.id);
+  if (cached) {
+    if (containerEl) containerEl.innerHTML = `<div class="ai-analysis"><div class="ai-label">&#x1F916; AI 智能解析</div>${formatAIAnalysis(cached.text)}</div>`;
+    showToast('已加载缓存解析');
+    return;
+  }
+
+  if (btnEl) btnEl.disabled = true;
+  if (btnEl) btnEl.innerHTML = '<span class="spinner" style="display:inline-block;width:14px;height:14px;border:2px solid rgba(255,255,255,0.3);border-top-color:white;border-radius:50%;animation:spin 0.8s linear infinite;"></span> 解析中...';
+  if (containerEl) {
+    containerEl.innerHTML = `<div class="ai-analysis"><div class="ai-loading"><div class="spinner"></div> AI 正在分析中...</div></div>`;
+  }
+
+  const prompt = `请对以下组织学与胚胎学题目进行深度解析，要求结构化输出：
+
+【题目】${q.question}
+【选项】A.${q.A||'无'} B.${q.B||'无'} C.${q.C||'无'} D.${q.D||'无'} E.${q.E||'无'}
+【正确答案】${q.answer} | 【题型】${q.type}
+
+请按以下格式输出：
+
+【答案解析】
+详细说明为什么正确答案是${q.answer}，每个错误选项错在哪里。
+
+【核心知识点】
+提炼本题涉及的2-3个核心解剖学知识点，用条目列出。
+
+【知识拓展】
+列举与本题相关的、容易混淆或常考的知识点，帮助举一反三（至少2条）。
+
+【易错警示】
+分析学生最容易犯的错误及原因。
+
+【记忆口诀】
+提供一个帮助记忆的口诀或联想方法。`;
+
+  const systemMsg = '你是资深组织学与胚胎学教授，擅长将复杂知识结构化讲解，善于总结归纳和举一反三。回答必须按要求的格式输出，每个部分都要有实质内容，不要省略。';
+
+  const modelConfigs = {
+    deepseek: {
+      url: 'https://api.deepseek.com/chat/completions',
+      headers: { 'Authorization': `Bearer ${apiKey}` },
+      body: () => ({
+        model: 'deepseek-chat',
+        messages: [{ role: 'system', content: systemMsg }, { role: 'user', content: prompt }],
+        temperature: 0.5,
+        max_tokens: 1200
+      }),
+      parse: (data) => data.choices?.[0]?.message?.content
+    },
+    openai: {
+      url: 'https://api.openai.com/v1/chat/completions',
+      headers: { 'Authorization': `Bearer ${apiKey}` },
+      body: () => ({
+        model: 'gpt-4o-mini',
+        messages: [{ role: 'system', content: systemMsg }, { role: 'user', content: prompt }],
+        temperature: 0.5,
+        max_tokens: 1200
+      }),
+      parse: (data) => data.choices?.[0]?.message?.content
+    },
+    claude: {
+      url: 'https://api.anthropic.com/v1/messages',
+      headers: { 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
+      body: () => ({
+        model: 'claude-3-haiku-20240307',
+        max_tokens: 1200,
+        system: systemMsg,
+        messages: [{ role: 'user', content: prompt }]
+      }),
+      parse: (data) => data.content?.[0]?.text
+    },
+    custom: {
+      url: settings.customUrl || '',
+      headers: { 'Authorization': `Bearer ${apiKey}` },
+      body: () => ({
+        model: settings.customModel || 'custom-model',
+        messages: [{ role: 'system', content: systemMsg }, { role: 'user', content: prompt }],
+        temperature: 0.5,
+        max_tokens: 1200
+      }),
+      parse: (data) => data.choices?.[0]?.message?.content
+    }
+  };
+
+  const config = modelConfigs[model];
+  if (!config || !config.url) {
+    showToast('模型配置不完整');
+    if (btnEl) { btnEl.disabled = false; btnEl.innerHTML = '&#x1F916; AI解析'; }
+    return;
+  }
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 15000);
+
+  try {
+    const resp = await fetch(config.url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...config.headers },
+      body: JSON.stringify(config.body()),
+      signal: controller.signal
+    });
+    clearTimeout(timeoutId);
+
+    if (!resp.ok) {
+      const errText = await resp.text();
+      let errMsg = `API 请求失败 (${resp.status})`;
+      try { const errData = JSON.parse(errText); errMsg = errData.error?.message || errData.error?.code || errMsg; } catch (e) {}
+      throw new Error(errMsg);
+    }
+
+    const data = await resp.json();
+    const aiText = config.parse(data) || 'AI 未返回解析内容';
+
     if (aiText && q.id) setAICache(q.id, aiText);
 
     if (containerEl) {
