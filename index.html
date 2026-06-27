@@ -418,7 +418,7 @@ body::after {
   line-height: 1.6;
 }
 
-/* Hero banner with CSS gradient background */
+/* Hero banner with image */
 .hero-banner {
   position: relative;
   border-radius: var(--radius-lg);
@@ -426,10 +426,14 @@ body::after {
   margin-bottom: 32px;
   box-shadow: var(--shadow-lg);
   border: 1px solid rgba(245,158,11,0.15);
-  background: linear-gradient(135deg, rgba(217,119,6,0.25) 0%, rgba(12,12,20,0.9) 40%, rgba(12,12,20,0.95) 100%);
-  min-height: 220px;
-  display: flex;
-  align-items: flex-end;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
 }
 
 .hero-banner::before {
@@ -437,8 +441,8 @@ body::after {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 50%, rgba(245,158,11,0.15) 0%, transparent 50%),
-    radial-gradient(circle at 80% 30%, rgba(251,191,36,0.08) 0%, transparent 40%);
+    radial-gradient(circle at 20% 50%, rgba(245,158,11,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 30%, rgba(251,191,36,0.06) 0%, transparent 40%);
 }
 
 .hero-banner-overlay {
@@ -2034,6 +2038,7 @@ select.input option { background: #1a1a2e; color: #f1f5f9; }
 
   <div class="page active" id="page-home">
     <div class="hero-banner">
+      <img src="images/hero-banner.jpg" alt="组胚修炼场" />
       <div class="hero-banner-overlay"></div>
       <div class="hero-banner-text">
         <h1>源头活水，学无止境</h1>
