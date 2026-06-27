@@ -2138,7 +2138,7 @@ select.input option { background: #1a1a2e; color: #f1f5f9; }
           <h3 style="font-size:17px;font-weight:700;">比武设置</h3>
         </div>
         <div class="card-body">
-          <div class="exam-info-banner" style="background: linear-gradient(135deg, rgba(13,115,119,0.06), rgba(20,160,133,0.06)); border: 1px solid rgba(13,115,119,0.12); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 20px;">
+          <div class="exam-info-banner" id="examRules" style="background: linear-gradient(135deg, rgba(13,115,119,0.06), rgba(20,160,133,0.06)); border: 1px solid rgba(13,115,119,0.12); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 20px;">
             <div style="font-size: 15px; font-weight: 700; color: var(--primary-dark); margin-bottom: 8px;">&#x1F4CB; 考试规则</div>
             <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.8;">
               <span style="display:inline-block; margin-right: 16px;">&#x1F3AF; 单选题 <strong style="color:var(--primary);">40道</strong>，每道 <strong style="color:var(--primary);">1分</strong></span>
@@ -11672,12 +11672,17 @@ function startExam() {
   const singlePool = pool.filter(q => q.type !== 'X型题');
   const multiPool = pool.filter(q => q.type === 'X型题');
 
-  if (singlePool.length < 40) {
-    showToast(`该范围单选题只有 ${singlePool.length} 道，不足40道`);
-    return;
-  }
+  // 自动调整题量：优先保证50道题，多选不够时从单选补充
+  let targetSingle = 40;
+  let targetMulti = 10;
+
   if (multiPool.length < 10) {
-    showToast(`该范围多选题只有 ${multiPool.length} 道，不足10道`);
+    targetMulti = multiPool.length;
+    targetSingle = Math.min(50 - targetMulti, singlePool.length);
+  }
+
+  if (singlePool.length < targetSingle) {
+    showToast(`该范围题目只有 ${singlePool.length + multiPool.length} 道，不足${targetSingle + targetMulti}道`);
     return;
   }
 
@@ -11714,9 +11719,25 @@ function startExam() {
     return shuffleArray(result);
   }
 
-  const singleQs = drawBalanced(singlePool, 40);
-  const multiQs = drawBalanced(multiPool, 10);
+  const singleQs = drawBalanced(singlePool, targetSingle);
+  const multiQs = drawBalanced(multiPool, targetMulti);
   const qs = [...singleQs, ...multiQs];
+
+  const totalScore = targetSingle * 1 + targetMulti * 2;
+
+  // 动态更新考试规则显示
+  const rulesEl = document.getElementById('examRules');
+  if (rulesEl) {
+    let rulesHtml = `<div style="font-size: 15px; font-weight: 700; color: var(--primary-dark); margin-bottom: 8px;">&#x1F4CB; 考试规则</div>
+      <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.8;">
+        <span style="display:inline-block; margin-right: 16px;">&#x1F3AF; 单选题 <strong style="color:var(--primary);">${targetSingle}道</strong>，每道 <strong style="color:var(--primary);">1分</strong></span>`;
+    if (targetMulti > 0) {
+      rulesHtml += `<span style="display:inline-block; margin-right: 16px;">&#x1F3AF; 多选题 <strong style="color:var(--primary);">${targetMulti}道</strong>，每道 <strong style="color:var(--primary);">2分</strong></span>`;
+    }
+    rulesHtml += `<span style="display:inline-block;">&#x1F3C6; 满分 <strong style="color:var(--primary);">${totalScore}分</strong></span>
+      </div>`;
+    rulesEl.innerHTML = rulesHtml;
+  }
 
   currentQuiz = {
     mode: 'exam',
@@ -11729,7 +11750,7 @@ function startExam() {
     timeLimit: timeMin * 60,
     timeRemaining: timeMin * 60,
     submitted: false,
-    examConfig: { singleCount: 40, multiCount: 10, singleScore: 1, multiScore: 2, totalScore: 60 }
+    examConfig: { singleCount: targetSingle, multiCount: targetMulti, singleScore: 1, multiScore: 2, totalScore: totalScore }
   };
 
   document.getElementById('examSetup').style.display = 'none';
@@ -12422,8 +12443,8 @@ function renderExamHistoryInline() {
           </div>
         </div>
         <div class="exam-history-detail">
-          <span>单选 ${r.singleCorrect}/40</span>
-          <span>多选 ${r.multiCorrect}/10</span>
+          <span>单选 ${r.singleCorrect}/${r.examConfig?.singleCount || 40}</span>
+          <span>多选 ${r.multiCorrect}/${r.examConfig?.multiCount || 10}</span>
           <span style="color:var(--danger);">错 ${totalWrong} 道</span>
           <span>${Math.floor(r.timeTaken / 60)}分${r.timeTaken % 60}秒</span>
         </div>
