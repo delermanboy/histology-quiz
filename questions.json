@@ -26,7 +26,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 2,
@@ -55,7 +56,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 3,
@@ -84,7 +86,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 4,
@@ -113,7 +116,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 5,
@@ -142,7 +146,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 6,
@@ -171,7 +176,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 7,
@@ -200,7 +206,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 8,
@@ -229,7 +236,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 9,
@@ -258,7 +266,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 10,
@@ -287,7 +296,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 11,
@@ -316,7 +326,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 12,
@@ -345,7 +356,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 13,
@@ -374,7 +386,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 14,
@@ -403,7 +416,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 15,
@@ -432,7 +446,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 16,
@@ -461,7 +476,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 17,
@@ -490,7 +506,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 18,
@@ -519,7 +536,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 19,
@@ -548,7 +566,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 20,
@@ -577,7 +596,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 21,
@@ -606,7 +626,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 22,
@@ -635,7 +656,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 23,
@@ -664,7 +686,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 24,
@@ -693,7 +716,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 25,
@@ -722,7 +746,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 26,
@@ -751,7 +776,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 27,
@@ -780,7 +806,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 28,
@@ -809,7 +836,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 29,
@@ -838,7 +866,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 30,
@@ -867,7 +896,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 31,
@@ -896,7 +926,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 32,
@@ -921,7 +952,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 33,
@@ -950,7 +982,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 34,
@@ -979,7 +1012,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 35,
@@ -1008,7 +1042,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 36,
@@ -1037,7 +1072,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 37,
@@ -1066,7 +1102,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 38,
@@ -1095,7 +1132,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 39,
@@ -1124,7 +1162,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 40,
@@ -1153,7 +1192,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 41,
@@ -1182,7 +1222,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 42,
@@ -1211,7 +1252,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 43,
@@ -1240,7 +1282,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 44,
@@ -1269,7 +1312,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 45,
@@ -1298,7 +1342,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 46,
@@ -1327,7 +1372,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 47,
@@ -1356,7 +1402,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 48,
@@ -1385,7 +1432,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 49,
@@ -1414,7 +1462,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 50,
@@ -1443,7 +1492,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 51,
@@ -1472,7 +1522,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 52,
@@ -1501,7 +1552,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 53,
@@ -1530,7 +1582,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 54,
@@ -1559,7 +1612,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 55,
@@ -1588,7 +1642,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 56,
@@ -1617,7 +1672,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 57,
@@ -1646,7 +1702,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 58,
@@ -1675,7 +1732,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 59,
@@ -1704,7 +1762,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 60,
@@ -1733,7 +1792,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 61,
@@ -1762,7 +1822,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 62,
@@ -1791,7 +1852,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 63,
@@ -1820,7 +1882,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 64,
@@ -1849,7 +1912,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 65,
@@ -1878,7 +1942,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 66,
@@ -1907,7 +1972,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 67,
@@ -1936,7 +2002,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 68,
@@ -1965,7 +2032,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 69,
@@ -1994,7 +2062,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 70,
@@ -2023,7 +2092,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 71,
@@ -2052,7 +2122,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 72,
@@ -2081,7 +2152,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 73,
@@ -2110,7 +2182,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 74,
@@ -2139,7 +2212,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 75,
@@ -2168,7 +2242,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 76,
@@ -2197,7 +2272,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 77,
@@ -2226,7 +2302,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 78,
@@ -2255,7 +2332,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 79,
@@ -2284,7 +2362,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 80,
@@ -2313,7 +2392,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 81,
@@ -2342,7 +2422,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 82,
@@ -2371,7 +2452,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 83,
@@ -2400,7 +2482,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 84,
@@ -2429,7 +2512,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 85,
@@ -2458,7 +2542,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 86,
@@ -2487,7 +2572,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 87,
@@ -2516,7 +2602,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 88,
@@ -2545,7 +2632,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 89,
@@ -2574,7 +2662,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 90,
@@ -2603,7 +2692,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 91,
@@ -2632,7 +2722,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 92,
@@ -2661,7 +2752,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 93,
@@ -2690,7 +2782,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 94,
@@ -2719,7 +2812,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 95,
@@ -2748,7 +2842,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 96,
@@ -2777,7 +2872,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 97,
@@ -2806,7 +2902,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 98,
@@ -2835,7 +2932,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 99,
@@ -2864,7 +2962,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 100,
@@ -2893,7 +2992,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 101,
@@ -2922,7 +3022,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 102,
@@ -2951,7 +3052,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 103,
@@ -2980,7 +3082,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 104,
@@ -3009,7 +3112,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 105,
@@ -3038,7 +3142,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 106,
@@ -3067,7 +3172,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 107,
@@ -3096,7 +3202,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 108,
@@ -3125,7 +3232,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 109,
@@ -3154,7 +3262,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 110,
@@ -3183,7 +3292,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 111,
@@ -3212,7 +3322,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 112,
@@ -3241,7 +3352,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 113,
@@ -3270,7 +3382,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 114,
@@ -3299,7 +3412,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 115,
@@ -3328,7 +3442,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 116,
@@ -3357,7 +3472,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 117,
@@ -3386,7 +3502,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 118,
@@ -3415,7 +3532,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 119,
@@ -3444,7 +3562,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 120,
@@ -3473,7 +3592,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 121,
@@ -3502,7 +3622,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 122,
@@ -3531,7 +3652,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 123,
@@ -3560,7 +3682,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 124,
@@ -3589,7 +3712,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 125,
@@ -3618,7 +3742,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 126,
@@ -3647,7 +3772,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 127,
@@ -3676,7 +3802,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 128,
@@ -3705,7 +3832,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 129,
@@ -3734,7 +3862,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 130,
@@ -3763,7 +3892,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 131,
@@ -3792,7 +3922,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 132,
@@ -3821,7 +3952,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 133,
@@ -3850,7 +3982,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 134,
@@ -3879,7 +4012,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 135,
@@ -3908,7 +4042,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 136,
@@ -3937,7 +4072,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 137,
@@ -3966,7 +4102,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 138,
@@ -3995,7 +4132,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 139,
@@ -4024,7 +4162,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 140,
@@ -4053,7 +4192,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 141,
@@ -4082,7 +4222,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 142,
@@ -4111,7 +4252,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 143,
@@ -4140,7 +4282,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 144,
@@ -4169,7 +4312,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 145,
@@ -4198,7 +4342,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 146,
@@ -4227,7 +4372,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 147,
@@ -4256,7 +4402,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 148,
@@ -4285,7 +4432,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 149,
@@ -4314,7 +4462,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 150,
@@ -4331,7 +4480,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 151,
@@ -4348,7 +4498,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 152,
@@ -4377,7 +4528,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 153,
@@ -4402,7 +4554,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 154,
@@ -4431,7 +4584,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 155,
@@ -4460,7 +4614,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 156,
@@ -4489,7 +4644,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 157,
@@ -4518,7 +4674,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 158,
@@ -4547,7 +4704,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 159,
@@ -4576,7 +4734,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 160,
@@ -4605,7 +4764,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 161,
@@ -4634,7 +4794,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 162,
@@ -4663,7 +4824,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 163,
@@ -4692,7 +4854,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 164,
@@ -4721,7 +4884,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 165,
@@ -4742,7 +4906,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 166,
@@ -4771,7 +4936,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 167,
@@ -4800,7 +4966,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 168,
@@ -4829,7 +4996,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 169,
@@ -4858,7 +5026,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 170,
@@ -4887,7 +5056,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 171,
@@ -4916,7 +5086,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 172,
@@ -4945,7 +5116,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 173,
@@ -4974,7 +5146,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 174,
@@ -5003,7 +5176,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 175,
@@ -5032,7 +5206,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 176,
@@ -5061,7 +5236,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 177,
@@ -5090,7 +5266,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 178,
@@ -5115,7 +5292,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 179,
@@ -5144,7 +5322,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 180,
@@ -5173,7 +5352,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 181,
@@ -5202,7 +5382,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 182,
@@ -5231,7 +5412,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 183,
@@ -5260,7 +5442,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 184,
@@ -5289,7 +5472,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 185,
@@ -5318,7 +5502,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 186,
@@ -5343,7 +5528,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 187,
@@ -5372,7 +5558,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 188,
@@ -5401,7 +5588,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 189,
@@ -5426,7 +5614,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 190,
@@ -5451,7 +5640,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 191,
@@ -5480,7 +5670,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 192,
@@ -5509,7 +5700,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 193,
@@ -5538,7 +5730,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 194,
@@ -5567,7 +5760,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 195,
@@ -5592,7 +5786,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 196,
@@ -5621,7 +5816,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 197,
@@ -5642,7 +5838,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 198,
@@ -5671,7 +5868,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 199,
@@ -5700,7 +5898,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 200,
@@ -5729,7 +5928,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 201,
@@ -5758,7 +5958,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 202,
@@ -5787,7 +5988,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 203,
@@ -5816,7 +6018,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 204,
@@ -5845,7 +6048,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 205,
@@ -5874,7 +6078,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 206,
@@ -5903,7 +6108,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 207,
@@ -5932,7 +6138,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 208,
@@ -5961,7 +6168,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 209,
@@ -5990,7 +6198,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 210,
@@ -6019,7 +6228,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 211,
@@ -6048,7 +6258,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 212,
@@ -6077,7 +6288,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 213,
@@ -6106,7 +6318,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 214,
@@ -6135,7 +6348,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 215,
@@ -6164,7 +6378,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 216,
@@ -6193,7 +6408,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 217,
@@ -6222,7 +6438,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 218,
@@ -6251,7 +6468,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 219,
@@ -6280,7 +6498,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 220,
@@ -6309,7 +6528,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 221,
@@ -6338,7 +6558,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 222,
@@ -6367,7 +6588,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 223,
@@ -6396,7 +6618,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 224,
@@ -6425,7 +6648,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 225,
@@ -6454,7 +6678,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 226,
@@ -6483,7 +6708,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 227,
@@ -6512,7 +6738,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 228,
@@ -6541,7 +6768,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 229,
@@ -6570,7 +6798,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 230,
@@ -6599,7 +6828,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 231,
@@ -6628,7 +6858,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 232,
@@ -6657,7 +6888,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 233,
@@ -6686,7 +6918,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 234,
@@ -6715,7 +6948,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 235,
@@ -6740,7 +6974,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 236,
@@ -6769,7 +7004,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 237,
@@ -6798,7 +7034,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 238,
@@ -6827,7 +7064,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 239,
@@ -6856,7 +7094,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 240,
@@ -6885,7 +7124,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 241,
@@ -6914,7 +7154,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 242,
@@ -6943,7 +7184,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 243,
@@ -6972,7 +7214,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 244,
@@ -7001,7 +7244,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 245,
@@ -7030,7 +7274,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 246,
@@ -7059,7 +7304,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 247,
@@ -7088,7 +7334,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 248,
@@ -7117,7 +7364,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 249,
@@ -7146,7 +7394,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 250,
@@ -7175,7 +7424,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 251,
@@ -7204,7 +7454,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 252,
@@ -7233,7 +7484,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 253,
@@ -7262,7 +7514,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 254,
@@ -7291,7 +7544,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 255,
@@ -7320,7 +7574,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 256,
@@ -7349,7 +7604,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 257,
@@ -7378,7 +7634,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 258,
@@ -7407,7 +7664,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 259,
@@ -7436,7 +7694,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 260,
@@ -7457,7 +7716,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 261,
@@ -7478,7 +7738,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 262,
@@ -7507,7 +7768,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 263,
@@ -7536,7 +7798,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 264,
@@ -7565,7 +7828,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 265,
@@ -7594,7 +7858,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 266,
@@ -7623,7 +7888,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 267,
@@ -7652,7 +7918,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 268,
@@ -7681,7 +7948,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 269,
@@ -7710,7 +7978,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 270,
@@ -7735,7 +8004,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 271,
@@ -7764,7 +8034,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 272,
@@ -7793,7 +8064,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 273,
@@ -7822,7 +8094,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 274,
@@ -7851,7 +8124,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 275,
@@ -7880,7 +8154,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 276,
@@ -7909,7 +8184,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 277,
@@ -7938,7 +8214,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 278,
@@ -7967,7 +8244,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 279,
@@ -7996,7 +8274,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 280,
@@ -8025,7 +8304,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 281,
@@ -8054,7 +8334,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 282,
@@ -8083,7 +8364,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 283,
@@ -8112,7 +8394,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 284,
@@ -8141,7 +8424,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 285,
@@ -8170,7 +8454,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 286,
@@ -8199,7 +8484,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 287,
@@ -8228,7 +8514,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 288,
@@ -8257,7 +8544,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 289,
@@ -8282,7 +8570,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 290,
@@ -8311,7 +8600,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 291,
@@ -8340,7 +8630,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 292,
@@ -8361,7 +8652,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 293,
@@ -8382,7 +8674,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 294,
@@ -8407,7 +8700,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 295,
@@ -8436,7 +8730,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 296,
@@ -8457,7 +8752,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 297,
@@ -8486,7 +8782,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 298,
@@ -8515,7 +8812,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 299,
@@ -8544,7 +8842,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 300,
@@ -8573,7 +8872,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 301,
@@ -8602,7 +8902,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 302,
@@ -8631,7 +8932,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 303,
@@ -8660,7 +8962,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 304,
@@ -8689,7 +8992,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 305,
@@ -8718,7 +9022,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 306,
@@ -8747,7 +9052,8 @@
       }
     ],
     "answer": null,
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 307,
@@ -8776,7 +9082,8 @@
       }
     ],
     "answer": "E",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 308,
@@ -8805,7 +9112,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 309,
@@ -8834,7 +9142,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 310,
@@ -8863,7 +9172,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 311,
@@ -8892,7 +9202,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 312,
@@ -8921,7 +9232,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 313,
@@ -8950,7 +9262,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 314,
@@ -8979,7 +9292,8 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 315,
@@ -9008,7 +9322,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 316,
@@ -9037,7 +9352,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 317,
@@ -9066,7 +9382,8 @@
       }
     ],
     "answer": "D",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 318,
@@ -9095,7 +9412,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 319,
@@ -9124,7 +9442,8 @@
       }
     ],
     "answer": "C",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 320,
@@ -9153,7 +9472,8 @@
       }
     ],
     "answer": "B",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 321,
@@ -9182,11 +9502,13 @@
       }
     ],
     "answer": "A",
-    "explanation": null
+    "explanation": null,
+    "type": "A1型题"
   },
   {
     "id": 322,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "图中显示何种组织",
     "options": [
       {
@@ -9217,6 +9539,7 @@
   {
     "id": 323,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "对于间充质细胞的错误描述是",
     "options": [
       {
@@ -9246,6 +9569,7 @@
   {
     "id": 324,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列不属于固有结缔组织的是",
     "options": [
       {
@@ -9275,6 +9599,7 @@
   {
     "id": 325,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列哪项不属于广义的结缔组织",
     "options": [
       {
@@ -9304,6 +9629,7 @@
   {
     "id": 326,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "相对于上皮组织，关于结缔组织的描述哪项是错误的",
     "options": [
       {
@@ -9333,6 +9659,7 @@
   {
     "id": 327,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "箭头显示何种细胞",
     "options": [
       {
@@ -9363,6 +9690,7 @@
   {
     "id": 328,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列关于疏松结缔组织描述，错误的是",
     "options": [
       {
@@ -9392,6 +9720,7 @@
   {
     "id": 329,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "箭头显示何种细胞",
     "options": [
       {
@@ -9422,6 +9751,7 @@
   {
     "id": 330,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "疏松结缔组织中数量最多的细胞是",
     "options": [
       {
@@ -9451,6 +9781,7 @@
   {
     "id": 331,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列关于巨噬细胞特点的描述，错误的是",
     "options": [
       {
@@ -9480,6 +9811,7 @@
   {
     "id": 332,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列不是成纤维细胞的特点是",
     "options": [
       {
@@ -9509,6 +9841,7 @@
   {
     "id": 333,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "胞质内含有大量平行排列的粗面内质网的细胞是",
     "options": [
       {
@@ -9538,6 +9871,7 @@
   {
     "id": 334,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "关于组织液的描述哪项错误",
     "options": [
       {
@@ -9567,6 +9901,7 @@
   {
     "id": 335,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列关于胶原纤维的描述，错误的是",
     "options": [
       {
@@ -9596,6 +9931,7 @@
   {
     "id": 336,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列哪种纤维具有嗜银性",
     "options": [
       {
@@ -9625,6 +9961,7 @@
   {
     "id": 337,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "关于基质，错误的描述是",
     "options": [
       {
@@ -9654,6 +9991,7 @@
   {
     "id": 338,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "图中显示的细胞是",
     "options": [
       {
@@ -9684,6 +10022,7 @@
   {
     "id": 339,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列选项不属于致密结缔组织的是",
     "options": [
       {
@@ -9713,6 +10052,7 @@
   {
     "id": 340,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "构成造血组织支架的是",
     "options": [
       {
@@ -9742,6 +10082,7 @@
   {
     "id": 341,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下列哪种细胞具有吞噬、处理、呈递抗原的作用是",
     "options": [
       {
@@ -9771,6 +10112,7 @@
   {
     "id": 342,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "下图为何种组织",
     "options": [
       {
@@ -9801,6 +10143,7 @@
   {
     "id": 343,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "结缔组织来源于",
     "options": [
       {
@@ -9830,6 +10173,7 @@
   {
     "id": 344,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "结合下面结缔组织细胞光镜和电镜图，可知箭头所示为何种细胞？",
     "options": [
       {
@@ -9860,6 +10204,7 @@
   {
     "id": 345,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "黄色脂肪组织多见于",
     "options": [
       {
@@ -9889,6 +10234,7 @@
   {
     "id": 346,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "能产生纤维和基质，参与创伤修复的细胞是",
     "options": [
       {
@@ -9918,6 +10264,7 @@
   {
     "id": 347,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "成纤维细胞转变为纤维细胞表示其",
     "options": [
       {
@@ -9947,6 +10294,7 @@
   {
     "id": 348,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "图中箭头所标为",
     "options": [
       {
@@ -9977,6 +10325,7 @@
   {
     "id": 349,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "图中箭头所标为",
     "options": [
       {
@@ -10007,6 +10356,7 @@
   {
     "id": 350,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "具有韧性及可耐受强大拉力的纤维是",
     "options": [
       {
@@ -10036,6 +10386,7 @@
   {
     "id": 351,
     "chapter": "结缔组织",
+    "type": "A1型题",
     "question": "致密结缔组织的结构特点是",
     "options": [
       {
@@ -10065,6 +10416,7 @@
   {
     "id": 352,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "在 HE 染色透明软骨组织切片中，难以分辨纤维的重要原因是",
     "options": [
       {
@@ -10095,6 +10447,7 @@
   {
     "id": 353,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于同源细胞群，描述正确的是",
     "options": [
       {
@@ -10124,6 +10477,7 @@
   {
     "id": 354,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于软骨膜的结构分布特点，下列描述正确的是",
     "options": [
       {
@@ -10153,6 +10507,7 @@
   {
     "id": 355,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "弹性软骨区别于透明软骨的主要特征是",
     "options": [
       {
@@ -10182,6 +10537,7 @@
   {
     "id": 356,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "能产生软骨组织细胞外基质(纤维和基质)的细胞是",
     "options": [
       {
@@ -10211,6 +10567,7 @@
   {
     "id": 357,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "软骨分类的依据是",
     "options": [
       {
@@ -10240,6 +10597,7 @@
   {
     "id": 358,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "细胞内含大量溶酶体的细胞是",
     "options": [
       {
@@ -10269,6 +10627,7 @@
   {
     "id": 359,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "请仔细阅读以下骨组织模式图，识别各主要细胞，以下描述正确的是",
     "options": [
       {
@@ -10298,6 +10657,7 @@
   {
     "id": 360,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "产生类骨质的细胞是",
     "options": [
       {
@@ -10327,6 +10687,7 @@
   {
     "id": 361,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于编织骨的分布，下列描述正确的是",
     "options": [
       {
@@ -10356,6 +10717,7 @@
   {
     "id": 362,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "对成骨细胞的描述，错误的是",
     "options": [
       {
@@ -10385,6 +10747,7 @@
   {
     "id": 363,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "相邻骨细胞的突起以什么结构相连，并可以传递信息",
     "options": [
       {
@@ -10414,6 +10777,7 @@
   {
     "id": 364,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于骨和软骨的共同特征，下列错误的是",
     "options": [
       {
@@ -10443,6 +10807,7 @@
   {
     "id": 365,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "尚未沉积骨盐的新生骨质，在组织学中被称为",
     "options": [
       {
@@ -10472,6 +10837,7 @@
   {
     "id": 366,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "下列哪种成分不是骨组织的组成成分",
     "options": [
       {
@@ -10501,6 +10867,7 @@
   {
     "id": 367,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "对软骨囊的描述，正确的是",
     "options": [
       {
@@ -10530,6 +10897,7 @@
   {
     "id": 368,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "角膜上皮的种类是",
     "options": [
       {
@@ -10559,6 +10927,7 @@
   {
     "id": 369,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "下列不属于眼球壁的结构是",
     "options": [
       {
@@ -10588,6 +10957,7 @@
   {
     "id": 370,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "眼球壁不含色素的结构是",
     "options": [
       {
@@ -10617,6 +10987,7 @@
   {
     "id": 371,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "日常生活中所说的“眼白”是哪种结构",
     "options": [
       {
@@ -10646,6 +11017,7 @@
   {
     "id": 372,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "角膜中的纤维状成分是",
     "options": [
       {
@@ -10675,6 +11047,7 @@
   {
     "id": 373,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于血管膜的描述中，错误的是",
     "options": [
       {
@@ -10704,6 +11077,7 @@
   {
     "id": 374,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "虹膜基质由什么组织构成",
     "options": [
       {
@@ -10733,6 +11107,7 @@
   {
     "id": 375,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于睫状体的描述中，错误的是",
     "options": [
       {
@@ -10762,6 +11137,7 @@
   {
     "id": 376,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "睫状肌由什么肌组织构成",
     "options": [
       {
@@ -10783,6 +11159,7 @@
   {
     "id": 377,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "分泌房水的是",
     "options": [
       {
@@ -10812,6 +11189,7 @@
   {
     "id": 378,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "下列哪一层细胞不属于视网膜",
     "options": [
       {
@@ -10841,6 +11219,7 @@
   {
     "id": 379,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "白内障是因为",
     "options": [
       {
@@ -10870,6 +11249,7 @@
   {
     "id": 380,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "视网膜内具有吞噬功能的细胞是",
     "options": [
       {
@@ -10899,6 +11279,7 @@
   {
     "id": 381,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "膜盘位于视细胞的哪个部分",
     "options": [
       {
@@ -10928,6 +11309,7 @@
   {
     "id": 382,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于角膜，哪项错误",
     "options": [
       {
@@ -10957,6 +11339,7 @@
   {
     "id": 383,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "视网膜感光作用最敏感的部位是",
     "options": [
       {
@@ -10986,6 +11369,7 @@
   {
     "id": 384,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于节细胞的描述，错误的是",
     "options": [
       {
@@ -11015,6 +11399,7 @@
   {
     "id": 385,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "关于视锥细胞的描述中，错误的是",
     "options": [
       {
@@ -11044,6 +11429,7 @@
   {
     "id": 386,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "视网膜色素上皮细胞的功能之一是",
     "options": [
       {
@@ -11073,6 +11459,7 @@
   {
     "id": 387,
     "chapter": "软骨与骨",
+    "type": "A1型题",
     "question": "视网膜中央凹处有",
     "options": [
       {
@@ -11102,6 +11489,7 @@
   {
     "id": 388,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于小梁网的描述，错误的是",
     "options": [
       {
@@ -11131,6 +11519,7 @@
   {
     "id": 389,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于晶状体的描述，哪一项错误",
     "options": [
       {
@@ -11160,6 +11549,7 @@
   {
     "id": 390,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "下列属于血管膜的是",
     "options": [
       {
@@ -11189,6 +11579,7 @@
   {
     "id": 391,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "调节晶状体曲度的主要结构是",
     "options": [
       {
@@ -11218,6 +11609,7 @@
   {
     "id": 392,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于视杆细胞的描述中，错误的是",
     "options": [
       {
@@ -11247,6 +11639,7 @@
   {
     "id": 393,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "玻璃体的主要成分是",
     "options": [
       {
@@ -11276,6 +11669,7 @@
   {
     "id": 394,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "角膜缘处没有的结构是",
     "options": [
       {
@@ -11305,6 +11699,7 @@
   {
     "id": 395,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "哪种结构不在房水排出的通路上",
     "options": [
       {
@@ -11334,6 +11729,7 @@
   {
     "id": 396,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "小梁网滤过",
     "options": [
       {
@@ -11363,6 +11759,7 @@
   {
     "id": 397,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "老花眼是由于",
     "options": [
       {
@@ -11392,6 +11789,7 @@
   {
     "id": 398,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "青光眼是由于",
     "options": [
       {
@@ -11421,6 +11819,7 @@
   {
     "id": 399,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "组成视神经的是",
     "options": [
       {
@@ -11450,6 +11849,7 @@
   {
     "id": 400,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾小叶的组成为",
     "options": [
       {
@@ -11479,6 +11879,7 @@
   {
     "id": 401,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾实质的组成为",
     "options": [
       {
@@ -11508,6 +11909,7 @@
   {
     "id": 402,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾叶的组成为",
     "options": [
       {
@@ -11537,6 +11939,7 @@
   {
     "id": 403,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "图中红色圆圈所示为",
     "options": [
       {
@@ -11567,6 +11970,7 @@
   {
     "id": 404,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "滤过屏障的组成结构为",
     "options": [
       {
@@ -11596,6 +12000,7 @@
   {
     "id": 405,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾血管球毛细血管于近血管级处汇合成",
     "options": [
       {
@@ -11625,6 +12030,7 @@
   {
     "id": 406,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于肾血管球的结构，下列描述错误的是",
     "options": [
       {
@@ -11654,6 +12060,7 @@
   {
     "id": 407,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "图中箭头所示为",
     "options": [
       {
@@ -11684,6 +12091,7 @@
   {
     "id": 408,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于足细胞的描述，以下选项错误的是",
     "options": [
       {
@@ -11713,6 +12121,7 @@
   {
     "id": 409,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾小体的组成为",
     "options": [
       {
@@ -11742,6 +12151,7 @@
   {
     "id": 410,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾单位袢由下列哪项组成",
     "options": [
       {
@@ -11771,6 +12181,7 @@
   {
     "id": 411,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾单位细段的结构是",
     "options": [
       {
@@ -11800,6 +12211,7 @@
   {
     "id": 412,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "上皮细胞游离面上有刷状缘的是",
     "options": [
       {
@@ -11829,6 +12241,7 @@
   {
     "id": 413,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于集合管的描述，以下选项错误的是",
     "options": [
       {
@@ -11858,6 +12271,7 @@
   {
     "id": 414,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "箭头所示的结构为",
     "options": [
       {
@@ -11888,6 +12302,7 @@
   {
     "id": 415,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于肾血循环的特点，以下错误的是",
     "options": [
       {
@@ -11917,6 +12332,7 @@
   {
     "id": 416,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "球旁复合体包括",
     "options": [
       {
@@ -11946,6 +12362,7 @@
   {
     "id": 417,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "球旁细胞由哪种细胞分化而成",
     "options": [
       {
@@ -11975,6 +12392,7 @@
   {
     "id": 418,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾内形成终尿的部位是",
     "options": [
       {
@@ -12004,6 +12422,7 @@
   {
     "id": 419,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "关于血管球的描述，哪项是正确的",
     "options": [
       {
@@ -12033,6 +12452,7 @@
   {
     "id": 420,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "下列关于球内系膜细胞的功能，错误的是",
     "options": [
       {
@@ -12062,6 +12482,7 @@
   {
     "id": 421,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "与集合管直接相连的是",
     "options": [
       {
@@ -12091,6 +12512,7 @@
   {
     "id": 422,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "在正常情况下，可以通过肾小体滤过膜的物质是",
     "options": [
       {
@@ -12120,6 +12542,7 @@
   {
     "id": 423,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "原尿形成的部位是",
     "options": [
       {
@@ -12149,6 +12572,7 @@
   {
     "id": 424,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "分泌肾素的细胞是",
     "options": [
       {
@@ -12178,6 +12602,7 @@
   {
     "id": 425,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "箭头所示的结构为",
     "options": [
       {
@@ -12208,6 +12633,7 @@
   {
     "id": 426,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "皮质迷路是指",
     "options": [
       {
@@ -12237,6 +12663,7 @@
   {
     "id": 427,
     "chapter": "感觉器官",
+    "type": "A1型题",
     "question": "肾内可分泌前列腺素的细胞是",
     "options": [
       {
@@ -12266,6 +12693,7 @@
   {
     "id": 428,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "（ ）是男性生殖系统附属腺",
     "options": [
       {
@@ -12295,6 +12723,7 @@
   {
     "id": 429,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "附睾的形态特征不包括",
     "options": [
       {
@@ -12324,6 +12753,7 @@
   {
     "id": 430,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "有关精液的组成，以下正确的是",
     "options": [
       {
@@ -12353,6 +12783,7 @@
   {
     "id": 431,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "以下关于睾丸形态特征的描述不包括",
     "options": [
       {
@@ -12382,6 +12813,7 @@
   {
     "id": 432,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "以下有关前列腺错误的是",
     "options": [
       {
@@ -12411,6 +12843,7 @@
   {
     "id": 433,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "生精细胞不包括",
     "options": [
       {
@@ -12440,6 +12873,7 @@
   {
     "id": 434,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "Leydig 细胞的描述以下不正确的是",
     "options": [
       {
@@ -12469,6 +12903,7 @@
   {
     "id": 435,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "血-睾屏障的结构组成不包括",
     "options": [
       {
@@ -12498,6 +12933,7 @@
   {
     "id": 436,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精子形成过程错误的是",
     "options": [
       {
@@ -12527,6 +12963,7 @@
   {
     "id": 437,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精原细胞的特征不包括",
     "options": [
       {
@@ -12556,6 +12993,7 @@
   {
     "id": 438,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精子主要分为",
     "options": [
       {
@@ -12585,6 +13023,7 @@
   {
     "id": 439,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "以下精子哪种是形态正常的",
     "options": [
       {
@@ -12614,6 +13053,7 @@
   {
     "id": 440,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精子尾部的主要组分不包括",
     "options": [
       {
@@ -12643,6 +13083,7 @@
   {
     "id": 441,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精子的头部包含",
     "options": [
       {
@@ -12672,6 +13113,7 @@
   {
     "id": 442,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "以下精子哪种是形态正常的",
     "options": [
       {
@@ -12701,6 +13143,7 @@
   {
     "id": 443,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精子发生是指",
     "options": [
       {
@@ -12730,6 +13173,7 @@
   {
     "id": 444,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "成人生精小管管壁的生精上皮由以下哪些细胞组成",
     "options": [
       {
@@ -12755,6 +13199,7 @@
   {
     "id": 445,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精原细胞的特征不包括",
     "options": [
       {
@@ -12784,6 +13229,7 @@
   {
     "id": 446,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "精子形成过程错误的是",
     "options": [
       {
@@ -12813,6 +13259,7 @@
   {
     "id": 447,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "初级精母细胞的特征不包括",
     "options": [
       {
@@ -12842,6 +13289,7 @@
   {
     "id": 448,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中标箭头的细胞是何种细胞",
     "options": [
       {
@@ -12872,6 +13320,7 @@
   {
     "id": 449,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "Leydig 细胞的描述以下不正确的是",
     "options": [
       {
@@ -12901,6 +13350,7 @@
   {
     "id": 450,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中标箭头的细胞是何种细胞",
     "options": [
       {
@@ -12931,6 +13381,7 @@
   {
     "id": 451,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中标箭头的是何种细胞",
     "options": [
       {
@@ -12961,6 +13412,7 @@
   {
     "id": 452,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中标箭头的是何种细胞",
     "options": [
       {
@@ -12991,6 +13443,7 @@
   {
     "id": 453,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中标箭头的是何种细胞",
     "options": [
       {
@@ -13021,6 +13474,7 @@
   {
     "id": 454,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "克氏综合征的特点不包括",
     "options": [
       {
@@ -13050,6 +13504,7 @@
   {
     "id": 455,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "Y 染色体 AZF 区域微缺失的特征不包括",
     "options": [
       {
@@ -13079,6 +13534,7 @@
   {
     "id": 456,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "弱精子症的特点不包括",
     "options": [
       {
@@ -13108,6 +13564,7 @@
   {
     "id": 457,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "男性不育的遗传病因不包括",
     "options": [
       {
@@ -13137,6 +13594,7 @@
   {
     "id": 458,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "育龄夫妻未采取避孕措施的规律性生活，（ ），临床上认为是不孕症。",
     "options": [
       {
@@ -13166,6 +13624,7 @@
   {
     "id": 459,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "不孕不育首选哪个科室就诊",
     "options": [
       {
@@ -13195,6 +13654,7 @@
   {
     "id": 460,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "“试管婴儿”技术的学名是什么",
     "options": [
       {
@@ -13224,6 +13684,7 @@
   {
     "id": 461,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中数字 3 所示为",
     "options": [
       {
@@ -13254,6 +13715,7 @@
   {
     "id": 462,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "冠状窦来源于",
     "options": [
       {
@@ -13283,6 +13745,7 @@
   {
     "id": 463,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "生心区是指",
     "options": [
       {
@@ -13312,6 +13775,7 @@
   {
     "id": 464,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "下列有关心血管系统发生的描述中不正确的是",
     "options": [
       {
@@ -13341,6 +13805,7 @@
   {
     "id": 465,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "图中蓝色箭头所示为",
     "options": [
       {
@@ -13371,6 +13836,7 @@
   {
     "id": 466,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "房间隔上的卵圆孔",
     "options": [
       {
@@ -13400,6 +13866,7 @@
   {
     "id": 467,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "心血管系统起源于",
     "options": [
       {
@@ -13429,6 +13896,7 @@
   {
     "id": 468,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "心管的三个膨大由头端向尾端依次为",
     "options": [
       {
@@ -13458,6 +13926,7 @@
   {
     "id": 469,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "当心管融合后，心胶质将分化成",
     "options": [
       {
@@ -13487,6 +13956,7 @@
   {
     "id": 470,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "胎儿血液循环中含氧量最高的血液位于",
     "options": [
       {
@@ -13516,6 +13986,7 @@
   {
     "id": 471,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "心内膜垫与主动脉肺动脉隔、室间隔肌部愈合不良可能会导致",
     "options": [
       {
@@ -13545,6 +14016,7 @@
   {
     "id": 472,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "导致法洛四联症的主要原因是",
     "options": [
       {
@@ -13574,6 +14046,7 @@
   {
     "id": 473,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "出生后血循环发生变化的主要原因是",
     "options": [
       {
@@ -13603,6 +14076,7 @@
   {
     "id": 474,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "静脉导管的血液直接注入",
     "options": [
       {
@@ -13632,6 +14106,7 @@
   {
     "id": 475,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "心脏内部分隔时，卵圆孔位于",
     "options": [
       {
@@ -13661,6 +14136,7 @@
   {
     "id": 476,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "人胚胎开始血液循环的时间是",
     "options": [
       {
@@ -13690,6 +14166,7 @@
   {
     "id": 477,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "胎儿出生后心脏内的压力",
     "options": [
       {
@@ -13719,6 +14196,7 @@
   {
     "id": 478,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "室间隔肌部发生于",
     "options": [
       {
@@ -13748,6 +14226,7 @@
   {
     "id": 479,
     "chapter": "泌尿系统",
+    "type": "A1型题",
     "question": "心内膜垫发生于",
     "options": [
       {
@@ -13777,6 +14256,7 @@
   {
     "id": 480,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "图中数字 3 所示为",
     "options": [
       {
@@ -13807,6 +14287,7 @@
   {
     "id": 481,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下关于胎儿血液循环的描述中，错误的是",
     "options": [
       {
@@ -13836,6 +14317,7 @@
   {
     "id": 482,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "患儿，男，2 岁，生后 4 个月，出现发绀、哭吵甚时有抽搐史。查体：发育差，发绀 明显，心前区可闻及 3/6 级左右收缩期的喷射音。胸片示：肺血少，右心室增大，心腰凹陷，呈靴形心。 此患者最可能的疾病为",
     "options": [
       {
@@ -13865,6 +14347,7 @@
   {
     "id": 483,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "胎儿期，左右心房相通的孔是",
     "options": [
       {
@@ -13894,6 +14377,7 @@
   {
     "id": 484,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列选项关于血岛描述错误的是",
     "options": [
       {
@@ -13923,6 +14407,7 @@
   {
     "id": 485,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "组织学研究的是",
     "options": [
       {
@@ -13952,6 +14437,7 @@
   {
     "id": 486,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "人体的四大基本组织是指",
     "options": [
       {
@@ -13981,6 +14467,7 @@
   {
     "id": 487,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "一般不会在光学显微镜上观察的标本是",
     "options": [
       {
@@ -14010,6 +14497,7 @@
   {
     "id": 488,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列关于 HE 染色的描述，错误的是",
     "options": [
       {
@@ -14039,6 +14527,7 @@
   {
     "id": 489,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列哪一项不是上皮组织的特点",
     "options": [
       {
@@ -14068,6 +14557,7 @@
   {
     "id": 490,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "被覆上皮与腺上皮的区别在于",
     "options": [
       {
@@ -14097,6 +14587,7 @@
   {
     "id": 491,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "单层扁平上皮不存在于",
     "options": [
       {
@@ -14126,6 +14617,7 @@
   {
     "id": 492,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "人体内最耐摩擦的上皮组织是",
     "options": [
       {
@@ -14155,6 +14647,7 @@
   {
     "id": 493,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下对变移上皮的描述，错误的是",
     "options": [
       {
@@ -14184,6 +14677,7 @@
   {
     "id": 494,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "上皮细胞侧面不存在的细胞连接是",
     "options": [
       {
@@ -14213,6 +14707,7 @@
   {
     "id": 495,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下不属于固有结缔组织类型的是",
     "options": [
       {
@@ -14242,6 +14737,7 @@
   {
     "id": 496,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下对箭头所指纤维结构的描述，正确的是",
     "options": [
       {
@@ -14272,6 +14768,7 @@
   {
     "id": 497,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "“3.8 妇女节”期间,不少医美机构推出了玻尿酸限时优惠吸引女性消费者,在结缔组织中, 我们学习过基质蛋白聚糖聚合体的相关结构,玻尿酸正是构成基质蛋白聚糖的主干,它的组织学名称为",
     "options": [
       {
@@ -14301,6 +14798,7 @@
   {
     "id": 498,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于致密结缔组织特点描述，错误的是",
     "options": [
       {
@@ -14330,6 +14828,7 @@
   {
     "id": 499,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下关于透明软骨的描述，错误的是",
     "options": [
       {
@@ -14359,6 +14858,7 @@
   {
     "id": 500,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "弹性软骨区别于透明软骨的主要特征是",
     "options": [
       {
@@ -14388,6 +14888,7 @@
   {
     "id": 501,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于骨组织的细胞外基质，下列描述错误的是",
     "options": [
       {
@@ -14417,6 +14918,7 @@
   {
     "id": 502,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "对于下图中细胞 3 的描述，错误的是",
     "options": [
       {
@@ -14447,6 +14949,7 @@
   {
     "id": 503,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于长骨的组织学结构特点，下列错误的是",
     "options": [
       {
@@ -14476,6 +14979,7 @@
   {
     "id": 504,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "冬奥会前,某国家短道速滑队去到某高原集训,在集训后的体检发现,血液中有一种成分 显著增加,增加的成分最有可能是",
     "options": [
       {
@@ -14505,6 +15009,7 @@
   {
     "id": 505,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "煌焦油蓝染色显示的网织红细胞内蓝色的细网或颗粒，电镜下是",
     "options": [
       {
@@ -14535,6 +15040,7 @@
   {
     "id": 506,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下哪一项不是下图中有核细胞的特点",
     "options": [
       {
@@ -14565,6 +15071,7 @@
   {
     "id": 507,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列关于血小板的描述，正确的是",
     "options": [
       {
@@ -14594,6 +15101,7 @@
   {
     "id": 508,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于骨骼肌纤维的光镜结构，描述错误的是",
     "options": [
       {
@@ -14623,6 +15131,7 @@
   {
     "id": 509,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "镜下心肌纤维与骨骼肌纤维的区别，描述错误的是",
     "options": [
       {
@@ -14653,6 +15162,7 @@
   {
     "id": 510,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于平滑肌纤维，下列描述错误的是",
     "options": [
       {
@@ -14682,6 +15192,7 @@
   {
     "id": 511,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下图为心肌纤维光镜图，关于箭头所示结构描述正确的是",
     "options": [
       {
@@ -14712,6 +15223,7 @@
   {
     "id": 512,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "神经细胞接受刺激并传导冲动是通过",
     "options": [
       {
@@ -14741,6 +15253,7 @@
   {
     "id": 513,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "神经元内的尼氏体是电镜下的",
     "options": [
       {
@@ -14770,6 +15283,7 @@
   {
     "id": 514,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于突触的描述中，错误的是",
     "options": [
       {
@@ -14799,6 +15313,7 @@
   {
     "id": 515,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "周围神经系统神经纤维的神经膜细胞是指",
     "options": [
       {
@@ -14828,6 +15343,7 @@
   {
     "id": 516,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "患者，男，23 岁，突发全身皮肤剧痒，发现风疹团 1 小时。患者诉 1 小时前进食蜂蛹 后突发全身皮肤剧痒，数分钟后出现扁平、大小不等、鲜红色、苍白色风疹团，部分融合成片。血常规 显示:白细胞 5.94×109/L，中性粒细胞 55.6%，淋巴细胞 35.6%，嗜酸性粒细胞数 2.97×108/L，诊断为“过 敏性荨麻疹”，请问下列细胞中与该疾病发生发展最相关的是",
     "options": [
       {
@@ -14857,6 +15373,7 @@
   {
     "id": 517,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "患者，女，48 岁，因腰背酸痛、肢体乏力就诊，骨密度检测提示骨质疏松，组织学检 查显示骨小梁稀疏，骨吸收活动亢进，成骨与破骨平衡失调。结合骨组织相关知识，该患者骨吸收活动 亢进，主要与下列哪种细胞的功能异常相关",
     "options": [
       {
@@ -14886,6 +15403,7 @@
   {
     "id": 518,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "骨骼肌纤维收缩时肌节有什么变化",
     "options": [
       {
@@ -14916,6 +15434,7 @@
   {
     "id": 519,
     "chapter": "男性生殖系统",
+    "type": "B型题",
     "question": "参与机体过敏反应的细胞是",
     "options": [
       {
@@ -14945,6 +15464,7 @@
   {
     "id": 520,
     "chapter": "男性生殖系统",
+    "type": "B型题",
     "question": "分泌免疫球蛋白的细胞是",
     "options": [
       {
@@ -14974,6 +15494,7 @@
   {
     "id": 521,
     "chapter": "男性生殖系统",
+    "type": "B型题",
     "question": "可产生纤维与基质的细胞是",
     "options": [
       {
@@ -15003,6 +15524,7 @@
   {
     "id": 522,
     "chapter": "男性生殖系统",
+    "type": "B型题",
     "question": "处于功能静止状态的细胞是",
     "options": [
       {
@@ -15032,6 +15554,7 @@
   {
     "id": 523,
     "chapter": "男性生殖系统",
+    "type": "B型题",
     "question": "细胞质中含有溶酶体最多的细胞是",
     "options": [
       {
@@ -15061,6 +15584,7 @@
   {
     "id": 524,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列有关中动脉中膜主要成分描述最合适的是",
     "options": [
       {
@@ -15090,6 +15614,7 @@
   {
     "id": 525,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "调节外周阻力的主要血管是",
     "options": [
       {
@@ -15119,6 +15644,7 @@
   {
     "id": 526,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "某患者尿检显示大量蛋白尿，肾脏活检提示肾小球毛细血管壁损伤。下图为毛细血管 类型模式图，与该损伤区域毛细血管的类型表述正确的是",
     "options": [
       {
@@ -15149,6 +15675,7 @@
   {
     "id": 527,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "与动脉相比，静脉不具有的特点是",
     "options": [
       {
@@ -15178,6 +15705,7 @@
   {
     "id": 528,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "患者女，40 岁，长期站立工作，双下肢可见迂曲扩张的浅静脉，伴下肢水肿。静脉 曲张相关组织学基础是",
     "options": [
       {
@@ -15207,6 +15735,7 @@
   {
     "id": 529,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于图中细胞 2 的描述，不正确的是",
     "options": [
       {
@@ -15237,6 +15766,7 @@
   {
     "id": 530,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "对于淋巴小结的描述，错误的是",
     "options": [
       {
@@ -15266,6 +15796,7 @@
   {
     "id": 531,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下关于胸腺的描述，错误的是",
     "options": [
       {
@@ -15295,6 +15826,7 @@
   {
     "id": 532,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "淋巴结内发生体液免疫应答的主要场所",
     "options": [
       {
@@ -15324,6 +15856,7 @@
   {
     "id": 533,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "被膜较厚，内含较多平滑肌纤维的淋巴器官是",
     "options": [
       {
@@ -15353,6 +15886,7 @@
   {
     "id": 534,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "表皮主要由下列哪两类细胞组成",
     "options": [
       {
@@ -15382,6 +15916,7 @@
   {
     "id": 535,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "如图为皮肤分层光镜图，在皮肤表皮中，具有分裂能力的细胞常见于",
     "options": [
       {
@@ -15412,6 +15947,7 @@
   {
     "id": 536,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "对皮肤颜色具有决定作用的结构是",
     "options": [
       {
@@ -15441,6 +15977,7 @@
   {
     "id": 537,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "张某，男，28 岁，因头皮瘙痒、头发油腻伴进行性脱发 3 年就诊。查体可见头 皮皮脂分泌明显增多，前发际线退缩，头顶及颞部毛发稀疏。追问病史，该患者长期从事室外工 作，头皮经常暴露于强烈日晒之下（Clues:日光中的紫外线会影响毛囊中毛母质细胞及皮脂腺细 胞功能）。请结合案例及图片，判断下列关于毛发与皮脂腺的结构与功能叙述中，不正确的是",
     "options": [
       {
@@ -15471,6 +16008,7 @@
   {
     "id": 538,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "角膜上皮感觉敏锐主要是因为",
     "options": [
       {
@@ -15500,6 +16038,7 @@
   {
     "id": 539,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "视近物时，晶状体曲度增大是由于",
     "options": [
       {
@@ -15529,6 +16068,7 @@
   {
     "id": 540,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "白内障疾病主要涉及的组织结构是",
     "options": [
       {
@@ -15558,6 +16098,7 @@
   {
     "id": 541,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "如图为甲状腺光镜图，箭头所示细胞的主要生理功效是",
     "options": [
       {
@@ -15588,6 +16129,7 @@
   {
     "id": 542,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "甲状旁腺激素主要增强下列哪种细胞的功能",
     "options": [
       {
@@ -15617,6 +16159,7 @@
   {
     "id": 543,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "肾上腺皮质网状带分泌",
     "options": [
       {
@@ -15646,6 +16189,7 @@
   {
     "id": 544,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "以下关于腺垂体的描述中，错误的是",
     "options": [
       {
@@ -15675,6 +16219,7 @@
   {
     "id": 545,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "成人生长激素分泌过多，可引起",
     "options": [
       {
@@ -15704,6 +16249,7 @@
   {
     "id": 546,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "对消化管皱襞形成的正确描述是",
     "options": [
       {
@@ -15733,6 +16279,7 @@
   {
     "id": 547,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "食管是食物进入胃的通道，容易受到摩擦，胃酸反流也容易引起黏膜损伤。为适应 这些特点，食管黏膜上皮为",
     "options": [
       {
@@ -15762,6 +16309,7 @@
   {
     "id": 548,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "内因子是由以下哪一种细胞分泌",
     "options": [
       {
@@ -15791,6 +16339,7 @@
   {
     "id": 549,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "具有灭菌作用、分泌防御素的细胞是",
     "options": [
       {
@@ -15820,6 +16369,7 @@
   {
     "id": 550,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列关于中央乳糜管的描述，正确的是",
     "options": [
       {
@@ -15849,6 +16399,7 @@
   {
     "id": 551,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "消化管各段的黏膜上皮中,杯状细胞最多的是",
     "options": [
       {
@@ -15878,6 +16429,7 @@
   {
     "id": 552,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "胰岛调节血糖浓度的主要激素是",
     "options": [
       {
@@ -15907,6 +16459,7 @@
   {
     "id": 553,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "肝门管区有哪三种伴行的管道",
     "options": [
       {
@@ -15936,6 +16489,7 @@
   {
     "id": 554,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "肝脏的基本结构和功能单位是",
     "options": [
       {
@@ -15965,6 +16519,7 @@
   {
     "id": 555,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "胆小管位于",
     "options": [
       {
@@ -15994,6 +16549,7 @@
   {
     "id": 556,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "慢性支气管炎患者因长期炎症导致黏膜上皮杯状细胞增生，以下最可能出现的症状 是",
     "options": [
       {
@@ -16023,6 +16579,7 @@
   {
     "id": 557,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "气管和支气管上皮内具有增殖分化能力的细胞是",
     "options": [
       {
@@ -16052,6 +16609,7 @@
   {
     "id": 558,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "呼吸系统的导气部终止于以下哪个结构",
     "options": [
       {
@@ -16081,6 +16639,7 @@
   {
     "id": 559,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "关于细胞 1 的特点描述，错误的是",
     "options": [
       {
@@ -16110,6 +16669,7 @@
   {
     "id": 560,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "肾锥体的结构属于",
     "options": [
       {
@@ -16139,6 +16699,7 @@
   {
     "id": 561,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "皮质迷路中不包含的结构是",
     "options": [
       {
@@ -16168,6 +16729,7 @@
   {
     "id": 562,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "肾的基本结构功能单位是",
     "options": [
       {
@@ -16197,6 +16759,7 @@
   {
     "id": 563,
     "chapter": "男性生殖系统",
+    "type": "A1型题",
     "question": "下列对足细胞的特征描述，错误的是",
     "options": [
       {
@@ -16226,6 +16789,7 @@
   {
     "id": 564,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "患者出现蛋白尿，最可能损伤的结构是",
     "options": [
       {
@@ -16255,6 +16819,7 @@
   {
     "id": 565,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "球旁细胞的功能是",
     "options": [
       {
@@ -16284,6 +16849,7 @@
   {
     "id": 566,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "青春期前男性睾丸切片中，生精小管内可见的主要细胞是",
     "options": [
       {
@@ -16313,6 +16879,7 @@
   {
     "id": 567,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "以下关于支持细胞的描述中，错误的是",
     "options": [
       {
@@ -16342,6 +16909,7 @@
   {
     "id": 568,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "血-睾屏障的主要结构基础是",
     "options": [
       {
@@ -16371,6 +16939,7 @@
   {
     "id": 569,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "关于睾丸间质细胞的描述，错误的是",
     "options": [
       {
@@ -16400,6 +16969,7 @@
   {
     "id": 570,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "下列关于卵巢结构与功能的描述中，错误的是",
     "options": [
       {
@@ -16429,6 +16999,7 @@
   {
     "id": 571,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "关于原始卵泡下列描述，正确的是",
     "options": [
       {
@@ -16458,6 +17029,7 @@
   {
     "id": 572,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "成熟卵泡排卵后的组织细胞演变为",
     "options": [
       {
@@ -16487,6 +17059,7 @@
   {
     "id": 573,
     "chapter": "胚胎总论",
+    "type": "A1型题",
     "question": "在月经期，血液中含量迅速下降的激素是",
     "options": [
       {
@@ -16516,6 +17089,7 @@
   {
     "id": 574,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "1",
     "options": [
       {
@@ -16545,6 +17119,7 @@
   {
     "id": 575,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "2",
     "options": [
       {
@@ -16574,6 +17149,7 @@
   {
     "id": 576,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "3",
     "options": [
       {
@@ -16603,6 +17179,7 @@
   {
     "id": 577,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "4",
     "options": [
       {
@@ -16632,6 +17209,7 @@
   {
     "id": 578,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "5",
     "options": [
       {
@@ -16661,6 +17239,7 @@
   {
     "id": 579,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "1",
     "options": [
       {
@@ -16669,27 +17248,28 @@
       },
       {
         "key": "B",
-        "text": "初级精母细胞"
+        "text": "肺泡腔"
       },
       {
         "key": "C",
-        "text": "次级精母细胞"
+        "text": "肺泡隔毛细血管"
       },
       {
         "key": "D",
-        "text": "精子细胞"
+        "text": "尘细胞"
       },
       {
         "key": "E",
-        "text": "支持细胞"
+        "text": "Ⅰ型肺泡细胞"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": null
   },
   {
     "id": 580,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "2",
     "options": [
       {
@@ -16702,23 +17282,24 @@
       },
       {
         "key": "C",
-        "text": "次级精母细胞"
+        "text": "肺泡隔毛细血管"
       },
       {
         "key": "D",
-        "text": "精子细胞"
+        "text": "尘细胞"
       },
       {
         "key": "E",
-        "text": "支持细胞"
+        "text": "Ⅰ型肺泡细胞"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": null
   },
   {
     "id": 581,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "3",
     "options": [
       {
@@ -16735,19 +17316,20 @@
       },
       {
         "key": "D",
-        "text": "精子细胞"
+        "text": "尘细胞"
       },
       {
         "key": "E",
-        "text": "支持细胞"
+        "text": "Ⅰ型肺泡细胞"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": null
   },
   {
     "id": 582,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "4",
     "options": [
       {
@@ -16768,15 +17350,16 @@
       },
       {
         "key": "E",
-        "text": "支持细胞"
+        "text": "Ⅰ型肺泡细胞"
       }
     ],
-    "answer": "D",
+    "answer": "B",
     "explanation": null
   },
   {
     "id": 583,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "5",
     "options": [
       {
@@ -16806,6 +17389,7 @@
   {
     "id": 584,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "近端小管能",
     "options": [
       {
@@ -16814,27 +17398,28 @@
       },
       {
         "key": "B",
-        "text": "肺泡腔"
+        "text": "重吸收水、Na+，排出 H+和 K+"
       },
       {
         "key": "C",
-        "text": "肺泡隔毛细血管"
+        "text": "分泌肾素"
       },
       {
         "key": "D",
-        "text": "尘细胞"
+        "text": "感受 Na+浓度变化"
       },
       {
         "key": "E",
-        "text": "Ⅰ型肺泡细胞"
+        "text": "形成原尿"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": null
   },
   {
     "id": 585,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "远曲小管能",
     "options": [
       {
@@ -16847,23 +17432,24 @@
       },
       {
         "key": "C",
-        "text": "肺泡隔毛细血管"
+        "text": "分泌肾素"
       },
       {
         "key": "D",
-        "text": "尘细胞"
+        "text": "感受 Na+浓度变化"
       },
       {
         "key": "E",
-        "text": "Ⅰ型肺泡细胞"
+        "text": "形成原尿"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": null
   },
   {
     "id": 586,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "致密斑能",
     "options": [
       {
@@ -16880,19 +17466,20 @@
       },
       {
         "key": "D",
-        "text": "尘细胞"
+        "text": "感受 Na+浓度变化"
       },
       {
         "key": "E",
-        "text": "Ⅰ型肺泡细胞"
+        "text": "形成原尿"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": null
   },
   {
     "id": 587,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "球旁细胞能",
     "options": [
       {
@@ -16913,15 +17500,16 @@
       },
       {
         "key": "E",
-        "text": "Ⅰ型肺泡细胞"
+        "text": "形成原尿"
       }
     ],
-    "answer": "D",
+    "answer": "C",
     "explanation": null
   },
   {
     "id": 588,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "肾小体能",
     "options": [
       {
@@ -16951,6 +17539,7 @@
   {
     "id": 589,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "体积较大，细胞核圆形，染色质常呈丝球状的生精细胞是",
     "options": [
       {
@@ -16959,19 +17548,19 @@
       },
       {
         "key": "B",
-        "text": "重吸收水、Na+，排出 H+和 K+"
+        "text": "初级精母细胞"
       },
       {
         "key": "C",
-        "text": "分泌肾素"
+        "text": "次级精母细胞"
       },
       {
         "key": "D",
-        "text": "感受 Na+浓度变化"
+        "text": "精子细胞"
       },
       {
         "key": "E",
-        "text": "形成原尿"
+        "text": "支持细胞"
       }
     ],
     "answer": "B",
@@ -16980,6 +17569,7 @@
   {
     "id": 590,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "很快进入第二次减数分裂，存在时间短，不易在切片中观察到的生精细胞是",
     "options": [
       {
@@ -16992,15 +17582,15 @@
       },
       {
         "key": "C",
-        "text": "分泌肾素"
+        "text": "次级精母细胞"
       },
       {
         "key": "D",
-        "text": "感受 Na+浓度变化"
+        "text": "精子细胞"
       },
       {
         "key": "E",
-        "text": "形成原尿"
+        "text": "支持细胞"
       }
     ],
     "answer": "C",
@@ -17009,6 +17599,7 @@
   {
     "id": 591,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "部分细胞具有干细胞特性的是",
     "options": [
       {
@@ -17025,11 +17616,11 @@
       },
       {
         "key": "D",
-        "text": "感受 Na+浓度变化"
+        "text": "精子细胞"
       },
       {
         "key": "E",
-        "text": "形成原尿"
+        "text": "支持细胞"
       }
     ],
     "answer": "A",
@@ -17038,6 +17629,7 @@
   {
     "id": 592,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "靠近管腔，不再分裂，仅发生形态学变化的是",
     "options": [
       {
@@ -17058,7 +17650,7 @@
       },
       {
         "key": "E",
-        "text": "形成原尿"
+        "text": "支持细胞"
       }
     ],
     "answer": "D",
@@ -17067,6 +17659,7 @@
   {
     "id": 593,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "形状不规则，基底附于基膜，顶部直达管腔的细胞是",
     "options": [
       {
@@ -17096,6 +17689,7 @@
   {
     "id": 594,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "精卵结合后，透明带结构发生变化是由于",
     "options": [
       {
@@ -17125,6 +17719,7 @@
   {
     "id": 595,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "胚泡的组成成分包括",
     "options": [
       {
@@ -17154,6 +17749,7 @@
   {
     "id": 596,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "下列正常植入条件中，错误的是",
     "options": [
       {
@@ -17183,6 +17779,7 @@
   {
     "id": 597,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "箭头所示的结构是",
     "options": [
       {
@@ -17213,6 +17810,7 @@
   {
     "id": 598,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "28 岁经产妇，孕 37 周，阴道无痛性多量流血 5 小时入院。查体:无宫缩，宫底在剑 突下 2 指。经 B 超等一系列检查后最终诊断为前置胎盘。此病例中胎盘的植入部位是",
     "options": [
       {
@@ -17242,6 +17840,7 @@
   {
     "id": 599,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "胚外中胚层内的腔称为",
     "options": [
       {
@@ -17271,6 +17870,7 @@
   {
     "id": 600,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "原条的细胞来自",
     "options": [
       {
@@ -17300,6 +17900,7 @@
   {
     "id": 601,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "胎膜包括",
     "options": [
       {
@@ -17329,6 +17930,7 @@
   {
     "id": 602,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "与羊水过少相关的先天性畸形是",
     "options": [
       {
@@ -17358,6 +17960,7 @@
   {
     "id": 603,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "关于脐带，下列描述错误的是",
     "options": [
       {
@@ -17387,6 +17990,7 @@
   {
     "id": 604,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "维持妊娠黄体发育的激素是",
     "options": [
       {
@@ -17416,6 +18020,7 @@
   {
     "id": 605,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "患儿，男，出生 36 小时，口吐白沫 36 小时。患儿足月顺产，出生后即口吐白沫， 渐出现咳嗽，吃奶后随即吐出。结合查体和辅助检查结果诊断为:先天性食管闭锁，新生儿肺炎。先天 性食管闭锁的病因为胚胎期食管上皮组织的发育异常，这种上皮组织起源于",
     "options": [
       {
@@ -17445,6 +18050,7 @@
   {
     "id": 606,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "关于梅克尔憩室形成的描述，错误的是",
     "options": [
       {
@@ -17474,6 +18080,7 @@
   {
     "id": 607,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "原始消化管管壁的构成是",
     "options": [
       {
@@ -17503,6 +18110,7 @@
   {
     "id": 608,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "透明膜病是由于",
     "options": [
       {
@@ -17532,6 +18140,7 @@
   {
     "id": 609,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "泌尿和生殖系统的主要结构起源于",
     "options": [
       {
@@ -17561,6 +18170,7 @@
   {
     "id": 610,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "原始生殖细胞来源于",
     "options": [
       {
@@ -17590,6 +18200,7 @@
   {
     "id": 611,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "睾丸支持细胞来源于",
     "options": [
       {
@@ -17619,6 +18230,7 @@
   {
     "id": 612,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "关于卵巢发生，下列描述错误的是",
     "options": [
       {
@@ -17648,6 +18260,7 @@
   {
     "id": 613,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "以下关于血岛的描述，错误的是",
     "options": [
       {
@@ -17677,6 +18290,7 @@
   {
     "id": 614,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "人胚早期血循环的建立开始于",
     "options": [
       {
@@ -17706,6 +18320,7 @@
   {
     "id": 615,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "以下关于心管发生的描述，错误的是",
     "options": [
       {
@@ -17735,6 +18350,7 @@
   {
     "id": 616,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "胎儿出生后，脐静脉闭锁形成下列哪种结构",
     "options": [
       {
@@ -17764,6 +18380,7 @@
   {
     "id": 617,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "患儿，男，出生 3 个月后，体检发现左侧阴囊内仍然空虚。查体和 B 超检查发现 在左侧腹股沟有椭圆形组织，比正常睾丸略小，不能被推入阴囊。试分析该患儿的疾病及病因为",
     "options": [
       {
@@ -17793,6 +18410,7 @@
   {
     "id": 618,
     "chapter": "心血管系统的发生",
+    "type": "A1型题",
     "question": "肝憩室的头支形成",
     "options": [
       {
@@ -17823,94 +18441,8 @@
   {
     "id": 619,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "诱导外胚层增厚为神经板",
-    "options": [
-      {
-        "key": "A",
-        "text": "脑"
-      },
-      {
-        "key": "B",
-        "text": "心内膜垫"
-      },
-      {
-        "key": "C",
-        "text": "第二房间隔"
-      },
-      {
-        "key": "D",
-        "text": "室间隔缺损"
-      },
-      {
-        "key": "E",
-        "text": "法洛四联症"
-      }
-    ],
-    "answer": "B",
-    "explanation": null
-  },
-  {
-    "id": 620,
-    "chapter": "心血管系统的发生",
-    "question": "神经板沿中央凹陷形成的纵行结构",
-    "options": [
-      {
-        "key": "A",
-        "text": "脑"
-      },
-      {
-        "key": "B",
-        "text": "神经嵴"
-      },
-      {
-        "key": "C",
-        "text": "第二房间隔"
-      },
-      {
-        "key": "D",
-        "text": "室间隔缺损"
-      },
-      {
-        "key": "E",
-        "text": "法洛四联症"
-      }
-    ],
-    "answer": "C",
-    "explanation": null
-  },
-  {
-    "id": 621,
-    "chapter": "心血管系统的发生",
-    "question": "是中枢神经系统的原基",
-    "options": [
-      {
-        "key": "A",
-        "text": "脑"
-      },
-      {
-        "key": "B",
-        "text": "神经嵴"
-      },
-      {
-        "key": "C",
-        "text": "神经沟"
-      },
-      {
-        "key": "D",
-        "text": "室间隔缺损"
-      },
-      {
-        "key": "E",
-        "text": "法洛四联症"
-      }
-    ],
-    "answer": "E",
-    "explanation": null
-  },
-  {
-    "id": 622,
-    "chapter": "心血管系统的发生",
-    "question": "是周围神经系统的原基",
     "options": [
       {
         "key": "A",
@@ -17930,16 +18462,47 @@
       },
       {
         "key": "E",
-        "text": "法洛四联症"
+        "text": "脊索"
       }
     ],
-    "answer": "A",
+    "answer": "E",
     "explanation": null
   },
   {
-    "id": 623,
+    "id": 620,
     "chapter": "心血管系统的发生",
-    "question": "神经管形成后，其前端膨大发育成的结构",
+    "type": "B型题",
+    "question": "神经板沿中央凹陷形成的纵行结构",
+    "options": [
+      {
+        "key": "A",
+        "text": "脑"
+      },
+      {
+        "key": "B",
+        "text": "神经嵴"
+      },
+      {
+        "key": "C",
+        "text": "神经沟"
+      },
+      {
+        "key": "D",
+        "text": "神经管"
+      },
+      {
+        "key": "E",
+        "text": "脊索"
+      }
+    ],
+    "answer": "C",
+    "explanation": null
+  },
+  {
+    "id": 621,
+    "chapter": "心血管系统的发生",
+    "type": "B型题",
+    "question": "是中枢神经系统的原基",
     "options": [
       {
         "key": "A",
@@ -17966,13 +18529,14 @@
     "explanation": null
   },
   {
-    "id": 624,
+    "id": 622,
     "chapter": "心血管系统的发生",
-    "question": "房室管壁心内膜下组织增生形成",
+    "type": "B型题",
+    "question": "是周围神经系统的原基",
     "options": [
       {
         "key": "A",
-        "text": "房间隔缺损"
+        "text": "脑"
       },
       {
         "key": "B",
@@ -17995,17 +18559,18 @@
     "explanation": null
   },
   {
-    "id": 625,
+    "id": 623,
     "chapter": "心血管系统的发生",
-    "question": "覆盖第二房间孔",
+    "type": "B型题",
+    "question": "神经管形成后，其前端膨大发育成的结构",
     "options": [
       {
         "key": "A",
-        "text": "房间隔缺损"
+        "text": "脑"
       },
       {
         "key": "B",
-        "text": "心内膜垫"
+        "text": "神经嵴"
       },
       {
         "key": "C",
@@ -18020,12 +18585,73 @@
         "text": "脊索"
       }
     ],
+    "answer": "A",
+    "explanation": null
+  },
+  {
+    "id": 624,
+    "chapter": "心血管系统的发生",
+    "type": "B型题",
+    "question": "房室管壁心内膜下组织增生形成",
+    "options": [
+      {
+        "key": "A",
+        "text": "房间隔缺损"
+      },
+      {
+        "key": "B",
+        "text": "心内膜垫"
+      },
+      {
+        "key": "C",
+        "text": "第二房间隔"
+      },
+      {
+        "key": "D",
+        "text": "室间隔缺损"
+      },
+      {
+        "key": "E",
+        "text": "法洛四联症"
+      }
+    ],
+    "answer": "B",
+    "explanation": null
+  },
+  {
+    "id": 625,
+    "chapter": "心血管系统的发生",
+    "type": "B型题",
+    "question": "覆盖第二房间孔",
+    "options": [
+      {
+        "key": "A",
+        "text": "房间隔缺损"
+      },
+      {
+        "key": "B",
+        "text": "心内膜垫"
+      },
+      {
+        "key": "C",
+        "text": "第二房间隔"
+      },
+      {
+        "key": "D",
+        "text": "室间隔缺损"
+      },
+      {
+        "key": "E",
+        "text": "法洛四联症"
+      }
+    ],
     "answer": "C",
     "explanation": null
   },
   {
     "id": 626,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "主动脉肺动脉隔偏位形成",
     "options": [
       {
@@ -18042,11 +18668,11 @@
       },
       {
         "key": "D",
-        "text": "神经管"
+        "text": "室间隔缺损"
       },
       {
         "key": "E",
-        "text": "脊索"
+        "text": "法洛四联症"
       }
     ],
     "answer": "E",
@@ -18055,6 +18681,7 @@
   {
     "id": 627,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "第一房间隔与心内膜垫未融合形成",
     "options": [
       {
@@ -18075,7 +18702,7 @@
       },
       {
         "key": "E",
-        "text": "脊索"
+        "text": "法洛四联症"
       }
     ],
     "answer": "A",
@@ -18084,6 +18711,7 @@
   {
     "id": 628,
     "chapter": "心血管系统的发生",
+    "type": "B型题",
     "question": "室间隔膜部缺损形成",
     "options": [
       {
