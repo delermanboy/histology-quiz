@@ -8045,6 +8045,20 @@ function init() {
     console.error('Failed to load questions:', e);
   }
 
+  // Load user progress from localStorage
+  try {
+    const savedStats = localStorage.getItem('zpt_questionStats');
+    if (savedStats) questionStats = JSON.parse(savedStats);
+  } catch(e) {}
+  try {
+    const savedWrong = localStorage.getItem('zpt_wrongQuestions');
+    if (savedWrong) wrongQuestions = JSON.parse(savedWrong);
+  } catch(e) {}
+  try {
+    const savedMarked = localStorage.getItem('zpt_markedQuestions');
+    if (savedMarked) markedQuestions = JSON.parse(savedMarked);
+  } catch(e) {}
+
   chapters = [...new Set(allQuestions.map(q => q.chapter))].filter(Boolean).sort();
   updateStats();
   renderChapterGrid();
