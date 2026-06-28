@@ -2341,6 +2341,12 @@ let markedQuestions = [];
 let chapters = [];
 let currentMode = 'home';
 let allQuestions = [];
+let settings = {};
+let favorites = [];
+let chapterProgress = {};
+let challenge = {};
+let layeredMode = {};
+let layeredStats = {};
 
 async function init() {
   try {
@@ -4813,6 +4819,7 @@ function saveApiKey() {
 }
 
 function loadSettings() {
+  try { settings = JSON.parse(localStorage.getItem('zpt_settings')) || {}; } catch(e) { settings = {}; }
   const model = settings.aiModel || 'deepseek';
   document.getElementById('aiModelSelect').value = model;
   onModelChange();
